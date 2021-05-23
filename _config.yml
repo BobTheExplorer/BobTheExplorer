@@ -264,16 +264,22 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
-  # _portfolio
+  # _posts
   - scope:
       path: ""
-      type: portfolio
+      type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
+      read_time: true
+      comments: # true
       share: true
-
+      related: true
