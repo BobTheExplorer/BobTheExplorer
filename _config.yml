@@ -268,14 +268,12 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _portfolio
   - scope:
       path: ""
-      type: posts
+      type: portfolio
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
+      author_profile: false
       share: true
-      related: true
+
