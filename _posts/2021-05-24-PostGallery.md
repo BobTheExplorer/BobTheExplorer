@@ -1,5 +1,6 @@
 ---
 title: "Post: Gallery"
+layout: portfolio
 categories:
   - Post Formats
 gallery:
