@@ -67,6 +67,11 @@ google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Social Sharing
 twitter:
@@ -273,13 +278,12 @@ collections:
 # Defaults
 defaults:
   # _posts
+  # _portfolio
   - scope:
       path: ""
-      type: posts
+      type: portfolio
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
+      author_profile: false
       share: true
-      related: true
+
