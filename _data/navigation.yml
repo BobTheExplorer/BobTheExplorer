@@ -2,10 +2,10 @@
 main:
   - title: "Quick-Start Poop"
     url: https://www.youtube.com/watch?v=8mfCW45Ag5w
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "About"
+     url: https://www.youtube.com/watch?v=pIax3qqNVY0
+   - title: "Sample Posts"
+     url: https://www.youtube.com/watch?v=Lq0kJR8usNI
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
