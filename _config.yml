@@ -278,7 +278,6 @@ collections:
 # Defaults
 defaults:
   # _posts
-  # _portfolio
   - scope:
       path: ""
       type: portfolio
