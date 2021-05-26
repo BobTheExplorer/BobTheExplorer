@@ -15,16 +15,16 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Start playing into the market, right exactly? But monkeys aren't real"
+title                    : "ObscuredNY"
 title_separator          : "-"
-subtitle                 : "All my money could be toliet paper, all the companies I invested in are relying heavily on power grids"
-name                     : "Screaming Mad Jose"
+subtitle                 : ""
+name                     : 
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/tweetpoll.png"
+logo                     : 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -94,10 +94,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Grug"
-  avatar           : "/assets/images/tweetpoll.png"
-  bio              : "Up to date ledgers in China"
-  location         : "Wuhan"
+  name             : 
+  avatar           : 
+  bio              : 
+  location         : 
   email            :
   links:
     - label: "Email"
