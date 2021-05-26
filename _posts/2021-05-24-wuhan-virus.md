@@ -7,6 +7,13 @@ author:
   avatar: "/assets/images/tweetpoll.png"
   bio: "I am an **amazing** person." 
   location: "Wuhan"
+  links:
+     - label: "Twitter"
+     icon: "fab fa-fw fa-twitter-square"
+     url: "https://twitter.com/mmistakes"
+     - label: "Instagram"
+     icon: "fab fa-fw fa-instagram"
+     url: "https://instagram.com/mmistakes"
 author_profile: true
 published: true
 ---
