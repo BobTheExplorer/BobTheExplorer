@@ -60,7 +60,6 @@ And that’s a wrap…
 Honestly this CDC ‘you don’t need a mask’ recommendation is absolute bullshit. Fuck y’all. I’m wearing my ski mask until I die. And when I’m buried? That’s right. Ski Mask. 
 
 ![URBEX pic_45.jpg]({{site.baseurl}}/assets/images/URBEX pic_45.jpg)
-{% include caption="This is a sample gallery with **Markdown support**." %}
 
 
 Enter ooop en [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
