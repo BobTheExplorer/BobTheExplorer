@@ -35,6 +35,8 @@ Detained migrants in Australia started tunneling their way out of a detention fa
 
 Speaking of man-made tunnels, The Israeli military lied about a land invasion of Gaza last week in order to entrap Hamas fighters in a rudimentary tunnel system which they then bombarded from the air. The story begs the question of how many secret tunnels are under Gaza? It’s safe to assume “a lot”, though I doubt anyone other than Hamas members will be exploring them anytime in our lifetime—and that sucks. I’d bet a nickel they have a tunnel network that rivals the catacombs of Paris.
 
+![URBEX pic_45.jpg]({{site.baseurl}}/assets/images/URBEX pic_45.jpg)
+
 I’d be remiss if I didn’t offer this commentary on all things Israel/Palestine: Being pro-Palestine does not equal hating Jews. I’m Irish, I know repression when I see it. The number of children being maimed and killed there is unforgivable.
 
 HS2’s tunnel construction has begun. Y’all know what to do!
@@ -58,9 +60,6 @@ Thank god someone set this abandoned house on fire in Fresno—I was starting to
 
 And that’s a wrap…
 Honestly this CDC ‘you don’t need a mask’ recommendation is absolute bullshit. Fuck y’all. I’m wearing my ski mask until I die. And when I’m buried? That’s right. Ski Mask. 
-
-![URBEX pic_45.jpg]({{site.baseurl}}/assets/images/URBEX pic_45.jpg)
-
 
 Enter ooop en [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 pooponmoia
