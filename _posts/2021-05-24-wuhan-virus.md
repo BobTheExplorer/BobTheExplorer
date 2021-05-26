@@ -8,10 +8,8 @@ excerpt: "This post should display a **header with an overlay image**, if the th
 header:
   overlay_image: /assets/images/unsplash-gallery-image-1.jpg
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  -image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+  -image_path: /assets/images/unsplash-gallery-image-2-th.jpg
 published: true
 ---
 ![URBEX pic_45.jpg]({{site.baseurl}}/assets/images/URBEX pic_45.jpg)
