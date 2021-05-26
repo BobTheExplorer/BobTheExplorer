@@ -1,7 +1,6 @@
 ---
 header:
   overlay_image: /assets/images/unsplash-gallery-image-1.jpg
-excerpt: ""
 author_profile: true
 author:
   name: "Le Duan"
