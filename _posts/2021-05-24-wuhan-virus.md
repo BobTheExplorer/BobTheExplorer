@@ -19,5 +19,5 @@ published: true
 ---
 ![URBEX pic_45.jpg]({{site.baseurl}}/assets/images/URBEX pic_45.jpg)
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Enter poop in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 pooponmoia
