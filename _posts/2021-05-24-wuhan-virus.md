@@ -1,4 +1,9 @@
 ---
+sidebar:
+  - title: "Title"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
 published: true
 ---
 ![URBEX pic_45.jpg]({{site.baseurl}}/assets/images/URBEX pic_45.jpg)
