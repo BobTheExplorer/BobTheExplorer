@@ -41,7 +41,7 @@ Detained migrants in Australia started tunneling their way out of a detention fa
 Speaking of man-made tunnels, The Israeli military lied about a land invasion of Gaza last week in order to entrap Hamas fighters in a rudimentary tunnel system which they then bombarded from the air. The story begs the question of how many secret tunnels are under Gaza? It’s safe to assume “a lot”, though I doubt anyone other than Hamas members will be exploring them anytime in our lifetime—and that sucks. I’d bet a nickel they have a tunnel network that rivals the catacombs of Paris.
 
 ```
-gallery2:
+gallery:
   - url: https://flic.kr/p/8a6Ven
     image_path: https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg
     alt: "Black and grays with a hint of green"
