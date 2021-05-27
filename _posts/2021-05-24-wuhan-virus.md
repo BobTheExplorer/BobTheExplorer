@@ -1,6 +1,6 @@
 ---
 header:
-  overlay_image: /assets/images/unsplash-gallery-image-1.jpg
+  overlay_image: /assets/images/Waterside .jpg
 excerpt: "This post is a **test**,"
 author_profile: true
 author:
