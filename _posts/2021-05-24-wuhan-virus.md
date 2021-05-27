@@ -52,6 +52,13 @@ Bosnia has relocated a group of squatters from a ‘bando and I somehow doubt wh
 
 India reopened a long abandoned hospital in order to help deal with Covid. Sure wish Cuomo did that last year in Queens, with any one of the hospitals we lost in recent years.
 
+---
+gallery:
+  - url: /assets/images/banner.jpg
+    image_path: /assets/images/banner.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+
 Yikes. Two teen boys were found shot to death in an abandoned house in New Orleans. Sounds like something shady went sideways.
 
 Meanwhile, in the capital of all urban exploring (Olean, NY), a young dude left his fam and moved into a ‘bando house for two weeks. When authorities finally caught up with him he was kinda done living that trash panda life.
