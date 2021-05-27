@@ -2,16 +2,6 @@
 header:
   overlay_image: /assets/images/banner.jpg
 excerpt: "This post is a **repuge**,"
-gallery2:
-  - url: https://flic.kr/p/8a6Ven
-    image_path: https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg
-    alt: "Black and grays with a hint of green"
-  - url: https://flic.kr/p/8a738X
-    image_path: https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg
-    alt: "Made for open text placement"
-  - url: https://flic.kr/p/8a6VXP
-    image_path: https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg
-    alt: "Fog in the trees"
 author_profile: true
 author:
   name: "Le Duan"
@@ -49,6 +39,18 @@ A Minneapolis teen was injured while exploring the apparently cursed Fruen Mill 
 Detained migrants in Australia started tunneling their way out of a detention facility and given how many man-made tunnels there are at the US/Mexico border, I’d bet it’s just a matter of time before this happens here.
 
 Speaking of man-made tunnels, The Israeli military lied about a land invasion of Gaza last week in order to entrap Hamas fighters in a rudimentary tunnel system which they then bombarded from the air. The story begs the question of how many secret tunnels are under Gaza? It’s safe to assume “a lot”, though I doubt anyone other than Hamas members will be exploring them anytime in our lifetime—and that sucks. I’d bet a nickel they have a tunnel network that rivals the catacombs of Paris.
+
+---
+gallery2:
+  - url: https://flic.kr/p/8a6Ven
+    image_path: https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg
+    alt: "Black and grays with a hint of green"
+  - url: https://flic.kr/p/8a738X
+    image_path: https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg
+    alt: "Made for open text placement"
+  - url: https://flic.kr/p/8a6VXP
+    image_path: https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg
+---
 
 {% include figure image_path="/assets/images/URBEX pic_45.jpg" alt="this is a placeholder image" caption="This is a train car passing." %}
 
