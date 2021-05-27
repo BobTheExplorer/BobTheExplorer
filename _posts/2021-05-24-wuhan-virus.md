@@ -17,7 +17,7 @@ author:
       url: "https://twitter.com/mmistakes"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+    image_path: /assets/images/unsplash-gallery-image-1.jpg
     alt: "placeholder image 1"
   - url: /assets/images/unsplash-gallery-image-2.jpg
     image_path: /assets/images/unsplash-gallery-image-2.jpg
