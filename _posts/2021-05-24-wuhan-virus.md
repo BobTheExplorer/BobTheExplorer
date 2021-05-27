@@ -1,6 +1,6 @@
 ---
 header:
-  overlay_image: /assets/images/Waterside .jpg
+  overlay_image: /assets/images/banner.jpg
 excerpt: "This post is a **refuge**,"
 author_profile: true
 author:
