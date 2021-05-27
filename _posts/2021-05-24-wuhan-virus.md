@@ -72,8 +72,8 @@ Honestly this CDC ‘you don’t need a mask’ recommendation is absolute bulls
 Enter ooop en [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 pooponmoia
 
----
-gallery:
+```yaml
+gallery2:
   - url: https://flic.kr/p/8a6Ven
     image_path: https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg
     alt: "Black and grays with a hint of green"
@@ -82,6 +82,6 @@ gallery:
     alt: "Made for open text placement"
   - url: https://flic.kr/p/8a6VXP
     image_path: https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg
-    {% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
----
+    alt: "Fog in the trees"
+```
 
