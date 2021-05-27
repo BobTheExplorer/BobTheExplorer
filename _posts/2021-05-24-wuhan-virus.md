@@ -15,11 +15,6 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/mmistakes"
-gallery:
-  - url: /assets/images/Waterside .jpg
-    image_path: /assets/images/Waterside .jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
 published: true
 ---
 
@@ -52,10 +47,13 @@ I’d be remiss if I didn’t offer this commentary on all things Israel/Palesti
 HS2’s tunnel construction has begun. Y’all know what to do!
 
 A New Zealand man who was caught walking through their longest passenger train tunnel failed to show up for court. I hope he’s just lounging at home smoking a bowl thinking yeah man fuck the cops, walking ain’t illegal.
+ 
 
 Bosnia has relocated a group of squatters from a ‘bando and I somehow doubt whatever camp they’re bring brought to is going to be better than their ‘bando…
 
 India reopened a long abandoned hospital in order to help deal with Covid. Sure wish Cuomo did that last year in Queens, with any one of the hospitals we lost in recent years.
+
+{% include figure image_path="/assets/images/unsplash-gallery-image-1.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
 
 Yikes. Two teen boys were found shot to death in an abandoned house in New Orleans. Sounds like something shady went sideways.
 
