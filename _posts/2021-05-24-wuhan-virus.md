@@ -1,7 +1,7 @@
 ---
 header:
   overlay_image: /assets/images/banner.jpg
-excerpt: "This post is a **repuge**,"
+excerpt: "This post is a **fudge**,"
 author_profile: true
 author:
   name: "Le Duan"
