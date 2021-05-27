@@ -78,7 +78,7 @@ Some big ‘bando in STL burned up last week, hard to tell what it was from the 
 Thank god someone set this abandoned house on fire in Fresno—I was starting to wonder if that town had disappeared off the map or something. And speaking of Cali, Bakersfield you ain’t looking good either! A full 35% of fires in that town were started in abandoned buildings, with fires dramatically up from 2019.
 
 And that’s a wrap…
-Honestly this CDC ‘you don’t need a mask’ recommendation is absolute bullshit. Fuck y’all. I’m wearing my ski mask until I die. And when I’m buried? That’s right. Ski Mask. 
+Honestly this Cock ‘you don’t need a mask’ recommendation is absolute bullshit. Fuck y’all. I’m wearing my ski mask until I die. And when I’m buried? That’s right. Ski Mask. 
 
 Enter ooop en [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 pooponmoia
