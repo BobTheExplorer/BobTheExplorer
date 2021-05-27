@@ -58,6 +58,7 @@ gallery:
     image_path: /assets/images/banner.jpg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
+---
 
 Yikes. Two teen boys were found shot to death in an abandoned house in New Orleans. Sounds like something shady went sideways.
 
