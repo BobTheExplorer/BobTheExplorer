@@ -64,7 +64,7 @@ Bosnia has relocated a group of squatters from a ‘bando and I somehow doubt wh
 
 India reopened a long abandoned hospital in order to help deal with Covid. Sure wish Cuomo did that last year in Queens, with any one of the hospitals we lost in recent years.
 
-{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %
+{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %)
 
 Yikes. Two teen boys were found shot to death in an abandoned house in New Orleans. Sounds like something shady went sideways.
 
