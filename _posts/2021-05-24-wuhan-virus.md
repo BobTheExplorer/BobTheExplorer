@@ -40,7 +40,7 @@ Detained migrants in Australia started tunneling their way out of a detention fa
 
 Speaking of man-made tunnels, The Israeli military lied about a land invasion of Gaza last week in order to entrap Hamas fighters in a rudimentary tunnel system which they then bombarded from the air. The story begs the question of how many secret tunnels are under Gaza? It’s safe to assume “a lot”, though I doubt anyone other than Hamas members will be exploring them anytime in our lifetime—and that sucks. I’d bet a nickel they have a tunnel network that rivals the catacombs of Paris.
 
-![URBEX pic_45.jpg]({{site.baseurl}}/assets/images/URBEX pic_45.jpg)
+{% include figure image_path="/assets//assets/images/URBEX pic_45.jpg" alt="this is a placeholder image" caption="This is a train car passing." %}
 
 I’d be remiss if I didn’t offer this commentary on all things Israel/Palestine: Being pro-Palestine does not equal hating Jews. I’m Irish, I know repression when I see it. The number of children being maimed and killed there is unforgivable.
 
@@ -53,7 +53,6 @@ Bosnia has relocated a group of squatters from a ‘bando and I somehow doubt wh
 
 India reopened a long abandoned hospital in order to help deal with Covid. Sure wish Cuomo did that last year in Queens, with any one of the hospitals we lost in recent years.
 
-{% include figure image_path="/assets/images/unsplash-gallery-image-1.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
 
 Yikes. Two teen boys were found shot to death in an abandoned house in New Orleans. Sounds like something shady went sideways.
 
