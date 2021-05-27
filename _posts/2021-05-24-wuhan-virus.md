@@ -60,7 +60,7 @@ Meanwhile, in the capital of all urban exploring (Olean, NY), a young dude left 
 
 Abandoned Building BBQ
 There was an abandoned church fire in Philly that missed two weeks back, though new reporting confirms that it was indeed an arson fire.
-
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
 Some big ‘bando in STL burned up last week, hard to tell what it was from the video footage, but we can assume that’s one less ‘bando to explore.
 
 Thank god someone set this abandoned house on fire in Fresno—I was starting to wonder if that town had disappeared off the map or something. And speaking of Cali, Bakersfield you ain’t looking good either! A full 35% of fires in that town were started in abandoned buildings, with fires dramatically up from 2019.
