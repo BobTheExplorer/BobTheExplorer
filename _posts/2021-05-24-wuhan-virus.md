@@ -1,7 +1,7 @@
 ---
 header:
   overlay_image: /assets/images/Waterside .jpg
-excerpt: "This post is a **test**,"
+excerpt: "This post is a **refuge**,"
 author_profile: true
 author:
   name: "Le Duan"
