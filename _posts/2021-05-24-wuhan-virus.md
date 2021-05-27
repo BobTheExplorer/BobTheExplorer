@@ -54,8 +54,8 @@ India reopened a long abandoned hospital in order to help deal with Covid. Sure 
 
 ---
 gallery:
-  - url: /assets/images/banner.jpg
-    image_path: /assets/images/banner.jpg
+  - url: /assets/images/Waterside .jpg
+    image_path: /assets/images/Waterside .jpg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
 ---
