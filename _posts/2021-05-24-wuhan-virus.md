@@ -5,7 +5,7 @@ excerpt: "This post is a **fudge**,"
 author_profile: true
 author:
   name: "Le Duan"
-  avatar: "/assets/images/tweetpoll.png"
+  avatar: "/assets/images/Untitled-1.png"
   bio: "I am an **amazing** person." 
   location: "Wuhan"
   links:
