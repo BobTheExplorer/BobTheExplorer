@@ -1,6 +1,7 @@
 ---
 header:
   overlay_image: /assets/images/forttilden/Banner2.jpg
+  excerpt: "The Forgotten Army Base"
 author_profile: true
 author:
   name: "Dushman"
@@ -27,6 +28,33 @@ published: true
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 What’s the NYC Goss
 Yo check out this dog who ran free and spent ten hours exploring subway tunnels. My kinda puffball.
 
