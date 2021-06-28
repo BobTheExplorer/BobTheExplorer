@@ -60,6 +60,9 @@ fields, hiking trails for the adventurous, and a center for arts. Despite the ol
 {% include figure image_path="/assets/images/forttilden/Locomotive-garage.jpg" %}
 One such historic building would be the former locomotive storage garage, servicing the expansive railway that would run all through out the army base. The tracks that the locomotives used to run are all either buried underneath the sands of time or scrapped for metal by the US Government. Through out this all the warehouse stood still, eventually being used to display an art piece in 2018. Simply titled "Narcissus Garden", the warehouse was filled with 1,500 steel globes. The idea had stemmed from Yayoi Kusama, a prevelant Japanese artist who dwells in the subject of contemporary art. This may not be anything to new to those who live within the area, in the same year there was another [guerilla art piece](https://untappedcities.com/2018/10/11/1500-gold-balls-turn-up-in-guerrilla-art-installation-at-abandoned-fort-tilden-in-queens/) and four years earlier an [art installation](https://ny.curbed.com/2014/7/31/10066414/fort-tilden-beach-reopens-to-a-changing-neighborhood) had been held in the now decrepit warehouse.
 
+A stone throws away is the site of what was the Nike Missile Site, an anti air missile site used to protect Rockaway and the Greater New York Area from the potential threat of the Red Menance. 
+
+
 The NYC Subway system is now open again 24-7 though really that never mattered to explorers and graffiti artists. We own the damn place whatever hour we want.
 
 Metro North has finally gotten the go-ahead to build stations in the Bronx and access Penn Station via Hell Gate Bridge. The existing tracks belong to Amtrak, but they don’t feature any local stops. The increase in train traffic over Hell Gate will add a small layer of complexity to the long hike to the main span…
