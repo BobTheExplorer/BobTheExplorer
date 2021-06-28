@@ -1,10 +1,10 @@
 ---
 header:
-  overlay_image: /assets/images/banner.jpg
+  overlay_image: /assets/images/forttilden/Banner2.jpg
 author_profile: true
 author:
   name: "Dushman"
-  avatar: "/assets/images/forttilden/Banner2.jpg"
+  avatar: "/assets/images/smaller.jpg"
   bio: "Residental Researcher" 
   location: "Rockaway Beach, NYC"
   links:
