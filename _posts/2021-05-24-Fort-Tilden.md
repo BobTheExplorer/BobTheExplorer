@@ -6,12 +6,12 @@ author_profile: true
 author:
   name: "Dushman"
   avatar: "/assets/images/smaller.jpg"
-  bio: "Residental Researchers" 
-  location: "Rockaway Beach, NYC"
+  bio: "Residental Researchers"
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/shmuster_the_third"
+  location: "Rockaway Beach, NYC"
 gallery:
   - url: /assets/images/Waterside .jpg
     image_path: /assets/images/Waterside .jpg
