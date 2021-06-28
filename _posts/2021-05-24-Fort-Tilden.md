@@ -6,7 +6,7 @@ author_profile: true
 author:
   name: "Dushman"
   avatar: "/assets/images/smaller.jpg"
-  bio: "Residental Researchers"
+  bio: "Residental Researcher"
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -32,7 +32,7 @@ gallery2:
   - url: https://flic.kr/p/8a6VXP
     image_path: https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg
     alt: "Fog in the trees"
-published: false
+published: true
 ---
 
 
@@ -54,10 +54,11 @@ published: false
 
 
 ---
-  A twenty minute walk from Jacob Riis lies the former naval base and current National Park, Fort Tilden. The missiles and naval artillery were traded in for athletic fields, hiking trails for the adventurous, and a center for arts. Despite the old military weaponry being done away with, the historic buildings of the naval base still remain to this very day. 
+  A twenty minute walk from Jacob Riis lies the former naval base and current National Park, Fort Tilden. The missiles and naval artillery were traded in for athletic
+fields, hiking trails for the adventurous, and a center for arts. Despite the old military weaponry being done away with, the historic buildings of the naval base still remain to this very day. 
   
 {% include figure image_path="/assets/images/forttilden/Locomotive-garage.jpg" %}
-One such historic building would be the former locomotive storage garage, servicing the expansive railway that would run all through out the army base. The tracks that the locomotives used to run are all either buried underneath the sands of time or scrapped for metal by the US Government. Through out this all the warehouse stood still, eventually being used to display an art piece in 2018. Simply titled "Narcissus Garden", the warehouse was filled with 1,500 steel globes. The idea had stemmed from Yayoi Kusama, a prevelant Japanese artist who dwells in the subject of contemporary art. 
+One such historic building would be the former locomotive storage garage, servicing the expansive railway that would run all through out the army base. The tracks that the locomotives used to run are all either buried underneath the sands of time or scrapped for metal by the US Government. Through out this all the warehouse stood still, eventually being used to display an art piece in 2018. Simply titled "Narcissus Garden", the warehouse was filled with 1,500 steel globes. The idea had stemmed from Yayoi Kusama, a prevelant Japanese artist who dwells in the subject of contemporary art. This may not be anything to new to those who live within the area, in the same year there was another [guerilla art piece](https://untappedcities.com/2018/10/11/1500-gold-balls-turn-up-in-guerrilla-art-installation-at-abandoned-fort-tilden-in-queens/) along with the earliest known [art installation](https://ny.curbed.com/2014/7/31/10066414/fort-tilden-beach-reopens-to-a-changing-neighborhood) being held in the vacant warehouse during 2014. 
 
 The NYC Subway system is now open again 24-7 though really that never mattered to explorers and graffiti artists. We own the damn place whatever hour we want.
 
