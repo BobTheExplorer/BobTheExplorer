@@ -26,16 +26,6 @@ gallery:
     alt: "placeholder image 2"
     title: "Entry way to another escape hatch" 
 
-gallery2:
-  - url: https://flic.kr/p/8a6Ven
-    image_path: https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg
-    alt: "Black and grays with a hint of green"
-  - url: https://flic.kr/p/8a738X
-    image_path: https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg
-    alt: "Made for open text placement"
-  - url: https://flic.kr/p/8a6VXP
-    image_path: https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg
-    alt: "Fog in the trees"
 published: true
 ---
 
@@ -65,7 +55,8 @@ fields, hiking trails for the adventurous, and a center for arts. Despite the ol
 One such historic building would be the former locomotive storage garage, servicing the expansive railway that would run all through out the army base. The tracks that the locomotives used to run are all either buried underneath the sands of time or scrapped for metal by the US Government. Through out this all the warehouse stood still, eventually being used to display an art piece in 2018. Simply titled "Narcissus Garden", the warehouse was filled with 1,500 steel globes. The idea had stemmed from Yayoi Kusama, a prevalent Japanese artist who dwells in the subject of contemporary art. This may not be anything to new to those who live within the area, in the same year there was another [guerilla art piece](https://untappedcities.com/2018/10/11/1500-gold-balls-turn-up-in-guerrilla-art-installation-at-abandoned-fort-tilden-in-queens/) and four years earlier an [art installation](https://ny.curbed.com/2014/7/31/10066414/fort-tilden-beach-reopens-to-a-changing-neighborhood) had been held in the now decrepit warehouse.
 
 A stone throws away is the site of what was the Nike Missile Site, an anti air missile site used to protect Rockaway and the Greater New York Area from the potential threat of the Red Menace. Now it's the site of sanitation department, where large trash bins are scattered across behind closed gates. It's not like the closed gates are much of an obstacle when graffiti is spread liberally through out the ruins of the former Nike site. Rusty metal hatches and piles of red bricks make up the wasteland that is the bunkers. Subterranean shelters for those who lived in the Fort Tilden during the bygone era that was the Cold War, now all filled with mounds of sand and boulders in an attempt to persuade adventure seekers away. Walking through the overgrown lot of weeds and mulberry trees we would eventually find the home of Nike Ajax missile center. Off the beaten path there were only few things to indicate it's existance, a rusted ventilation shaft, and a heavy duty escape hatch. The sound of water dripping and flowing would lead you to believe that you stumbled upon a sewer maintenance access point. However going down the rusted ladder, reveals a  massive open room with graffti adorning the walls. The rainwater had dripped in over time, transforming it into one big pond with the water level being enough to reach my shins. Despite this setback, I waded through the water to see the relics of a long defunct era. 
-{% include gallery id="gallery1" caption="Inside the missile site" %}
+
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
 
 
 
