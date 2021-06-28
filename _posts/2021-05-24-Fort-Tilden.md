@@ -32,7 +32,7 @@ gallery2:
   - url: https://flic.kr/p/8a6VXP
     image_path: https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg
     alt: "Fog in the trees"
-published: true
+published: false
 ---
 
 
