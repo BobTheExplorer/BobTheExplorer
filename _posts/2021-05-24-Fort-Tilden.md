@@ -1,20 +1,17 @@
 ---
 header:
-  overlay_image: /assets/images/banner.jpg
-excerpt: "This post is a **fudge**,"
+  overlay_image: /assets/images/forttilden/Banner2.jpg
+excerpt: "The Forgotten Army Base"
 author_profile: true
 author:
-  name: "Le Duan"
-  avatar: "/assets/images/smaller.jpg "
-  bio: "Residental Researcher" 
-  location: "Purchase,NY"
+  name: "Dushman"
+  avatar: "/assets/images/smaller.jpg"
+  bio: "Residental Researchers" 
+  location: "Rockaway Beach, NYC"
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://instagram.com/shmuster_the_third"
 gallery:
   - url: /assets/images/Waterside .jpg
     image_path: /assets/images/Waterside .jpg
