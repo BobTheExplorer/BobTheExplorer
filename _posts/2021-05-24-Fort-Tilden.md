@@ -20,15 +20,13 @@ gallery:
     image_path: /assets/images/URBEX pic_45.jpg
     alt: "placeholder image 2"
     title: "A train passes" 
-
-gallery2:
-
+    
 published: true
 ---
 
 
 
----
+
 What’s the NYC Goss
 Yo check out this dog who ran free and spent ten hours exploring subway tunnels. My kinda puffball.
 
