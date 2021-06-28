@@ -41,6 +41,21 @@ published: true
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 What’s the NYC Goss
 Yo check out this dog who ran free and spent ten hours exploring subway tunnels. My kinda puffball.
