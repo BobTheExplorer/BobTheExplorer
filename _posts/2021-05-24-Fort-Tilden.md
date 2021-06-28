@@ -56,7 +56,7 @@ published: true
 ---
   A twenty minute walk from Jacob Riis lies the former naval base and current National Park, Fort Tilden. The missiles and naval artillery were traded in for athletic fields, hiking trails for the adventurous, and a center for arts. Despite the old military weaponry being done away with, the historic buildings of the naval base still remain to this very day. 
   
-{% include figure image_path="/assets/images/forttilden/Locomotive-garage.jpg"
+{% include figure image_path="/assets/images/forttilden/Locomotive-garage.jpg" %}
 One such historic building would be the former locomotive storage garage, servicing the expansive railway that would run all through out the army base. The tracks that the locomotives used to run are all either buried underneath the sands of time or scrapped for metal by the US Government. Through out this all the warehouse stood still, eventually being used to display an art piece in 2018. Simply titled "Narcissus Garden", the warehouse was filled with 1,500 steel globes. The idea had stemmed from Yayoi Kusama, a prevelant Japanese artist who dwells in the subject of contemporary art. 
 
 The NYC Subway system is now open again 24-7 though really that never mattered to explorers and graffiti artists. We own the damn place whatever hour we want.
