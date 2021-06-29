@@ -48,7 +48,7 @@ published: true
 
 
 ---
-  A twenty minute walk from Jacob Riis lies the former naval base and current National Park, Fort Tilden. The missiles and naval artillery were traded in for athletic
+  A twenty minute walk from Jacob Riis Park lies the former naval base and current National Park, Fort Tilden. The missiles and naval artillery were traded in for athletic
 fields, hiking trails for the adventurous, and a center for arts. Despite the old military weaponry being done away with, the historic buildings of the naval base still remain to this very day. 
   
 {% include figure image_path="/assets/images/forttilden/Locomotive-garage.jpg" %}
