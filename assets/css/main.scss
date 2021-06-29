@@ -6,6 +6,11 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+$global-font-family: $sans-serif 
+$header-font-family: $sans-serif 
+$caption-font-family: $sans-serif 
+
 html {
   font-size: 12px; // change to whatever
 
