@@ -1,7 +1,6 @@
 ---
 header:
   image: /assets/images/forttilden/Banner2.jpg
-  teaser: /assets/images/forttilden/Banner2.jpg
 excerpt: "The Forgotten Army Base"
 layout: 
 author_profile: true
