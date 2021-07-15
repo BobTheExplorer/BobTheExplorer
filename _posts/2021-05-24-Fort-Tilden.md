@@ -2,6 +2,7 @@
 header:
   overlay_image: /assets/images/forttilden/Banner2.jpg
 excerpt: "The Forgotten Army Base"
+layout: splash
 author_profile: true
 author:
   name: "Dushman"
@@ -12,6 +13,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/shmuster_the_third/"
   location: "Rockaway Beach, NYC"
+entries_layout: grid
 gallery:
   - url: /assets/images/forttilden/MissileLaunch.jpg
     image_path: /assets/images/forttilden/MissileLaunch.jpg
@@ -29,6 +31,7 @@ gallery:
     image_path: /assets/images/forttilden/Speaker Hanging.jpg
     alt: "placeholder image 2"
     title: "Old Speaker hanging from old wire" 
+   
   
     
 
