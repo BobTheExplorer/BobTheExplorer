@@ -2,7 +2,7 @@
 header:
   overlay_image: /assets/images/forttilden/Banner2.jpg
 excerpt: "The Forgotten Army Base"
-layout: splash
+layout: 
 author_profile: true
 author:
   name: "Dushman"
