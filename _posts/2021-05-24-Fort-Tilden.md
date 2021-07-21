@@ -31,16 +31,17 @@ gallery:
     image_path: /assets/images/forttilden/Speaker Hanging.jpg
     alt: "placeholder image 2"
     title: "Old Speaker hanging from old wire" 
+    
 gallery2:
   - url: /assets/images/forttilden/Exterior.jpg 
     image_path: /assets/images/forttilden/Exterior.jpg 
     alt: "The exterior of the observation point"
   - url: /assets/images/forttilden/Fire Control observation point.jpg
     image_path: /assets/images/forttilden/Fire Control observation point.jpg
-    alt: ""
+    alt: "s"
   - url: /assets/images/forttilden/Fire Control observation point2.jpg 
     image_path: /assets/images/forttilden/Fire Control observation point2.jpg 
-    alt: ""
+    alt: "s"
  
    
   
