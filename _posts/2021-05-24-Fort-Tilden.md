@@ -31,11 +31,6 @@ gallery:
     image_path: /assets/images/forttilden/Speaker Hanging.jpg
     alt: "placeholder image 2"
     title: "Old Speaker hanging from old wire"     
-gallery2:
-  - url: /assets/images/forttilden/Exterior.jpg 
-    image_path: /assets/images/forttilden/Exterior.jpg 
-    alt: "The exterior of the observation point"
-
  
    
   
@@ -76,7 +71,6 @@ A stone throws away is the site of what was the Nike Missile Site, an anti air m
 
 Blah blah blah some bullshit I dug up about the batteries and wow would you look at the time, time to stop writing anytime 
 
-{% include id="gallery2" caption="This is a look within the fire observation point" %}
 
 
 
