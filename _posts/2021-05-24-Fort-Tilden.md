@@ -30,8 +30,9 @@ gallery:
   - url: /assets/images/forttilden/Speaker Hanging.jpg
     image_path: /assets/images/forttilden/Speaker Hanging.jpg
     alt: "placeholder image 2"
-    title: "Old Speaker hanging from old wire"     
-gallery2:
+    title: "Old Speaker hanging from old wire"
+    
+#gallery2:
   - url: /assets/images/forttilden/Exterior.jpg 
     image_path: /assets/images/forttilden/Exterior.jpg 
     alt: "placeholder image 1"
