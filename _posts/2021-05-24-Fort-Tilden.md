@@ -31,6 +31,16 @@ gallery:
     image_path: /assets/images/forttilden/Speaker Hanging.jpg
     alt: "placeholder image 2"
     title: "Old Speaker hanging from old wire" 
+ gallery2:
+  - url: /assets/images/forttilden/Exterior.jpg
+    image_path: /assets/images/forttilden/Exterior.jpg
+    alt: "Stuff"
+  - url: /assets/images/forttilden/Fire Control observation point.jpg
+    image_path: /assets/images/forttilden/Fire Control observation point.jpg
+    alt: "Stuff2"
+  - url: /assets/images/forttilden/Fire Control observation point2.jpg 
+    image_path: /assets/images/forttilden/Fire Control observation point2.jpg 
+    alt: "2"
    
   
     
@@ -67,6 +77,10 @@ One such historic building would be the former locomotive storage garage, servic
 A stone throws away is the site of what was the Nike Missile Site, an anti air missile site used to protect Rockaway and the Greater New York Area from the potential threat of the Red Menace. Now it's the site of the sanitation department, where large trash bins are scattered behind closed gates. It's not like the closed gates are much of an obstacle when graffiti is spread liberally throughout the ruins of the former Nike site. Rusty metal hatches and piles of red bricks make up the wasteland that is the bunkers. Subterranean shelters for those who lived in the Fort Tilden during the bygone era that was the Cold War, now all filled with mounds of sand and boulders in an attempt to persuade adventure seekers away. Walking through the overgrown lot of weeds and mulberry trees we would eventually find the home of Nike Ajax missile center. Off the beaten path there were only few things to indicate it's existence, a rusted ventilation shaft, and a heavy-duty escape hatch. The sound of water dripping and flowing would lead you to believe that you stumbled upon a sewer maintenance access point. However going down the rusted ladder, reveals a massive open room with graffiti adorning the walls. The rainwater had dripped in over time, transforming it into one big pond with the water level being enough to reach my shins. Despite this setback, I waded through the water to see the relics of a long defunct era. 
 
 {% include gallery caption="Inside the bunker." %}
+
+Blah blah blah some bullshit I dug up about the batteries and wow would you look at the time, time to stop writing anytime 
+
+{% include gallery2 caption="Fire Observation pillbox" %}
 
 
 
