@@ -31,6 +31,23 @@ gallery:
     image_path: /assets/images/forttilden/Speaker Hanging.jpg
     alt: "placeholder image 2"
     title: "Old Speaker hanging from old wire"     
+gallery2:
+  - url: /assets/images/forttilden/MissileLaunch.jpg
+    image_path: /assets/images/forttilden/MissileLaunch.jpg
+    alt: "placeholder image 1"
+    title: "The NIKE missile would be lifted up this platform to up above for launch" 
+  - url: /assets/images/forttilden/Entrance to Office.jpg
+    image_path: /assets/images/forttilden/Entrance to Office.jpg
+    alt: "placeholder image 2"
+    title: "Entry way to another escape hatch" 
+  - url: /assets/images/forttilden/HeavyDutyCastIronDoor.jpg
+    image_path: /assets/images/forttilden/HeavyDutyCastIronDoor.jpg
+    alt: "placeholder image 2"
+    title: "Proper iron door to shield off explosions or radiation" 
+  - url: /assets/images/forttilden/Speaker Hanging.jpg
+    image_path: /assets/images/forttilden/Speaker Hanging.jpg
+    alt: "placeholder image 2"
+
  
    
   
@@ -71,6 +88,12 @@ A stone throws away is the site of what was the Nike Missile Site, an anti air m
 
 Blah blah blah some bullshit I dug up about the batteries and wow would you look at the time, time to stop writing anytime 
 
+
+
+
+
+
+{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
 
 
 
