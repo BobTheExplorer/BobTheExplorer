@@ -84,14 +84,13 @@ A stone throws away is the site of what was the Nike Missile Site, an anti air m
 
 {% include gallery caption="Inside the bunker." %}
 
-Blah blah blah some bullshit I dug up about the batteries and wow would you look at the time, time to stop writing anytime 
 
 
 
 
 
 
-{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
+# {% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
 
 
 
