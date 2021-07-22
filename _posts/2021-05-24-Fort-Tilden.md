@@ -32,24 +32,9 @@ gallery:
     alt: "placeholder image 2"
     title: "Old Speaker hanging from old wire"
     
-# gallery2:
-  # - url: /assets/images/forttilden/Exterior.jpg 
-    image_path: /assets/images/forttilden/Exterior.jpg 
-    alt: "placeholder image 1"
-    title: "The NIKE missile would be lifted up this platform to up above for launch" 
-  # - url: /assets/images/forttilden/Fire Control observation point.jpg
-    image_path: /assets/images/forttilden/Fire Control observation point.jpg
-    alt: "placeholder image 2"
-    title: "Entry way to another escape hatch" 
-  # - url: /assets/images/forttilden/Fire Control observation point2.jpg
-    image_path: /assets/images/forttilden/Fire Control observation point2.jpg
-    alt: "placeholder image 2"
-    title: "Proper iron door to shield off explosions or radiation" 
 
  
-   
-  
-    
+ 
 
 published: true
 ---
