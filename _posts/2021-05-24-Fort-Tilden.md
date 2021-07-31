@@ -69,7 +69,7 @@ A stone throws away is the site of what was the Nike Missile Site, an anti air m
 
 {% include gallery caption="Inside the bunker." %}
 
-# <img align="right" width="500" height="800" src="/assets/images/forttilden/Exterior.webp">
+
 
 
 
