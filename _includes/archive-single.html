@@ -22,12 +22,12 @@
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
-      .shrink { 
+      .grow { 
 transition: all .2s ease-in-out; 
 }
 
-.shrink:hover { 
-transform: scale(0.9); 
+.grow:hover { 
+transform: scale(1.1); 
 }
       {% endif %}
     </h2>
