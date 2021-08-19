@@ -12,6 +12,7 @@
 
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+repository: "BobTheExplorer/BobTheExplorer"
 
 # Site Settings
 locale                   : "en-US"
@@ -282,7 +283,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: false
+      share: true
       related: true
       classes: wide
 
