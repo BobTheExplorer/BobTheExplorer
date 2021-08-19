@@ -1,6 +1,6 @@
 ---
 header:
-  overlay_image: /assets/images/forttilden/realbanner.webp
+  overlay_image: /assets/images/forttilden/banner.webp
 excerpt: "The Forgotten Army Base"
 layout: 
 author_profile: true
