@@ -2,7 +2,8 @@
 header:
   overlay_image: /assets/images/forttilden/fuckingplease.jpg
 excerpt: "The Forgotten Army Base"
-layout: 
+layout:
+comments: true
 author_profile: true
 author:
   name: "Dushman"
