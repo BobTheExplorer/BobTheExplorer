@@ -286,9 +286,6 @@ defaults:
       share: false
       related: true
       classes: wide
-comments:
-  utterances:
-    theme: "github-dark" # "github-dark"
-    issue_term: "pathname"
+
 
 
