@@ -30,7 +30,10 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances"
+  utterances:
+  theme: "github-dark" # "github-dark"
+  issue_term: "pathname"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -283,11 +286,10 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
       classes: wide
 comments:
-  provider: "utterances"
   utterances:
     theme: "github-dark" # "github-dark"
     issue_term: "pathname"
