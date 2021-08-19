@@ -3,12 +3,6 @@ header:
   overlay_image: /assets/images/forttilden/fuckingplease.jpg
 excerpt: "The Forgotten Army Base"
 layout:
-comments: true
-comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-light" # "github-dark"
-    issue_term: "pathname"
 author_profile: true
 author:
   name: "Dushman"
