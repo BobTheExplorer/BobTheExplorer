@@ -2,3 +2,5 @@
 main:
   - title: "test"
     url: https://google.com
+  - title: "posts"
+    url: /posts/ 
