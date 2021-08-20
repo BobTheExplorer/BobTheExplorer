@@ -15,7 +15,7 @@ author:
   location: "Bayside, NYC"
 entries_layout: grid
 
-published: false
+published: true
 ---
 
 
