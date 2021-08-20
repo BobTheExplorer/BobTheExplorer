@@ -7,6 +7,8 @@ layout: archive
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].Posts | default: "Posts" }}</h3>
+<meta name="Urban exploration in NYC" content="Urban exploration in NYC">
+
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
@@ -20,5 +22,4 @@ layout: archive
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
-<meta name="Urban exploration in NYC" content="Urban exploration in NYC">
 {% include paginator.html %}
