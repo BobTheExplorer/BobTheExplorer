@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "test"
+  #- title: "test"
     url: https://google.com
-  - title: "posts"
+  #- title: "posts"
     url: /Fort-Tilden/ 
