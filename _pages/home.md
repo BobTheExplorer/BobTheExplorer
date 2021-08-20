@@ -31,7 +31,22 @@ feature_row:
     excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
     url: "_posts/2021-05-24-Fort-Tilden.md"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Learn more"  
+    
+    
+    
+published: true
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 {% include feature_row %}
