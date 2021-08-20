@@ -1,6 +1,4 @@
 # main links
 main:
- # - title: "test"
-    url: /master/_posts/
-  #- title: "posts"
+  - title: "posts"
     url: /Fort-Tilden/ 
