@@ -1,8 +1,8 @@
 # main links
 main:
-   title: "DethTech"
-    url: "https://soundcloud.com/psychwardofficial/sets/psych-ward-volume-1"
-  # title: "Sample Collections"
-     url: 
+  # title: 
+    url: 
+   title: "Sample Collections"
+     url: "https://mmistakes.github.io/minimal-mistakes/docs/helpers/#feature-row"
   # title: "Sitemap"
      url: 
