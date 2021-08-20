@@ -1,8 +1,4 @@
 # main links
 main:
-  # title: 
-    url: 
-   title: "Sample Collections"
-     url: "https://mmistakes.github.io/minimal-mistakes/docs/helpers/#feature-row"
-  # title: "Sitemap"
-     url: 
+  - title: "Quick-Start Guide"
+    url: https://google.com
