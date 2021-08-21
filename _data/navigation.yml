@@ -2,6 +2,8 @@
 main:
   - title: "posts"
     url: /Fort-Tilden/ 
+  - title: "New Page"
+    url: /home/
     
 #_data/navigation.yml
 foo:
