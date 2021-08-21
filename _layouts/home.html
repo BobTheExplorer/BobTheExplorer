@@ -1,6 +1,8 @@
 ---
 layout: archive
 ---
+
+{% include toc %}
 <div class="sidebar sticky" style="width:100px;left:82" id="mySidebar">
   <a href="#" class="w3-bar-item w3-button">Link 1</a>
   <a href="#" class="w3-bar-item w3-button">Link 2</a>
@@ -23,7 +25,6 @@ layout: archive
   {% assign posts = site.posts %}
 {% endif %}
 
-{% include toc %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
