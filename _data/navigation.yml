@@ -10,7 +10,7 @@ foo:
  - title: Queens
     children:
       - title: "Fort Tilden"
-        url: /Fort-Tilden/
+        url: https://www.obscuredny.com/queens/Fort-Tilden/
       - title: "Fort Totten"
         url: 
       - title: "Forgotten LIRR train"
