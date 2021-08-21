@@ -256,7 +256,21 @@ figure {
     figcaption {
       width: 100%;
     }
+    }
+
+  &.fourth {
+    > a,
+    > img {
+      @include breakpoint($large) {
+        width: calc(23.3333% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    
   }
+}
 }
 
 /* Figure captions */
