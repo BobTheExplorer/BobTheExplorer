@@ -1,7 +1,7 @@
 ---
 sidebar:
   nav: "foo"
-layout: archive
+layout: home
 permalink: /home/
 
 published: true
