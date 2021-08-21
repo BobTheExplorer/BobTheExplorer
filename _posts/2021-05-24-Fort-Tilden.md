@@ -14,6 +14,8 @@ author:
       url: "https://www.instagram.com/shmuster_the_third/"
   location: "Rockaway Beach, NYC"
 entries_layout: grid
+categories:
+  - Rockaway
 gallery:
   - url: /assets/images/forttilden/MissileLaunch.webp
     image_path: /assets/images/forttilden/MissileLaunch.webp
