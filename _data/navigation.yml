@@ -8,15 +8,7 @@ main:
 #_data/navigation.yml
 foo:
  - title: Queens
-    children:
-      - title: "Fort Tilden"
-        url: https://www.obscuredny.com/queens/Fort-Tilden/
-      - title: "Fort Totten"
-        url: 
-      - title: "Forgotten LIRR train"
-        url: 
-      - title: "1964 World's Fair Site"
-        url: 
+   url: https://www.obscuredny.com/queens/Fort-Tilden/
 
   - title: Brookyln
     children:
