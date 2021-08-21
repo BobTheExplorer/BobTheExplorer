@@ -5,8 +5,8 @@ main:
 foo:
   - title: Getting Started
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+      - title: "Fort Tilden"
+        url: /Fort-Tilden/
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"
