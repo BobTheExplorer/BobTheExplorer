@@ -3,22 +3,22 @@ main:
     url: /home/
 
 foo:
-  - title: Getting Started
+  - title: Queens
     children:
       - title: "Fort Tilden"
         url: /queens/Fort-Tilden/
-      - title: "Structure"
+      - title: "Fort Totten"
         url: /docs/structure/
-      - title: "Installation"
+      - title: "Forgotten LIRR Train"
         url: /docs/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
 
-  - title: Customization
+  - title: Brookyln
     children:
-      - title: "Configuration"
+      - title: "The East LIRR Station"
         url: /docs/configuration/
-      - title: "Navigation"
+      - title: "Floyd Bennet Airfield"
         url: /docs/navigation/
       - title: "UI Text"
         url: /docs/ui-text/
@@ -27,11 +27,11 @@ foo:
       - title: "Layouts"
         url: /docs/layouts/
 
-  - title: Content
+  - title: Staten Island
     children:
-      - title: "Working with Posts"
+      - title: "The NYC Farm Colony"
         url: /docs/posts/
-      - title: "Working with Pages"
+      - title: "Fort Wadsworth"
         url: /docs/pages/
       - title: "Working with Collections"
         url: /docs/collections/
@@ -40,7 +40,7 @@ foo:
       - title: "Utility Classes"
         url: /docs/utility-classes/
 
-  - title: Extras
+  - title: The Bronx
     children:
       - title: "Stylesheets"
         url: /docs/stylesheets/
