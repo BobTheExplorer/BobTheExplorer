@@ -6,7 +6,7 @@ foo:
   - title: Getting Started
     children:
       - title: "Fort Tilden"
-        url: /Fort-Tilden/
+        url: /queens/Fort-Tilden/
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"
