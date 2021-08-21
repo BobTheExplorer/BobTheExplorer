@@ -1,7 +1,5 @@
 main:
-  - title: "posts"
-    url: 
-  - title: "New Page"
+ - title: "Posts"
     url: /home/
 
 foo:
