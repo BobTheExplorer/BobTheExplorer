@@ -15,7 +15,7 @@ author:
   location: "Rockaway Beach, NYC"
 entries_layout: grid
 categories:
-  - Rockaway
+  - Queens
 gallery:
   - url: /assets/images/forttilden/MissileLaunch.webp
     image_path: /assets/images/forttilden/MissileLaunch.webp
