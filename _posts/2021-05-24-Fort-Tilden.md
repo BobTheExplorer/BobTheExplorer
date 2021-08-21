@@ -33,6 +33,15 @@ gallery:
     image_path: /assets/images/forttilden/Speaker.webp
     alt: "placeholder image 2"
     title: "Old Speaker hanging from old wire"
+sidebar:
+  - title: "Title"
+    image: "/assets/images/your-image.jpg"
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+    nav: sidebar-sample
+
 
     
 
