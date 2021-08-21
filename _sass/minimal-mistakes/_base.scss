@@ -249,7 +249,7 @@ figure {
     > a,
     > img {
       @include breakpoint($large) {
-        width: calc(28.3333% - 0.5em);
+        width: calc(33.3333% - 0.5em);
       }
     }
 
@@ -258,18 +258,6 @@ figure {
     }
     }
 
-  &.fourth {
-    > a,
-    > img {
-      @include breakpoint($large) {
-        width: calc(23.3333% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    
-  }
 }
 }
 
