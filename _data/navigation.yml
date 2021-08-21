@@ -7,8 +7,45 @@ main:
     
 #_data/navigation.yml
 foo:
-  - title: "Fort Tilden"
-    url: /queens/Fort-Tilden/
+ - title: Queens
+    children:
+      - title: "Fort Tilden"
+        url: /queens/Fort-Tilden/
+      - title: "Fort Totten"
+        url: 
+      - title: "Forgotten LIRR train"
+        url: 
+      - title: "1964 World's Fair Site"
+        url: 
 
-  - title: "Link 2 Title"
-    url: https://www.youtube.com/watch?v=P_Uk3nUpiWk
+  - title: Brookyln
+    children:
+      - title: "The East LIRR Station"
+        url: 
+      
+  - title: Bronx
+    children:
+      - title: "Working with Posts"
+        url: 
+      - title: "Working with Pages"
+        url: 
+      - title: "Working with Collections"
+        url: 
+      - title: "Helpers"
+        url: 
+      - title: "Utility Classes"
+        url: 
+
+  - title: Manhatten 
+    children:
+      - title: "Stylesheets"
+        url: 
+      - title: "JavaScript"
+        url: 
+        
+  - title: Staten Island
+    children:
+      - title: "The NYC Farm Colony"
+        url: /docs/stylesheets/
+      - title: "Fort Wadsworth"
+        url: /docs/javascript/
