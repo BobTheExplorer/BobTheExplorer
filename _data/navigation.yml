@@ -1,19 +1,24 @@
-# main links
-main:
-  - title: "posts"
-    url: 
-  - title: "New Page"
-    url: /home/
-    
-#_data/navigation.yml
-foo:
- - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
+--- 
+foo: 
+  - 
+    children: 
+      - 
+        title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
-      - title: "Structure"
+      - 
+        title: Structure
         url: /docs/structure/
-      - title: "Installation"
+      - 
+        title: Installation
         url: /docs/installation/
-      - title: "Upgrading"
+      - 
+        title: Upgrading
         url: /docs/upgrading/
+    title: "Getting Started"
+main: 
+  - 
+    title: posts
+    url: ~
+  - 
+    title: "New Page"
+    url: /home/
