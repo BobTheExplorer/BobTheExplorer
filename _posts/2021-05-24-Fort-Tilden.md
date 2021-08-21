@@ -33,11 +33,7 @@ gallery:
     image_path: /assets/images/forttilden/Speaker.webp
     alt: "placeholder image 2"
     title: "Old Speaker hanging from old wire"
-sidebar:
-  nav: "foo"
   
-
- 
  
 
 published: true
