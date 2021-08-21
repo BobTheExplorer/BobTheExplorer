@@ -2,3 +2,11 @@
 main:
   - title: "posts"
     url: /Fort-Tilden/ 
+    
+#_data/navigation.yml
+foo:
+  - title: "Fort Tilden"
+    url: /queens/Fort-Tilden/
+
+  - title: "Link 2 Title"
+    url: https://www.youtube.com/watch?v=P_Uk3nUpiWk
