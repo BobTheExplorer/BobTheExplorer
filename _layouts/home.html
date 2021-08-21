@@ -8,9 +8,6 @@ toc_icon: "heart"
 
 ---
 
-{% include toc %}
-
-
 {{ content }}
 
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -24,6 +21,8 @@ toc_icon: "heart"
 {% else %}
   {% assign posts = site.posts %}
 {% endif %}
+
+{% include toc %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
