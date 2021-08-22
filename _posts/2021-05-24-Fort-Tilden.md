@@ -1,5 +1,7 @@
 ---
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
+header:
+  overlay_image: /assets/images/forttilden/fuckingplease.jpg
+  excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
 layout:
 author_profile: true
 author:
