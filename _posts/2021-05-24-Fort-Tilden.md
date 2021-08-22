@@ -1,7 +1,6 @@
 ---
 header:
   overlay_image: /assets/images/forttilden/fuckingplease.jpg
-  excerpt: "Exploring the forgotten military base"
 layout:
 author_profile: true
 author:
