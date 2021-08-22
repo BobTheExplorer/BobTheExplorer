@@ -6,6 +6,18 @@ layout: single
 published = true
 ---
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
  <div class="row">
   <div class="column">
     <img src="/assets/images/frontpage/Power.webp" alt="Snow" style="width:100%">
