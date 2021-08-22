@@ -9,15 +9,15 @@ gallery:
   - url: /assets/images/gallery/Kessler.webp
     image_path: /assets/images/gallery/Kessler.webp
     alt: "placeholder image 2"
-    title: "Entry way to another escape hatch" 
-  - url: /assets/images/gallery/Bunker.webp
-    image_path: /assets/images/gallery/Bunker.webp
+    title: "Battery Kessler from a distance" 
+  - url: /assets/images/gallery/Kessler.webp
+    image_path: /assets/images/gallery/Kessler.webp
     alt: "placeholder image 2"
-    title: "Proper iron door to shield off explosions or radiation" 
+    title: "Heavy duty gates bar anyone from entering inside" 
   - url: /assets/images/gallery/Building1.webp
     image_path: /assets/images/gallery/Building1.webp
     alt: "placeholder image 2"
-    title: "Old Speaker hanging from old wire"
+    title: "Former NIKE tracking station"
   
 
 published: true
