@@ -14,8 +14,8 @@ gallery:
     image_path: /assets/images/forttilden/HeavyDutyCastIronDoor.webp
     alt: "placeholder image 2"
     title: "Proper iron door to shield off explosions or radiation" 
-  - url: /assets/images/forttilden/Speaker.webp
-    image_path: /assets/images/forttilden/Speaker.webp
+  - url: /assets/images/gallery/Building1.webp
+    image_path: /assets/images/gallery/Building1.webp
     alt: "placeholder image 2"
     title: "Old Speaker hanging from old wire"
   
