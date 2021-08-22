@@ -1,7 +1,6 @@
 ---
 header:
   overlay_image: /assets/images/forttilden/fuckingplease.jpg
-excerpt: "The Forgotten Army Base"
 layout:
 author_profile: true
 author:
@@ -33,6 +32,9 @@ gallery:
     image_path: /assets/images/forttilden/Speaker.webp
     alt: "placeholder image 2"
     title: "Old Speaker hanging from old wire"
+  
+  
+excerpt: "Website made for exploring the abandoned and forgotten"
   
  
 
