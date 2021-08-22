@@ -1,7 +1,7 @@
 ---
 header:
   overlay_image: /assets/images/forttilden/fuckingplease.jpg
-layout:
+layout:single
 author_profile: true
 author:
   name: "Dushman"
