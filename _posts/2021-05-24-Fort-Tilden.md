@@ -5,10 +5,6 @@ author:
   name: "Dushman"
   avatar: "/assets/images/smaller.jpg"
   bio: "Residental Researcher"
-  links:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/shmuster_the_third/"
   location: "Rockaway Beach, NYC"
 entries_layout: grid
 categories:
