@@ -1,6 +1,7 @@
 ---
 header:
   overlay_image: /assets/images/forttilden/fuckingplease.jpg
+  excerpt: "Exploring the forgotten military base"
 layout:
 author_profile: true
 author:
@@ -34,7 +35,6 @@ gallery:
     title: "Old Speaker hanging from old wire"
   
   
-excerpt: "Website made for exploring the abandoned and forgotten"
   
  
 
