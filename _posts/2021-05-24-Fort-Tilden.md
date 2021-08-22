@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout:
 author_profile: true
 author:
   name: "Dushman"
@@ -11,7 +11,6 @@ author:
       url: "https://www.instagram.com/shmuster_the_third/"
   location: "Rockaway Beach, NYC"
 entries_layout: grid
-  excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
 categories:
   - Queens
 gallery:
