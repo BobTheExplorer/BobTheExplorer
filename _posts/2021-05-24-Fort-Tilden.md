@@ -1,4 +1,7 @@
 ---
+header:
+  overlay_image: /assets/images/forttilden/fuckingplease.jpg
+excerpt: "The Forgotten Army Base"
 layout:
 author_profile: true
 author:
