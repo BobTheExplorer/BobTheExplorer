@@ -2,8 +2,8 @@
 layout: splash
 permalink: /gallery/
 gallery:
-  - url: /assets/images/gallery/MissileLaunch.webp
-    image_path: /assets/images/gallery/MissileLaunch.webp
+  - url: /assets/images/forttilden/MissileLaunch.webp
+    image_path: /assets/images/forttilden/MissileLaunch.webp
     alt: "placeholder image 1"
     title: "The NIKE missile would be lifted up this platform to up above for launch" 
   - url: /assets/images/gallery/Kessler.webp
