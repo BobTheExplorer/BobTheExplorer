@@ -1,5 +1,5 @@
 ---
-layout:
+layout: splash
 author_profile: true
 author:
   name: "Dushman"
