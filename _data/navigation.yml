@@ -1,7 +1,7 @@
 main:
   - title: "Posts"
     url: /home/
-  - title: "Photo-Gallery"
+  - title: "Photo Gallery"
     url: /gallery/
 
 foo:
