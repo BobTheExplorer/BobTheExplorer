@@ -10,8 +10,8 @@ gallery:
     image_path: /assets/images/gallery/Kessler.webp
     alt: "placeholder image 2"
     title: "Battery Kessler from a distance" 
-  - url: /assets/images/gallery/Kessler.webp
-    image_path: /assets/images/gallery/Kessler.webp
+  - url: /assets/images/gallery/Bunker.webp
+    image_path: /assets/images/gallery/Bunker.webp
     alt: "placeholder image 2"
     title: "Heavy duty gates bar anyone from entering inside" 
   - url: /assets/images/gallery/Building1.webp
