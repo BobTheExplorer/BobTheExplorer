@@ -11,8 +11,6 @@ author:
       url: "https://www.instagram.com/shmuster_the_third/"
   location: "Rockaway Beach, NYC"
 entries_layout: grid
-header:
-  overlay_image: /assets/images/forttilden/FireControl.webp
   excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
 categories:
   - Queens
