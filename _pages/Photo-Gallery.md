@@ -24,4 +24,4 @@ published: true
 ---
 
 
-{% include gallery caption="Inside the bunker." %}
+{% include gallery %}
