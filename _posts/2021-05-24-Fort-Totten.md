@@ -20,8 +20,9 @@ published: false
 
 
 
-bal blah blah blah insert stuff about fort totten
 
+
+Willets farmhouse had been constructed in 1829 in a Greek Revival style, and is currently the oldest surviving structure at Fort Totten. It's existance predates the construction of the fort itself, it wasn't until the Goverment bought the land that the house came to be in it's current location. It's original location had been in the uppermost part of the penisula, so it would remain being used as engineers office for the Army Corps of Engineers. 
 
 
 
