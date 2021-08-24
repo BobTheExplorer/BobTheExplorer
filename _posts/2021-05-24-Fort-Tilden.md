@@ -7,6 +7,7 @@ author:
   bio: "Residental Researcher"
   location: "Rockaway Beach, NYC"
 entries_layout: grid
+excerpt: BLA BALALALLALLALALA
 categories:
   - Queens
 gallery:
