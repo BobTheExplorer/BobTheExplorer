@@ -7,7 +7,7 @@ author:
   bio: "Residental Researcher"
   location: "Rockaway Beach, NYC"
 entries_layout: grid
-excerpt: BLA BALALALLALLALALA
+excerpt: "A unique line of text to describe this post that will display in an archive listing and meta description with SEO benefits."
 categories:
   - Queens
 gallery:
