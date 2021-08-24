@@ -1,7 +1,7 @@
 ---
 header:
   overlay_image: /assets/images/URBEX pic_45.jpg
-excerpt: "The Forgotten Army Base"
+excerpt: "SMG"
 layout:
 author_profile: true
 author:
