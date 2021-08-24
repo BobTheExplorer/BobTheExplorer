@@ -1,5 +1,4 @@
 ---
-<meta name="description" content="How to quickly install and setup Minimal Mistakes for use with GitHub Pages.">
 layout: single
 author_profile: true
 author:
