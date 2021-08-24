@@ -6,8 +6,9 @@ author:
   avatar: "/assets/images/smaller.jpg"
   bio: "Residental Researcher"
   location: "Rockaway Beach, NYC"
-excerpt: "A unique line of text to describe this post that will display in an archive listing and meta description with SEO benefits."
-entries_layout: grid
+excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
+header:
+  overlay_color: "#333"entries_layout: grid
 categories:
   - Queens
 gallery:
