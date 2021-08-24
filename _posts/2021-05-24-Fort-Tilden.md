@@ -67,7 +67,6 @@ published: true
 
 
 
-{% raw %}{{ post.meta-description }}{% endraw %}
 
 
 
