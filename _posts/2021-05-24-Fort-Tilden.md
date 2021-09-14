@@ -6,7 +6,7 @@ author:
   avatar: "/assets/images/smaller.jpg"
   bio: "Residental Researcher"
   location: "Rockaway Beach, NYC"
-excerpt: "An Abandoned Cold War base"
+excerpt: "Beachside 'Bando"
 categories:
   - Queens
 gallery:
