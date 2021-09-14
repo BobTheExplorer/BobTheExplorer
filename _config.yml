@@ -19,7 +19,7 @@ title                    : "ObscuredNY"
 title_separator          : "-"
 subtitle                 : ""
 name                     : 
-description              : "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
+description              : "yes"
 url                      : #
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
