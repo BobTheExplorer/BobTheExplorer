@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: single
 author_profile: true
 author:
@@ -65,13 +66,6 @@ published: true
 {% include gallery caption="Inside the bunker." %}
 
 
-<script src="https://utteranc.es/client.js"
-        repo="sssssss"
-        issue-term="url"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-</script>
 
 
 
