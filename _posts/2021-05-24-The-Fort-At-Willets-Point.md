@@ -1,8 +1,8 @@
 ---
 header:
-  overlay_image: 
+  teaser:
 excerpt: "Also known as Fort Totten"
-layout:
+layout: single
 author_profile: true
 author:
   name: "Dushman"
@@ -13,6 +13,9 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/shmuster_the_third/"
   location: "Bayside, NYC"
+permalink: /queens/The-Fort-At-Willets-Point/
+categories:
+  - Queens
 entries_layout: grid
 
 published: false
