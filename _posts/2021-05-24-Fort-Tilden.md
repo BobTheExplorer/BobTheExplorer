@@ -2,6 +2,7 @@
 header:
   teaser: /assets/images/Waterside .jpg
 layout: single
+permalink: /queens/Fort-Tilden/
 author_profile: true
 author:
   name: "Dushman"
