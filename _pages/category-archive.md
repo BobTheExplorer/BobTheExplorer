@@ -1,6 +1,6 @@
 ---
 title: "Abandoned places in Queens"
 layout: categories
-permalink: /queens/
+permalink: /categories/
 published: true
 ---
