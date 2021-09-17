@@ -1,6 +1,6 @@
 ---
 header:
-teaser: /assets/images/smaller.jpg
+teaser: "/assets/images/URBEX pic_45.jpg"
 layout: single
 author_profile: true
 author:
