@@ -1,4 +1,5 @@
 ---
+header:
 teaser: "/assets/images/smaller.jpg"
 layout: single
 author_profile: true
