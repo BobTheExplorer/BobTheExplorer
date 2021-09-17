@@ -1,5 +1,5 @@
 ---
-comments: true
+teaser: "/assets/images/smaller.jpg"
 layout: single
 author_profile: true
 author:
