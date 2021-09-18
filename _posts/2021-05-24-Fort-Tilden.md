@@ -3,7 +3,7 @@ header:
   teaser: /assets/images/Waterside .jpg
 layout: single
 permalink: /queens/Fort-Tilden/
-author_profile: true
+author_profile: false
 author:
   name: "Dushman"
   avatar: "/assets/images/smaller.jpg"
