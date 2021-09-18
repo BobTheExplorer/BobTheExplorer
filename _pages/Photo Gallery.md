@@ -1,5 +1,6 @@
 ---
 layout: splash
+excerpt: Photos that look nice to gaze at
 permalink: /gallery/
 gallery:
   - url: /assets/images/forttilden/MissileLaunch.webp
