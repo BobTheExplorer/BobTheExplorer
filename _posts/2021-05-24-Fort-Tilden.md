@@ -72,6 +72,6 @@ published: true
 
 
 <div id="hashover"></div>
-<script type="text/javascript" src="/hashover/comments.php"></script>
+<script type="text/javascript" src="/folder/comments.php"></script>
 <noscript>You must have JavaScript enabled to use the comments.</noscript>
 
