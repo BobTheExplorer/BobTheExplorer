@@ -1,6 +1,7 @@
 ---
 header:
   teaser: /assets/images/forttotten/LockedMagazine.webp
+description: "Fort Totten is situated on the farmost edge of the Willets Point peninsula, facing the Long Island Sound and the neighboring Fort Schuyler. Both forts had been constructed during the third wave of naval fortifications after the devastating War of 1812. Construction on Fort Totten began in the year of 1862. Its development was spearheaded by William Petit Trowbridge, the then-current leader of the Army Engineer Agency of NYC."
 excerpt: "Also known as Fort Totten"
 layout: single
 author_profile: true
