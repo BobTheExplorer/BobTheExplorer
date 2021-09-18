@@ -3,8 +3,8 @@ sidebar:
   nav: "foo"
 layout: home
 permalink: /posts/
-description: "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-excerpt: "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
+description: "Articles about various abandoned places and their history"
+excerpt: "Articles about various abandoned places and their history"
 published: true
 ---
 
