@@ -1,6 +1,6 @@
 ---
 header:
-  teaser:
+  teaser: /assets/images/forttotten/LockedMagazine.webp
 excerpt: "Also known as Fort Totten"
 layout: single
 author_profile: true
@@ -18,7 +18,7 @@ categories:
   - Queens
 entries_layout: grid
 
-published: false
+published: true
 ---
 
 
