@@ -5,9 +5,9 @@ layout: single
 permalink: /queens/Fort-Tilden/
 author_profile: true
 author:
-  name: <br />         "Dushman"
+  name: "Dushman"
   avatar: "/assets/images/smaller.jpg"
-  bio: "Residental Researcher"
+  bio: "&emsp;&emsp; Residental Researcher"
   location: "Rockaway Beach, NYC"
 excerpt: "Beachside 'Bando"
 categories:
