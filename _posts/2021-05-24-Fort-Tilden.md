@@ -7,7 +7,7 @@ author_profile: true
 author:
   name: "&emsp; Dushman"
   avatar: "/assets/images/smaller.jpg"
-  bio: "&emsp; Residental Researcher"
+  bio: "&emsp;&emsp; Residental Researcher"
   location: "Rockaway Beach, NYC"
 excerpt: "Beachside 'Bando"
 categories:
