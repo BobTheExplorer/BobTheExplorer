@@ -10,9 +10,9 @@ author:
   avatar: "/assets/images/smaller.jpg"
   bio: "Residental Researcher"
   links:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/shmuster_the_third/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "https://soundcloud.com/gezebellegaburgably/i-dont-speak-to-whores?in=gezebellegaburgably/sets/giblin"
   location: "Bayside, NYC"
 permalink: /queens/The-Fort-At-Willets-Point/
 categories:
