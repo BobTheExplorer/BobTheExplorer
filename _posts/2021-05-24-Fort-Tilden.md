@@ -10,7 +10,7 @@ author:
   bio: "Residental Researcher"
   location: "Rockaway Beach, NYC"
   label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+  icon: "fab fa-fw fa-twitter-square"
       
 excerpt: "Beachside 'Bando"
 categories:
