@@ -85,6 +85,8 @@
           </a>
         </li>
       {% endif %}
+      
+      {% if page.share %}{% include social-share.html %}{% endif %} 
 
       {% if author.linkedin %}
         <li>
@@ -247,10 +249,7 @@
       {% endif %}
 
       {% include author-profile-custom-links.html %}
-       
-     
-      
-      {% if page.share %}{% include social-share.html %}{% endif %} 
+   
       
       
     </ul>
