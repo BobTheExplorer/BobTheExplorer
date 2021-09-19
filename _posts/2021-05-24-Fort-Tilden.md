@@ -9,8 +9,10 @@ author:
   avatar: "/assets/images/smaller.jpg"
   bio: "Residental Researcher"
   location: "Rockaway Beach, NYC"
-  label: "Twitter"
-  icon: "fab fa-fw fa-twitter-square"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:billyrick@rick.com"
       
 excerpt: "Beachside 'Bando"
 categories:
