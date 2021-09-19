@@ -258,9 +258,9 @@ transform: scale(1.1);
    ========================================================================== */
 
 .page__share {
-  margin-top: 0.5em;
-  padding-top: 0.5em;
-  border-top: 0.5px;
+  margin-top: 3em;
+  padding-top: 3em;
+  border-top: 1px;
 
   @include breakpoint(max-width $small) {
     .btn span {
