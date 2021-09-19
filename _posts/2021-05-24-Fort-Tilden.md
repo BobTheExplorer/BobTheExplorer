@@ -9,7 +9,6 @@ name: "Dushman"
 bio: "Residental Researcher."
 avatar: "/assets/images/smaller.jpg"
 location: "Rockaway NYC"
-excerpt: "Beachside 'Bando"
 links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -21,6 +20,7 @@ links:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/extravagantman"
       
+excerpt: "Beachside 'Bando"      
 categories:
   - Queens
 gallery:
