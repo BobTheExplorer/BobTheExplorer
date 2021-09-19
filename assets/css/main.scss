@@ -25,7 +25,6 @@ html {
   @include breakpoint($x-large) {
     font-size: 18px; // change to whatever
   }
-}
 
 .page__share-title {
     font-size: 18px;
