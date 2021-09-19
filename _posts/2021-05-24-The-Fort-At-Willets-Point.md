@@ -19,14 +19,15 @@ categories:
   - Queens
 entries_layout: grid
 
-published: false
+published: true
 ---
 
 
 
-
+{% include figure image_path="/assets/images/forttotten/coolimage.webp" %} 
 &emsp;&emsp; Fort Totten is situated on the farmost edge of the Willets Point peninsula, facing the Long Island Sound and the neighboring Fort Schuyler. Both forts had been constructed during the third wave of naval fortifications after the devastating War of 1812. Construction on Fort Totten began in the year of 1862. Its development was spearheaded by William Petit Trowbridge, the then-current leader of the Army Engineer Agency of NYC. His role in Army Engineers would place him in charge of obtaining materials for the construction and overseeing repairs to Governors' Island and the nearby Fort Schuyler. The original design of the fort was intended to be four stories tall as opposed to its current two-story design. Not only that but additional casemates would be built on the hill behind it, store rooms, quarters, and other military purposes. This plan would quickly be dropped mainly due to the sudden advancement of technology in the ongoing Civil War, such as rifled artillery that would reduce the chiseled stone walls to ashes. The walls are quite a thing to marvel at, the exterior is rough to stand against the harsh waves yet the interior is smooth. However, that is only one of the many genius technological ideas produced by Jospeh Gilbert Totten. A West Point graduate, responsible for this base's design and many more within the US. He had thought of a solution to the crew operating cannons facing deadly threats, grapeshot from enemy naval ships or snipers. The introduction of iron shutters which would close after firing the cannon, allowing the crew to be shielded when reloading. Something to take notice of is that the cannons used blackpowder to fire the shells towards their foes. The surrounding area would become engulfed in smoke as a result of the blackpowder. Thus, a ventilation system had been installed to prevent the crew from being deterred from reloading their cannons. As seen in the picture below.
-{% include figure image_path="/assets/images/forttotten/shuttered.webp" %}
+{% include figure image_path="/assets/images/forttotten/shuttered.webp" %} 
+
 
 
 
