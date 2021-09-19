@@ -11,6 +11,7 @@ author:
   location: "Rockaway Beach, NYC"
   label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
+      
 excerpt: "Beachside 'Bando"
 categories:
   - Queens
