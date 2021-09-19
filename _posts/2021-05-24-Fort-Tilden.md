@@ -4,7 +4,7 @@ header:
 layout: single
 permalink: /queens/Fort-Tilden/
 author_profile: true
-author: Dushman
+author: Cornelius Fiddlebone
 excerpt: "Beachside 'Bando"
 categories:
   - Queens
