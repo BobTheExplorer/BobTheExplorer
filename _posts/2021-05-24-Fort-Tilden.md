@@ -3,7 +3,6 @@ header:
   teaser: /assets/images/Waterside .jpg
 layout: single
 permalink: /queens/Fort-Tilden/
-author_profile: true
 author: Cornelius Fiddlebone
 excerpt: "Beachside 'Bando"
 categories:
