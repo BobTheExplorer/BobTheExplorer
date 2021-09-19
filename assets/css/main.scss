@@ -2,10 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-.page__share-title {
-    font-size: 10px;
-    font-weight: bold;
- }
+
 
 @charset "utf-8";
 
@@ -32,4 +29,7 @@ html {
   }
 }
 
-
+.page__share-title {
+    font-size: 10px;
+    font-weight: bold;
+ }
