@@ -18,7 +18,7 @@ author:
       url: "https://www.facebook.com/sharer/sharer.php"
     - label: "Share this article on Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/extravagantman"
+      url: "https://twitter.com/intent/tweet?"
       
 excerpt: "Beachside 'Bando"      
 categories:
