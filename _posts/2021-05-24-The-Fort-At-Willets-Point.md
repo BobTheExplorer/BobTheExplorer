@@ -8,7 +8,7 @@ author_profile: true
 author:
   name: "Dushman"
   avatar: "/assets/images/smaller.jpg"
-  bio: "Residental Researcher"
+  bio: "Civil War Conscript"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
