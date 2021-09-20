@@ -29,7 +29,7 @@ published: true
 
 {% include figure image_path="/assets/images/forttotten/shuttered.webp" %} 
 
-  The cannons themselves were actually fair large, as result of this there is only a small walkway for its crew. Funnily enough this path had been nicknamed the "Monkeys Run" due to how crew members looked lugging heavy shells into the cannon. To get a sense of scale of these cannons, they would of the size of the stone column on the left all the way to the stone shutters. 
+&emsp;&emsp; The cannons themselves were actually fair large, as result of this there is only a small walkway for its crew. Funnily enough this path had been nicknamed the "Monkeys Run" due to how crew members looked lugging heavy shells into the cannon. To get a sense of scale of these cannons, they would of the size of the stone column on the left all the way to the shutters. 
   
 {% include figure image_path="/assets/images/forttotten/Scale.webp" %} 
 
