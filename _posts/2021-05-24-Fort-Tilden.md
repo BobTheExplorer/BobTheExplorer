@@ -73,7 +73,7 @@ published: true
 
 {% include gallery caption="Inside the bunker." %}
 
-{% include gallery slideshow.html %}
+{% include gallery slideshow %}
 
 
 
