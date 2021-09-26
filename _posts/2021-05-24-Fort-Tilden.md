@@ -2,6 +2,7 @@
 header:
   teaser: /assets/images/Waterside .jpg
 layout: single
+slideshow:
 permalink: /queens/Fort-Tilden/
 author_profile: true
 author: 
@@ -62,7 +63,7 @@ published: true
 
 
 ---
-{% include slideshow.html %}
+{% include  %}
 
 &emsp;&emsp; A twenty minute walk from Jacob Riis Park lies the former naval base and current National Park, Fort Tilden. The missiles and naval artillery were traded in for athletic fields, hiking trails for the adventurous, and a center for arts. Despite the old military weaponry being done away with, the historic buildings of the naval base remain to this very day.
   
