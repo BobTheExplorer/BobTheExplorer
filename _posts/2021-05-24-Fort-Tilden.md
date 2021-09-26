@@ -13,7 +13,7 @@ author:
  links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "https://soundcloud.com/gezebellegaburgably/i-dont-speak-to-whores?in=gezebellegaburgably/sets/giblin"
+      url: ""
 
       
 excerpt: "Beachside 'Bando"      
