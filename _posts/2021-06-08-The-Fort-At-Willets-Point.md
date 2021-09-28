@@ -19,7 +19,7 @@ categories:
   - Queens
 entries_layout: grid
 
-published: false
+published: true
 ---
 
 
