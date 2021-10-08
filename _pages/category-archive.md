@@ -6,4 +6,4 @@ permalink: /categories/
 published: true
 ---
 
-<title>Abandoned places within NY State<title>
+<title>Abandoned places within NY State</title>
