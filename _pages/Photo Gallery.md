@@ -27,6 +27,9 @@ gallery:
     image_path: https://live.staticflickr.com/65535/50325025232_9f7faa19fb_k.jpg
     alt: "placeholder image 2"
     title: "Inside one of the the bunkers"
+    url: "https://www.youtube.com/watch?v=oJY7KZ8vnug"
+    btn_label: "1"
+    btn_class: "btn--inverse"   
   
   
 
