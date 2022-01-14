@@ -11,14 +11,23 @@ gallery:
     image_path: /assets/images/gallery/Bunker.webp
     alt: "placeholder image 2"
     title: "Battery Kessler from a distance" 
-  - url: /assets/images/gallery/Kessler.webp
-    image_path: /assets/images/gallery/Kessler.webp
+  - url: https://live.staticflickr.com/65535/50318245343_43dc89556f_k.jpg
+    image_path: https://live.staticflickr.com/65535/50318245343_43dc89556f_k.jpg
     alt: "placeholder image 2"
     title: "Heavy duty gates bar anyone from entering inside" 
-  - url: /assets/images/gallery/Building1.webp
-    image_path: /assets/images/gallery/Building1.webp
+  - url: https://live.staticflickr.com/65535/50424849278_3efdb562dd_k.jpg
+    image_path: https://live.staticflickr.com/65535/50424849278_3efdb562dd_k.jpg
     alt: "placeholder image 2"
     title: "Former NIKE tracking station"
+  - url: https://live.staticflickr.com/65535/50315220737_687b5ba30d_k.jpg
+    image_path: https://live.staticflickr.com/65535/50315220737_687b5ba30d_k.jpg
+    alt: "placeholder image 2"
+    title: "Former power plant"
+  - url: https://live.staticflickr.com/65535/50325025232_9f7faa19fb_k.jpg
+    image_path: https://live.staticflickr.com/65535/50325025232_9f7faa19fb_k.jpg
+    alt: "placeholder image 2"
+    title: "Inside one of the the bunkers"
+  
   
 
 published: true
