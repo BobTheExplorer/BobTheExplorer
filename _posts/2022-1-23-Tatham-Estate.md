@@ -40,5 +40,3 @@ published: true
 
 {% include figure image_path="https://live.staticflickr.com/65535/51839773208_2b0a89b271_o.jpg" %}
 Not too long after the previous owner's passing, the property would be bought by one Warner D. Orvis. A former senior partner of Orvis Brothers & Co., member of the New York Stock Exchange, and part of the executive committee of Manhattan Savings Bank. With his accumulative wealth renovations would be done to the house and the surrounding woods. Such renovations would include the addition of a pool house and showcase gardens, some plants from the garden still remain to this very day. 34 years later its owner would meet his demise, as he would perish on June 28, 1967.
-
-{% include gallery1 caption="Inside the decadent halls of The Tatham House." %}
