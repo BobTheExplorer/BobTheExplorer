@@ -4,48 +4,48 @@ main:
   - title: "Photo Gallery"
     url: /gallery/
 
-foo:
-  - title: "Queens"
-    url: /categories/#queens
-    children:
-      - title: "Fort Tilden"
-        url: /queens/Fort-Tilden/
-      - title: "Fort Totten"
-        url: /queens/The-Fort-At-Willets-Point/
-      - title: "Train 9811"
-        url: /queens/Train-9811/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+# foo:
+#  - title: "Queens"
+#    url: /categories/#queens
+#    children:
+#      - title: "Fort Tilden"
+#        url: /queens/Fort-Tilden/
+#      - title: "Fort Totten"
+#        url: /queens/The-Fort-At-Willets-Point/
+#      - title: "Train 9811"
+#        url: /queens/Train-9811/
+#      - title: "Upgrading"
+#        url: /docs/upgrading/
 
-  - title: Brookyln
-    children:
-      - title: "The East LIRR Station"
-        url: /docs/configuration/
-      - title: "Floyd Bennet Airfield"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+#  - title: Brookyln
+#    children:
+#      - title: "The East LIRR Station"
+#        url: /docs/configuration/
+#      - title: "Floyd Bennet Airfield"
+#        url: /docs/navigation/
+#      - title: "UI Text"
+#        url: /docs/ui-text/
+#      - title: "Authors"
+#        url: /docs/authors/
+#      - title: "Layouts"
+#        url: /docs/layouts/
 
-  - title: Staten Island
-    children:
-      - title: "The NYC Farm Colony"
-        url: /docs/posts/
-      - title: "Fort Wadsworth"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
+#  - title: Staten Island
+#    children:
+#      - title: "The NYC Farm Colony"
+#        url: /docs/posts/
+#      - title: "Fort Wadsworth"
+#        url: /docs/pages/
+#      - title: "Working with Collections"
+#        url: /docs/collections/
+#      - title: "Helpers"
+#        url: /docs/helpers/
+#      - title: "Utility Classes"
+#        url: /docs/utility-classes/
 
-  - title: The Bronx
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+#  - title: The Bronx
+#    children:
+#      - title: "Stylesheets"
+#        url: /docs/stylesheets/
+#      - title: "JavaScript"
+#        url: /docs/javascript/
