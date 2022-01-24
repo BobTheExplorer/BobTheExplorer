@@ -3,13 +3,13 @@ header:
   teaser: /assets/images/Waterside .jpg
 layout: single
 slideshow:
-permalink: /queens/Fort-Tilden/
+permalink: /Tatham-Estate/
 author_profile: true
 author: 
  name: "Dushman"
  bio: "Residental Researcher."
  avatar: "/assets/images/smaller.jpg"
- location: "Rockaway NYC"  
+ location: "Westchester County"  
  links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
