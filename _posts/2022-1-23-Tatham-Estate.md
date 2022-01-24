@@ -14,17 +14,17 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: ""
  gallery:
-  - url: "https://live.staticflickr.com/65535/51841170986_fe23fcfff3_o.jpg"
-    image_path: "https://live.staticflickr.com/65535/51841170986_fe23fcfff3_o.jpg"
+  - url: https://live.staticflickr.com/65535/51841170986_fe23fcfff3_o.jpg
+    image_path: https://live.staticflickr.com/65535/51841170986_fe23fcfff3_o.jpg
     alt: "One of the many rooms"
-  - url: "https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg"
-    image_path: "https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg" 
+  - url: https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg
+    image_path: https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg
     alt: "Third floor dwelling"
-  - url: "https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg"
-    image_path: "https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg"
+  - url: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg
+    image_path: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg
     alt: "Possibly an office"
-  - url: "https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg"
-    image_path: "https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg"
+  - url: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
+    image_path: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
     alt: "Furnace ideal for burning oil and providing heating for a three story household"
 
       
