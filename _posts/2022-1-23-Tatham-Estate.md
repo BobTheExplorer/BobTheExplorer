@@ -13,17 +13,32 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: ""
+ gallery1:
+  - url: https://live.staticflickr.com/65535/51841170986_fe23fcfff3_o.jpg
+    image_path: https://live.staticflickr.com/65535/51841170986_fe23fcfff3_o.jpg
+    alt: "One of the many rooms"
+  - url: https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg
+    image_path: https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg 
+    alt: "Third floor dwelling"
+  - url: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg
+    image_path: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg
+    alt: "Possibly an office"
+  - url: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
+    image_path: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
+    alt: "Furnace ideal for burning oil and providing heating for a three story household"
 
       
 excerpt: "Real estate housing gone awry"       
-published: false
+published: true
 ---
 
 
 
 {% include figure image_path="https://live.staticflickr.com/65535/51839831210_8d9116af2e_o.jpg" %}
 
-&emsp;&emsp;The Tatham House stands above all on the peak of a hill, watching passerbys since its inception in 1908. Though the exact date of its construction is still the subject of controversy among historians. Even the style of which the house had been built in still has no definite answer, due to poor record-keeping of past. However, the consensus is that it was constructed sometime between the years 1908 to 1916 and built-in either a Spanish or Mediterranean revival architectural style. The grandiose size of the house is reflected by the amount of wealth Edwin Tatham had. He had been known as the founder of the Northern Westchester bank and also the sole president of it. Serving as the president since creating the bank in 1919, and beforehand he had aided his father's family business. The property and his servants would serve him well until his passing on January 2, 1933. 
+&emsp;&emsp;The Tatham House stands above all on the peak of a hill, watching passerby's since its inception in 1908. Though the exact date of its construction is still the subject of controversy among historians. Even the style of which the house had been built in still has no definite answer, due to poor record-keeping of past. However, the consensus is that it was constructed sometime between the years 1908 to 1916 and built-in either a Spanish or Mediterranean revival architectural style. The grandiose size of the house is reflected by the amount of wealth Edwin Tatham had. He had been known as the founder of the Northern Westchester bank and also the sole president of it. Serving as the president since creating the bank in 1919, and beforehand he had aided his father's family business. The property and his servants would serve him well until his passing on January 2, 1933. 
 
 {% include figure image_path="https://live.staticflickr.com/65535/51839773208_2b0a89b271_o.jpg" %}
-Not too long after the previous owners passing the property would be bought by one Warner D. Orvis. A former senior partner of Orvis Brothers & Co., member of the New York Stock Exchange, and part of the executive committe of Manhattan Savings Bank. With his accumulative wealth renovations would be done to the house and the surrounding woods . Such renovations would include the addition of a pool house and showcase gardens, some plants from the garden still remain to this very day. 34 years later its owner would meet his demise, as he would persish on June 28, 1967.
+Not too long after the previous owner's passing, the property would be bought by one Warner D. Orvis. A former senior partner of Orvis Brothers & Co., member of the New York Stock Exchange, and part of the executive committee of Manhattan Savings Bank. With his accumulative wealth renovations would be done to the house and the surrounding woods. Such renovations would include the addition of a pool house and showcase gardens, some plants from the garden still remain to this very day. 34 years later its owner would meet his demise, as he would perish on June 28, 1967.
+
+{% include gallery1 caption="Inside the decadent halls of The Tatham House." %}
