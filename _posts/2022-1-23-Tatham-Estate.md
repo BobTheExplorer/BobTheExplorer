@@ -36,7 +36,7 @@ published: true
 
 
 
-{% img src="https://live.staticflickr.com/65535/51839773208_06abd17c33_k.jpg" width="2048" height="1365" %}
+{% {% include figure image_path="https://live.staticflickr.com/65535/51839773208_06abd17c33_k.jpg" width="2048" height="1365" %}
 
 &emsp;&emsp;The Tatham House stands above all on the peak of a hill, watching passerby's since its inception in 1908. Though the exact date of its construction is still the subject of controversy among historians. Even the style of which the house had been built in still has no definite answer, due to poor record-keeping of past. However, the consensus is that it was constructed sometime between the years 1908 to 1916 and built-in either a Spanish or Mediterranean revival architectural style. The grandiose size of the house is reflected by the amount of wealth Edwin Tatham had. He had been known as the founder of the Northern Westchester bank and also the sole president of it. Serving as the president since creating the bank in 1919, and beforehand he had aided his father's family business. The property and his servants would serve him well until his passing on January 2nd, 1933. 
 
