@@ -14,14 +14,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: ""
-      
-gallery2:
-  - url: https://live.staticflickr.com/65535/51840644402_ce907733e8_o.jpg
-    image_path: https://live.staticflickr.com/65535/51840644402_ce907733e8_o.jpg
-  - url: https://live.staticflickr.com/65535/51842323150_eb6618b922_o.jpg
-    image_path: https://live.staticflickr.com/65535/51842323150_eb6618b922_o.jpg
-  - url: https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg
-    image_path: https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg
     
 gallery:
   - url: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg
@@ -30,7 +22,13 @@ gallery:
     image_path: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
   - url: https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg
     image_path: https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg
-
+gallery2:
+  - url: https://live.staticflickr.com/65535/51840644402_ce907733e8_o.jpg
+    image_path: https://live.staticflickr.com/65535/51840644402_ce907733e8_o.jpg
+  - url: https://live.staticflickr.com/65535/51842323150_eb6618b922_o.jpg
+    image_path: https://live.staticflickr.com/65535/51842323150_eb6618b922_o.jpg
+  - url: https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg
+    image_path: https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg
       
 excerpt: "Real estate housing gone awry"       
 published: true
