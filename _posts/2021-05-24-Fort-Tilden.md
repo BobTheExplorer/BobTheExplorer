@@ -1,5 +1,6 @@
 ---
 header:
+  og_image: /assets/images/Waterside .jpg
   teaser: /assets/images/Waterside .jpg
 layout: single
 slideshow:
