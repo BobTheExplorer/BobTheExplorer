@@ -7,7 +7,7 @@ permalink: /Tatham-Estate/
 author_profile: true
 author: 
  name: "Dushman"
- bio: "Old money Extraordinaire"
+ bio: "Old money extraordinaire"
  avatar: "/assets/images/smaller.jpg"
  location: "Westchester County"  
  links:
