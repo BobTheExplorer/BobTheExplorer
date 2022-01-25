@@ -14,6 +14,15 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: ""
+      
+gallery2:
+  - url: https://live.staticflickr.com/65535/51840644402_ce907733e8_o.jpg
+    image_path: https://live.staticflickr.com/65535/51840644402_ce907733e8_o.jpg
+  - url: https://live.staticflickr.com/65535/51842323150_eb6618b922_o.jpg
+    image_path: https://live.staticflickr.com/65535/51842323150_eb6618b922_o.jpg
+  - url: https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg
+    image_path: https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg
+    
 gallery:
   - url: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg
     image_path: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg
@@ -41,3 +50,6 @@ Not too long after the previous owner's passing, the property would be bought by
 Three years after his death, the property would be bought and unsuccessfully transformed into a private hunting and fishing retreat. Despite this failure, another company would attempt to create a community within the former estate. The proposal was to build over 1,200 luxury homes on 840 acres of the estate, and 500 of those acres would be used for recreational activities. Tennis courts and an eighteen-hole golf course were just some of the possible uses, although the main attraction would be horse stables. As the community had been meant for those fond of horseback riding, according to its president it would be "*the finest equestrian community in the country*". It seems that the whole equestrian angle would be dropped sometime before 1976, as they had built and furnished some model homes and a sales office that year. For reasons unknown, any further progress on the condominium complex would be halted permanently. Afterwards, there was a proposal in 1988 to build an additional 278 homes that never came to fruition. After nine years, the estate would be handed to another developer who wished to expand on its infrastructure at the cost of demolishing Tatham House. Luckily, this proposal fell through much like the ones before it.
 
 Now fourty six years later both the Tatham House and the failed condominium complex still stand but barely when it comes to some of the buildings. Black mold occupies the ceilings of the model homes. Various leaflets are scattered through out some of the homes warning any lost hikers of asbestoes and hantavirus, which has fallen on deaf ears. As many of buildings have had their unique dated wallpaper updated with this years latest graffiti from the local juvenile population. Most walls have had their walls kicked or punched in.
+
+
+{% include gallery2 caption="Remains of the proposed community." %}
