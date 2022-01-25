@@ -31,12 +31,12 @@ gallery2:
     image_path: https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg
       
 excerpt: "Real estate housing gone awry"       
-published: false
+published: true
 ---
 
 
 
-{% include figure image_path="https://live.staticflickr.com/65535/51839831210_8d9116af2e_o.jpg" %}
+{% img src="https://live.staticflickr.com/65535/51839773208_06abd17c33_k.jpg" width="2048" height="1365" %}
 
 &emsp;&emsp;The Tatham House stands above all on the peak of a hill, watching passerby's since its inception in 1908. Though the exact date of its construction is still the subject of controversy among historians. Even the style of which the house had been built in still has no definite answer, due to poor record-keeping of past. However, the consensus is that it was constructed sometime between the years 1908 to 1916 and built-in either a Spanish or Mediterranean revival architectural style. The grandiose size of the house is reflected by the amount of wealth Edwin Tatham had. He had been known as the founder of the Northern Westchester bank and also the sole president of it. Serving as the president since creating the bank in 1919, and beforehand he had aided his father's family business. The property and his servants would serve him well until his passing on January 2nd, 1933. 
 
@@ -47,5 +47,5 @@ Not too long after the previous owner's passing, the property would be bought by
 {% include gallery caption="Inside the halls of Tatham's house." %}
 Three years after his death, the property would be bought and unsuccessfully transformed into a private hunting and fishing retreat. Despite this failure, another company would attempt to create a community within the former estate. The proposal was to build over 1,200 luxury homes on 840 acres of the estate, and 500 of those acres would be used for recreational activities. Tennis courts and an eighteen-hole golf course were just some of the possible uses, although the main attraction would be horse stables. As the community had been meant for those fond of horseback riding, according to its president it would be "*the finest equestrian community in the country*". It seems that the whole equestrian angle would be dropped sometime before 1976, as they had built and furnished some model homes and a sales office that year. For reasons unknown, any further progress on the condominium complex would be halted permanently. Afterwards, there was a proposal in 1988 to build an additional 278 homes that never came to fruition. After nine years, the estate would be handed to another developer who wished to expand on its infrastructure at the cost of demolishing Tatham House. Luckily, this proposal fell through much like the ones before it. 
 
-Now fourty six years later both the Tatham House and the failed condominium complex still stand but barely when it comes to some of the buildings. Black mold occupies the ceilings of the model homes. Various leaflets are scattered through out some of the homes warning any lost hikers of asbestoes and hantavirus, which has fallen on deaf ears. As many of buildings have had their unique dated wallpaper updated with this years latest graffiti from the local juvenile population. Most walls have had their walls kicked or punched in.
+Now fourty six years later both the Tatham House and the failed condominium complex still stand but barely when it comes to some of the buildings. Black mold occupies the ceilings of the model homes. Various leaflets are scattered through out some of the homes warning any lost hikers of asbestoes and hantavirus, which has fallen on deaf ears. As many of buildings have had their unique dated wallpaper updated with this years latest graffiti from the local juvenile population. As for the the sales office the interior has been gutted, as a fair amount of walls and windows have broken. 
 {% include gallery id="gallery2" caption="Remains of the proposed community." %}
