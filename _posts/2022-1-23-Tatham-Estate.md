@@ -50,4 +50,4 @@ Three years after his death, the property would be bought and unsuccessfully tra
 Now fourty six years later both the Tatham House and the failed condominium complex still stand but barely when it comes to some of the buildings. Black mold occupies the ceilings of the model homes. Various leaflets are scattered through out some of the homes warning any lost hikers of asbestoes and hantavirus, which has fallen on deaf ears. As many of buildings have had their unique dated wallpaper updated with this years latest graffiti from the local juvenile population. Most walls have had their walls kicked or punched in.
 
 
-{% include gallery2 caption="Remains of the proposed community." %}
+{% include gallery id="gallery2" caption="Remains of the proposed community." %}
