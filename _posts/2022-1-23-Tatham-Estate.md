@@ -31,7 +31,7 @@ gallery2:
     image_path: https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg
       
 excerpt: "Real estate housing gone awry"       
-published: false
+published: true
 ---
 
 
