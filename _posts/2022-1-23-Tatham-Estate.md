@@ -16,7 +16,7 @@ author:
       url: ""
     
 gallery:
-  - url: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg
+  - url: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg 
     image_path: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg
   - url: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
     image_path: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
