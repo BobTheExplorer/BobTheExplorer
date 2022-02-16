@@ -22,15 +22,25 @@ gallery:
     height: "1365"
   - url: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
     image_path: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
+    width: "2048"
+    height: "1365"
   - url: https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg
     image_path: https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg
+    width: "2048"
+    height: "1365"
 gallery2:
   - url: https://live.staticflickr.com/65535/51840644402_ce907733e8_o.jpg
     image_path: https://live.staticflickr.com/65535/51840644402_ce907733e8_o.jpg
+    width: "2048"
+    height: "1365"
   - url: https://live.staticflickr.com/65535/51842323150_eb6618b922_o.jpg
     image_path: https://live.staticflickr.com/65535/51842323150_eb6618b922_o.jpg
+    width: "2048"
+    height: "1365"
   - url: https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg
     image_path: https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg
+    width: "2048"
+    height: "1365"
       
 excerpt: "Real estate housing gone awry"       
 published: true
