@@ -18,6 +18,8 @@ author:
 gallery:
   - url: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg 
     image_path: https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg
+    width: "2048"
+    height: "1365"
   - url: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
     image_path: https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg
   - url: https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg
