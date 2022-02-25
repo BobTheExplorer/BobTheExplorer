@@ -1,6 +1,6 @@
 ---
 header:
-  image: "https://live.staticflickr.com/65535/51821105494_84705ff83c_o.jpg" 
+  image: /assets/images/tatem house.jpg
   og_image: "https://live.staticflickr.com/65535/51838719397_3617a3d651_o.jpg"
   teaser: "https://live.staticflickr.com/65535/51838719397_3617a3d651_o.jpg"
 layout: single
