@@ -1,5 +1,8 @@
 ---
 header:
+  image: https://live.staticflickr.com/65535/51821105494_4e0a6d6e1c_b.jpg" 
+  width="1024" 
+  height="688"
   og_image: "https://live.staticflickr.com/65535/51838719397_3617a3d651_o.jpg"
   teaser: "https://live.staticflickr.com/65535/51838719397_3617a3d651_o.jpg"
 layout: single
