@@ -146,11 +146,11 @@ function preload() {
 }
 
 preload(
-  'https://live.staticflickr.com/65535/51841171021_459fab4739_o.jpg',
-  'https://live.staticflickr.com/65535/51839670081_968fcf12d1_o.jpg',
-  'https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg',
-  'https://live.staticflickr.com/65535/51840644402_ce907733e8_o.jpg',
-  'https://live.staticflickr.com/65535/51842323150_eb6618b922_o.jpg',
-  'https://live.staticflickr.com/65535/51841948179_6df5de5b49_o.jpg'
+  '/assets/images/Tatham-Estate/luxury-home.webp'
+  '/assets/images/Tatham-Estate/luxury-home.webp'
+  '/assets/images/Tatham-Estate/luxury-home.webp'
+  '/assets/images/Tatham-Estate/room1.webp'
+  '/assets/images/Tatham-Estate/room2.webp'
+  '/assets/images/Tatham-Estate/room3.webp'
 });
 
