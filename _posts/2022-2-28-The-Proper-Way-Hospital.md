@@ -46,4 +46,4 @@ excerpt: "One of Queens only private hospitals shuttered"
 published: false
 ---
 
-Smack dab in a in a idealic Queens neighorhood lies the former Proper Way Hospital.
+Smack dab in a in a idealic Queens neighorhood lies the former Proper Way Hospital.(One hundred beds)
