@@ -28,6 +28,7 @@ gallery:
     image_path: https://live.staticflickr.com/65535/51841530584_b3f35a8225_o.jpg
     width: "2048"
     height: "1365"
+    
 gallery2:
   - url: /assets/images/Tatham-Estate/luxury-home.webp
     image_path: /assets/images/Tatham-Estate/luxury-home.webp
