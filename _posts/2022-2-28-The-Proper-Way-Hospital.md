@@ -42,6 +42,8 @@ gallery2:
     width: "2048"
     height: "1365"
       
-excerpt: "Real estate housing gone awry"       
+excerpt: "One of Queens only private hospitals shuttered"       
 published: false
 ---
+
+Smack dab in a in a idealic Queens neighorhood lies the former Proper Way Hospital.
