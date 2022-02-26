@@ -7,7 +7,7 @@ slideshow:
 permalink: /queens/Fort-Tilden/
 author_profile: true
 author: 
- name: "Dushman"
+ name: "John Doe"
  bio: "Residental Researcher."
  avatar: "/assets/images/smaller.jpg"
  location: "Rockaway NYC"  
