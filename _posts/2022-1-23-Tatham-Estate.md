@@ -1,6 +1,6 @@
 ---
 header:
-  og_image: "https://live.staticflickr.com/65535/51838719397_3617a3d651_o.jpg"
+- og_image: "https://live.staticflickr.com/65535/51838719397_3617a3d651_o.jpg"
   teaser: "https://live.staticflickr.com/65535/51838719397_3617a3d651_o.jpg"
 layout: single
 permalink: /Tatham-Estate/
