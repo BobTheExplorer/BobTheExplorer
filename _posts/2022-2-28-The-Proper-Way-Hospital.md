@@ -45,5 +45,4 @@ gallery2:
 excerpt: "One of Queens only private hospitals shuttered"       
 published: false
 ---
-
-Smack dab in a in a idealic Queens neighorhood lies the former Proper Way Hospital.(One hundred beds)
+Somewhere in the borough of Queens lays The Parkway Hospital, a one hundred bed health care facility that had been sheltered during the 2008 recession. It had been among eight other hospitals that had closed that year due to the New York City Regional Advisory Committee. This committee had been headed by one, Steven Berger and aided by then current Governor of state, George Pataki. The goal of this Berger Committee had been to evaluate hospitals across the state of New York, improving the level of quality in hospitals, restructuring and rightsizing the hospital system. A quite solid plan on paper however, it faulters when rightsizing translates to shutting down various hospitals across the state during one of the worse recessions in recent history. 
