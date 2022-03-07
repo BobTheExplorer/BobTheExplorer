@@ -19,29 +19,23 @@ gallery:
   - url: /assets/images/Tatham-Estate/room1.webp
     image_path: /assets/images/Tatham-Estate/room1.webp
     alt: "A look inside one of the rooms"
-    loading="lazy"
   - url: /assets/images/Tatham-Estate/room2.webp
     image_path: /assets/images/Tatham-Estate/room2.webp
     alt: "Oil fueled furnance"
-    loading="lazy"
   - url: /assets/images/Tatham-Estate/room3.webp
     image_path: /assets/images/Tatham-Estate/room3.webp
     alt: "Inside one of the rooms"
-    loading="lazy"
     
 gallery2:
   - url: /assets/images/Tatham-Estate/luxury-home.webp
     image_path: /assets/images/Tatham-Estate/luxury-home.webp
     alt: "placeholder image 1"
-    loading="lazy"
   - url: /assets/images/Tatham-Estate/luxury-home2.webp
     image_path: /assets/images/Tatham-Estate/luxury-home2.webp
     alt: "placeholder image 2"
-    loading="lazy"
   - url: /assets/images/Tatham-Estate/luxury-home3.webp
     image_path: /assets/images/Tatham-Estate/luxury-home3.webp
     alt: "placeholder image 3"
-    loading="lazy"
       
 excerpt: "Real estate housing gone awry"       
 published: true
