@@ -46,6 +46,7 @@
 .archive__item-title {
   margin-bottom: 0.18em;
   font-family: $sans-serif-narrow;
+  font-size: 14px;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -426,7 +427,7 @@
   .feature__wrapper {
     .archive__item-title {
       margin-top: 0.25em;
-      font-size: 1em;
+      font-size: 14px;
     }
   }
 
