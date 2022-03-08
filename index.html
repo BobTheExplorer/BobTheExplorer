@@ -2,27 +2,6 @@
 layout: splash
 description: "Exploring the abandoned and forgotten"
 excerpt: "Exploring the abandoned and forgotten"
-feature_row:
-  - image_path: "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg" 
-    alt: "placeholder image 1"
-    title: "Deep inside the Tatham Estate"
-    url: "https://www.obscuredny.com/Tatham-Estate/"
-    btn_label: "Read Some More"
-    btn_class: "btn--inverse"
-    excerpt: "An abandoned estate nestled within the woods of Westchester County"
-  - image_path: /assets/images/frontpage/Killroy.webp
-    width: "6000" 
-    height: "4000"
-    title: "Exploring the secrets of Fort Tilden"
-    excerpt: "A forgotten Cold War navel base in the breezy beach of Rockaway."
-    url: "https://www.obscuredny.com/queens/Fort-Tilden/"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/frontpage/Power.webp
-    title: "Intersting"
-    url: "https://www.youtube.com/watch?v=oJY7KZ8vnug"
-    btn_label: "Useless button"
-    btn_class: "btn--inverse"    
 footer:
   links:
     - label: "Instagram"
@@ -44,7 +23,90 @@ published: true
 
 <br>
 
-{% include feature_row %}
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg" alt="placeholder image 1" loading="eager" >
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Deep inside the Tatham Estate</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>An abandoned estate nestled within the woods of Westchester County</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://www.obscuredny.com/Tatham-Estate/" class="btn btn--inverse">Read Some More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/frontpage/Killroy.webp" alt="" loading="eager" width: "6000" height: "4000">
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Exploring the secrets of Fort Tilden</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>A forgotten Cold War navel base in the breezy beach of Rockaway.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://www.obscuredny.com/queens/Fort-Tilden/" class="btn btn--inverse">Read More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/frontpage/Power.webp" alt="" loading="eager">
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Intersting</h2>
+          
+
+          
+
+          
+            <p><a href="https://www.youtube.com/watch?v=oJY7KZ8vnug" class="btn btn--inverse">Useless button</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
   
 <title>Exploring the abandoned and forgotten</title>
 
