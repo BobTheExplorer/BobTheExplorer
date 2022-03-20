@@ -18,29 +18,17 @@ author:
 gallery:
   - url:  
     image_path: 
-    width: "2048"
-    height: "1365"
   - url:  
     image_path: 
-    width: "2048"
-    height: "1365"
   - url:  
     image_path: 
-    width: "2048"
-    height: "1365"
 gallery2:
   - url:  
     image_path: 
-    width: "2048"
-    height: "1365"
   - url:  
     image_path: 
-    width: "2048"
-    height: "1365"
   - url:  
     image_path: 
-    width: "2048"
-    height: "1365"
       
 excerpt: "One of Queens only private hospitals shuttered"       
 published: false
