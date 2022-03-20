@@ -35,3 +35,4 @@ published: false
 ---
 
 Somewhere in the borough of Queens lays The Parkway Hospital, a one hundred bed health care facility that had been shuttered during the 2008 recession. It had been among eight other hospitals that had closed that year due to the Berger Commission. This committee had been headed by one, Steven Berger and aided by then current Governor of state, George Pataki. The goal of the committee at the time had been to evaluate hospitals across the state of New York, improve the level of quality in hospitals, and restructure and rightsize the hospital system. For those unfamiliar rightsizing is to restructure a company is to generate revenue more efficiently. The means of achieving this is usually to reduce the amount of employees.
+
