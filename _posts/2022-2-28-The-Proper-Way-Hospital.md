@@ -30,7 +30,7 @@ gallery2:
   - url:  
     image_path: 
       
-excerpt: "One of Queens only private hospitals shuttered"       
+excerpt: "A post mortem examination of one Queens only private hospitals"       
 published: false
 ---
 
