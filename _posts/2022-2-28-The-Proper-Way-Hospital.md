@@ -33,6 +33,9 @@ gallery2:
 excerpt: "A post mortem examination of one Queens only private hospitals"       
 published: false
 ---
+In 2008 various hospitals and medical institutions across New York state had to lock up their doors amidst a global reccession. The decision to close them had been made by the New York State Commission on Health Care Facilities in the 21st Century, which had been created to review medical complexes and to improve them. However, due to ever increasing costs of mananging them had led to the state pressuring hospitals to either merge with nearby hospitals or to reduce the amount of beds. Those who would not comply the orders of the comission could have their medical certificate revoked.
 
-Somewhere in the borough of Queens lays The Parkway Hospital, a one hundred bed health care facility that had been shuttered during the 2008 recession. It had been among eight other hospitals that had closed that year due to the Berger Commission. This committee had been headed by one, Steven Berger and aided by then current Governor of state, George Pataki. The goal of the committee at the time had been to evaluate hospitals across the state of New York, improve the level of quality in hospitals, and restructure and rightsize the hospital system. For those unfamiliar rightsizing is to restructure a company is to generate revenue more efficiently. The means of achieving this is usually to reduce the amount of employees.
+As a result five hospitals within New York city would close without question that year, Saint Vincent's Midtown Hospital, Cabrini Medical Center, Victory Memorial Hospital in Brooklyn, New York Westchester Square Medical Center in the Bronx, and Proper Way Hospital. Though among all these shuttered hospitals Proper Way had been one the only privatly owned hospital within the city at the time.
+
+
 
