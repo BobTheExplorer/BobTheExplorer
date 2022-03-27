@@ -229,7 +229,13 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
+  
+"cors": {
+"enabled": true,
+"allowedOrigins": [
+"https://www.obscuredny.com/"
+]
+},
 
 # Archives
 #  Type
@@ -293,11 +299,5 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
-"cors": {
-"enabled": true,
-"allowedOrigins": [
-"https://www.obscuredny.com/"
-]
-},
+     
 
