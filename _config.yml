@@ -230,13 +230,6 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   
-"cors": {
-"enabled": true,
-"allowedOrigins": [
-"https://www.obscuredny.com/"
-]
-},
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
