@@ -293,6 +293,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-
+      
+"cors": {
+"enabled": true,
+"allowedOrigins": [
+"https://www.obscuredny.com/"
+]
+},
 
