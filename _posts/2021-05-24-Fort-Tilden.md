@@ -3,8 +3,6 @@ header:
   og_image: /assets/images/Waterside .jpg
   teaser: /assets/images/Waterside .jpg
 layout: single
-comments: true
-slideshow:
 permalink: /queens/Fort-Tilden/
 author_profile: true
 author: 
