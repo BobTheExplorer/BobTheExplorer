@@ -29,7 +29,10 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-provider: #
+  provider: "staticman_v2"
+  staticman:
+    branch    : "master"
+    endpoint  : https://api.staticman.net/v3/entry/github/
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -44,7 +47,7 @@ provider: #
     issue_term           :  #
   staticman:
     branch               : "master"
-    endpoint             : "https:api.staticman.net/v3/entry/github/"
+    endpoint             : "https://api.staticman.net/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
