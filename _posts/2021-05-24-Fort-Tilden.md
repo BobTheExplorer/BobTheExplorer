@@ -103,7 +103,7 @@ published: true
 
 
 
-{% include comment.html %}
+{% include comments.html %}
 
 
 
