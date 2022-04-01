@@ -431,6 +431,9 @@ transform: scale(1.1);
   text-transform: uppercase;
 }
 
+.page__date {
+    font-size: 0.6em;
+  }
 .page__comments-form {
   -webkit-transition: $global-transition;
   transition: $global-transition;
