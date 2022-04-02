@@ -2,6 +2,8 @@
 layout: archive
 ---
 
+{% include page.header.overlay_color or page.header.overlay_image or page.header.image %}
+
 {{ content }}
 
 <ul class="taxonomy__index">
@@ -23,7 +25,7 @@ layout: archive
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="entries-{{ entries_layout }}">
       {% for post in year.items %}
-        {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+        {% include page.header.overlay_color or page.header.overlay_image or page.header.image %}
         {% include archive-single.html type=entries_layout %}
       {% endfor %}
     </div>
