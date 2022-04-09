@@ -14,21 +14,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: ""
-    
-gallery:
-  - url:  
-    image_path: 
-  - url:  
-    image_path: 
-  - url:  
-    image_path: 
-gallery2:
-  - url:  
-    image_path: 
-  - url:  
-    image_path: 
-  - url:  
-    image_path: 
       
 excerpt: "A post mortem examination of one Queens only private hospitals"       
 published: false
