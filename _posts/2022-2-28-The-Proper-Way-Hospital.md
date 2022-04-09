@@ -18,7 +18,24 @@ author:
 excerpt: "A post mortem examination of one Queens only private hospitals"       
 published: false
 ---
+
+<figure>
+  
+   <a href="" class="image-popup">
+       <img src="" loading="lazy" width="6000" height="4000">
+    </a>
+   
+ </figure>
+ 
 In 2008, various hospitals and medical institutions across New York state had to lock up their doors amidst a global recession. The decision to close them had been made by the New York State Commission on Health Care Facilities in the 21st Century, which had been created to review medical complexes and improve them. However, due to the ever increasing cost of managing them, had led to the state pressuring hospitals to either merge with nearby hospitals or reduce the number of beds. Those who do not comply with the orders of the commission could have their medical certificate revoked.
+
+<figure>
+  
+   <a href="" class="image-popup">
+       <img src="" loading="lazy" width="6000" height="4000">
+    </a>
+   
+ </figure>
 
 As a result, five hospitals within New York City would close without question that year, Saint Vincent's Midtown Hospital, Cabrini Medical Center, Victory Memorial Hospital in Brooklyn, New York Westchester Square Medical Center in the Bronx, and Proper Way Hospital. A 250-bed privately owned facility within Queens with a predominantly elderly population.
 
