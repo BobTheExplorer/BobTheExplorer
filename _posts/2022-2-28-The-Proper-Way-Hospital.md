@@ -37,4 +37,5 @@ The poor quality of care would eventually lead to a change in management in the 
 
 With the state recommending it's closure, many had assumed that Proper Way was soon to close that year. Despite the popular belief that it was closed, officials would attempt to dispel this. As ambulances were diverted away, many doctors and their patients were confused as to whether the hospital had officially ceased all operations. Regardless, it would shutter its doors sometime in September of 2008.
 
+In the June of 2009 it would once again attempt to reopen but a federal judge would dismiss this attempt. Afterwards a plan of reusing the former health care facility as detention center would arise. 
 
