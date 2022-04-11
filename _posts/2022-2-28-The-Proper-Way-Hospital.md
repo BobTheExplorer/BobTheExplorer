@@ -21,8 +21,8 @@ published: false
 
 <figure>
   
-   <a href="" class="image-popup">
-       <img src="" loading="lazy" width="6000" height="4000">
+   <a href="/assets/images/Proper-Way/Hospital-Hallway.webp" class="image-popup">
+       <img src="/assets/images/Proper-Way/Hospital-Hallway.webp" loading="lazy" width="6000" height="4000">
     </a>
    
  </figure>
@@ -33,15 +33,13 @@ As a result, five hospitals within New York City would close without question th
 
 <figure>
   
-   <a href="" class="image-popup">
-       <img src="" loading="lazy" width="6000" height="4000">
+   <a href="/assets/images/Proper-Way/5005000055.webp" class="image-popup">
+       <img src="/assets/images/Proper-Way/5005000055.webp" loading="lazy" width="6000" height="4000">
     </a>
    
  </figure>
 
 Prior to its state mandated closure, the hospital faced multiple lawsuits by the federal government and advocacy groups. July 17th, 2001 would be the date that the State Health Department would fine them $32,000 for failing to apprehend two urologists from planning and performing prostate surgeries on men who resided at Proper Way. Later investigation into the case would reveal that none of the surgeries were needed. Three years later, the hospital agreed to aid deaf patients after being neglected. One such case would be Sarah Posner, aged 77, whose only means of communication were notes and a staff therapist with a limited knowledge of sign language. Her and others' poor treatment would lead the hospital to install an audio-visual interpretation system, a supply of interpreters, and to pay a sum of $125,000 to an undisclosed family of a deaf patient.
-
-
 
 The poor quality of care would eventually lead to a change in management in the sweltering summer of July 2004. Under this new management would come new additions: two hyperbaric chambers, a sleep laboratory, and a wound care center. This would only last a short time, as one year afterward, the hospital would have to file for bankruptcy and would file for Chapter 11 protection with 29 million in assets and liabilities. Declaring bankruptcy with millions of assets had marked the decline of Proper Way, though another significant blow would come in 2006, when a state-run health commission recommended the hospital cease all operations. 
 
