@@ -28,8 +28,16 @@ var images = [
   "https://live.staticflickr.com/65535/52051770774_2060d0fc7d_k.jpg",
   "https://live.staticflickr.com/65535/52051770669_44bf2e0cfc_k.jpg"];
 
-index = Math.floor(Math.random() * images.length);
-document.write(images[index]);
+function Randomize() {
+    var size = images.length
+    var x = Math.floor(size * Math.random())
+    document.getElementById('image').src = images[x];
+}
+
+window.onload = Randomize;
+  
+
+</script>
   
 
 </script>
