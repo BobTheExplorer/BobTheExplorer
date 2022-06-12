@@ -4,10 +4,6 @@ description: "Exploring the abandoned and forgotten"
 excerpt: "Exploring the abandoned and forgotten"
 
 footer:
-  links:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/shmuster_the_third/"
 classes: wide
 published: true
 ---
@@ -19,17 +15,24 @@ published: true
 
 <br>
 
-<img id='random'/>
+<div id="box">
+    <img id="image" />
+</div>
 
 <script type="text/javascript">
-  var image = new Array ();
-    image[0] = "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg";
-    image[1] = "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg";
-    image[2] = "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg";
-    image[3] = "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg";
-  var size = image.length
-  var x = Math.floor(size*Math.random())
-  $('#random').attr('src',image[x]);
+var images = [
+    "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg",
+    "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg",
+    "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg",
+    "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg"];
+
+function Randomize() {
+    var size = images.length
+    var x = Math.floor(size * Math.random())
+    document.getElementById('image').src = images[x];
+}
+
+window.onload = Randomize;
 </script>
 
 <br>
