@@ -18,12 +18,21 @@ published: true
 </head>
 
 <br>
-<!---
-<img src="" width="800" height="493">
+
+
+<script type="text/javascript">
+function Randomize() {
+    var images = new Array("https://live.staticflickr.com/65535/52052025700_cd622924d4_k.jpg","https://live.staticflickr.com/65535/52051770774_2060d0fc7d_k.jpg","https://live.staticflickr.com/65535/52051770669_44bf2e0cfc_k.jpg","https://live.staticflickr.com/65535/52051532761_7222d64b37_k.jpg");
+    var imageNum = Math.floor(Math.random() * images.length);
+    document.getElementById("divid").style.backgroundImage = "url('" + images[imageNum] + "')";
+}
+
+window.onload = Randomize;
+</script>
 
 <br>
 
-!-->
+
 <br>
 
  <h1 style="font-size:20px"><center>Most Recent posts</h1></center>
