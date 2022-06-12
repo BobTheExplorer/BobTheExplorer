@@ -19,13 +19,15 @@ published: true
 
 <br>
 
-<div id="para">
+<div id="box">
+    <img id="para" />
+</div>
 
 <script type="text/javascript">
 function Randomize() {
     var images = new Array("https://live.staticflickr.com/65535/52052025700_cd622924d4_k.jpg","https://live.staticflickr.com/65535/52051770774_2060d0fc7d_k.jpg","https://live.staticflickr.com/65535/52051770669_44bf2e0cfc_k.jpg","https://live.staticflickr.com/65535/52051532761_7222d64b37_k.jpg");
     var imageNum = Math.floor(Math.random() * images.length);
-    document.getElementById("para") = "url('" + images[imageNum] + "')";
+    document.getElementById("para").src = "url('" + images[imageNum] + "')";
 }
 
 window.onload = Randomize;
