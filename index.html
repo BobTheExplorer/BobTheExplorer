@@ -29,13 +29,8 @@ images[2] = <a href = 'https://www.obscuredny.com/The-Proper-Way-Hospital/'><img
 images[3] = <a href = 'https://www.obscuredny.com/The-Proper-Way-Hospital/'><img src='https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg'></a>";
 images[4] = <a href = 'https://www.obscuredny.com/The-Proper-Way-Hospital/'><img src='https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg'></a>";
 
-function Randomize() {
-    var size = images.length
-    var x = Math.floor(size * Math.random())
-    document.write(images[index]);
-}
-
-window.onload = Randomize;
+index = Math.floor(Math.random() * images.length);
+document.write(images[index]);
   
 
 </script>
