@@ -19,18 +19,17 @@ published: true
 
 <br>
 
-<div id="box">
-    <img id="para" />
-</div>
+<img id='random'/>
 
 <script type="text/javascript">
-function Randomize() {
-    var images = new Array("https://live.staticflickr.com/65535/52052025700_cd622924d4_k.jpg","https://live.staticflickr.com/65535/52051770774_2060d0fc7d_k.jpg","https://live.staticflickr.com/65535/52051770669_44bf2e0cfc_k.jpg","https://live.staticflickr.com/65535/52051532761_7222d64b37_k.jpg");
-    var imageNum = Math.floor(Math.random() * images.length);
-    document.getElementById("para").src = "url('" + images[imageNum] + "')";
-}
-
-window.onload = Randomize;
+  var image = new Array ();
+  image[0] = "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg";
+  image[1] = "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg";
+  image[2] = "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg";
+  image[3] = "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg";
+  var size = image.length
+  var x = Math.floor(size*Math.random())
+  $('#random').attr('src',image[x]);
 </script>
 
 <br>
