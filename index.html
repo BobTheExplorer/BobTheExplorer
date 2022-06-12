@@ -18,7 +18,8 @@ published: true
 <figure>
     <img id="image" align="center"/>
 <figure>
-
+  
+<!--
 <script type="text/javascript">
 var images = [
   "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg",
@@ -37,7 +38,48 @@ window.onload = Randomize;
   
 
 </script>
+!-->
+  
+<script type="text/javascript">  
+var quotes = [
+        {
+          onclick="window.open(https://stackoverflow.com/questions/53784629/javascript-random-image-with-text-on-click-button)",
+          img:  "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg"
+        },
+        {
+          onclick="window.open(https://stackoverflow.com/questions/53784629/javascript-random-image-with-text-on-click-button)",
+          img:  "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg",
+        },
+		{
+          onclick="window.open(https://stackoverflow.com/questions/53784629/javascript-random-image-with-text-on-click-button)",
+          img:  "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg",
+        },
+		{
+          onclick="window.open(https://stackoverflow.com/questions/53784629/javascript-random-image-with-text-on-click-button)",
+          img:  "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg",
+        },
+		{
+          onclick="window.open(https://stackoverflow.com/questions/53784629/javascript-random-image-with-text-on-click-button)",
+          img:  "https://live.staticflickr.com/65535/51885733939_768c49e129_k.jpg",
+        },
+      ];  
+  
+function Randomize() {
+    var size = quotes.length
+    var x = Math.floor(size * Math.random())
+    document.getElementById('image').src = quotes[x];
+}
 
+window.onload = Randomize;
+  
+
+</script>
+  
+  
+  
+  
+  
+  
 <br>
 
  <h1 style="font-size:20px"><center>Most Recent posts</h1></center>
