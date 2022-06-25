@@ -21,12 +21,11 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  <div class="archive__item-teaser">
+    <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
-  {% endfor %}
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
 </div>
 {% include paginator.html %}
 
