@@ -24,6 +24,7 @@ layout: archive
     <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
+    {% endfor %}
   {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
 </div>
