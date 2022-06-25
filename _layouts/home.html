@@ -20,16 +20,6 @@ layout: archive
 
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-<h2 class="archive__item-title no_toc" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-</h2>
-<div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
-</div>
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
