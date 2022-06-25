@@ -19,7 +19,7 @@
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }} </a>
-    <div class="archive__item-teaser"><img src="{{ teaser | relative_url }}" alt=""></div>
+    <div class="archive__item-teaser"> <img src="{{ teaser | relative_url }}" alt=""></div>
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %}
