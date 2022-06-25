@@ -20,11 +20,11 @@ layout: archive
 
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
-</div>
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
+    <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
+</div>
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
