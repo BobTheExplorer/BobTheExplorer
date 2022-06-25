@@ -22,16 +22,6 @@ layout: archive
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
-      <div class="feature__item">
-      <div class="archive__item">
-        
-          <div class="archive__item-teaser">
-            <img
-              src="/assets/images/Diner/Resized1001000011.jpg" alt="placeholder image 1" loading="eager" width="400.6" height="266.733"
-              srcset="/assets/images/Diner/Resized1001000011.jpg 1x,
-                      /assets/images/Diner/Resized1001000011.jpg 2x,
-                      /assets/images/Diner/Resized1001000011.jpg 3x">
-    </div>
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
