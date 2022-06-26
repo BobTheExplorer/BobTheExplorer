@@ -4,7 +4,6 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
-<div align="center">
   
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
@@ -24,7 +23,6 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }} </a>
     <div class="div.polaroid"> <img src="{{ teaser | relative_url }}" alt=""></div>
       {% endif %}
-    </div>
     </h2>
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
