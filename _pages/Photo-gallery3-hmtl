@@ -1,0 +1,24 @@
+---
+layout: splash
+excerpt: Various photos I've taken put in a gallery without that pesky information or context
+permalink: /gallery/page3/
+  
+published: true
+---
+
+<figure class="third ">
+      
+      <a href="/assets/images/Proper-Way/9009000099.jpg"" title="The NIKE missile would be lifted up this platform to up above for launch" class="image-popup" width="2048" height="1365">
+          <img src="/assets/images/Proper-Way/9009000099.jpg" alt="Photos that look nice to gaze at" width="2048" height="1365">
+      </a>
+      
+      <a href="/assets/images/Proper-Way/150150001515.jpg" title="The NIKE missile would be lifted up this platform to up above for launch" class="image-popup" width="2048" height="1365">
+          <img src="/assets/images/Proper-Way/150150001515.jpg" alt="Photos that look nice to gaze at" width="2048" height="1365">
+      </a>
+      
+</figure>
+ <center> <a href="https://www.obscuredny.com/gallery/" class="btn--inverse">1</a> <a href="https://www.obscuredny.com/gallery/page2/" class="btn--inverse">2</a> <a href="https://www.obscuredny.com/gallery/page3/" class="btn--inverse">3</a>  <center>
+ 
+<title>Gallery of assorted photos</title>
+
+<meta name="description" content="Gallery of assorted photos">
