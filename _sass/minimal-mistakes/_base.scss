@@ -248,11 +248,17 @@ figure {
   &.third {
     > a,
     > img {
-        @include breakpoint($large) {
-         width: calc(28.2222% - 0.6em);
+      @include breakpoint($large) {
+        width: calc(28.2222% - 0.6em);
       }
     }
-    
+
+    figcaption {
+      width: 100%;
+     }
+    }
+
+}
 
 
 /* Figure captions */
@@ -350,8 +356,4 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
-}
-
-
-}
 }
