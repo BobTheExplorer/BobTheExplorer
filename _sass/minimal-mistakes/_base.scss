@@ -248,8 +248,8 @@ figure {
   &.third {
     > a,
     > img {
-        width= 200;
-        height= 133;
+        @include breakpoint($large) {
+        width: calc(33.3333% - 0.5em);
       }
     }
 
