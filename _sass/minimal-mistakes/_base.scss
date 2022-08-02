@@ -249,8 +249,8 @@ figure {
     > a,
     > img {
       @include breakpoint($large) {
-        width= 305.65 
-        height= 203.767;
+        width= 200 
+        height= 133};
       }
     }
 
