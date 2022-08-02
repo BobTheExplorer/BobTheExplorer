@@ -249,6 +249,14 @@ figure {
     > a,
     > img {
         @include breakpoint($large) {
+         width: calc(28.2222% - 0.6em);
+      }
+    }
+    
+    &.fourth {
+    > a,
+    > img {
+        @include breakpoint($large) {
          width: calc(22.2222% - 0.8em);
       }
     }
