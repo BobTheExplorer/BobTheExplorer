@@ -244,6 +244,20 @@ figure {
       width: 100%;
     }
   }
+  
+  &.fourth {
+    > a,
+    > img {
+        @include breakpoint($large) {
+         width: calc(22.2222% - 0.8em);
+            }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+
 
   &.third {
     > a,
