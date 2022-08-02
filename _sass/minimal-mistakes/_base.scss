@@ -248,9 +248,8 @@ figure {
   &.third {
     > a,
     > img {
-      @include breakpoint($large) {
         width= 200;
-        height= 133{
+        height= 133;
       }
     }
 
