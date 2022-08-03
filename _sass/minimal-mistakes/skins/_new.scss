@@ -1,0 +1,24 @@
+/* Colors */
+$background-color: url(/assets/images/Waterside .jpg) !default;
+$text-color: #eaeaea !default;
+$primary-color: #00adb5 !default;
+$border-color: #00adb5   !default;
+$code-background-color: #00adb5   !default;
+$footer-background-color: #00adb5  !default;
+$link-color: #00adb5  !default;
+$link-color-hover: #00adb5  !default;
+$link-color-visited: #00adb5  !default;
+$masthead-link-color: #00adb5  !default;
+$masthead-link-color-hover: #00adb5  !default;
+$navicon-link-color-hover: #00adb5  !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  
+  color: inherit;
+}
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}
