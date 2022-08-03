@@ -27,3 +27,17 @@ div.container {
 }
 
 
+$background-color: #2c241b !default;
+$text-color: #eaeaea !default;
+$primary-color: #2c241b !default;
+$border-color: #2c241b !default;
+$code-background-color: #2c241b !default;
+$code-background-color-dark: #2c241b !default;
+$form-background-color: #2c241b !default;
+$footer-background-color: #2c241b !default;
+$link-color: mix($primary-color, $text-color, 40%) !default;
+$link-color-hover: mix(#fff, $link-color, 25%) !default;
+$link-color-visited: mix(#000, $link-color, 25%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: #2c241b !default;
+$navicon-link-color-hover: #2c241b !default;
