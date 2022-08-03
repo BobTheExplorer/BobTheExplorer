@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: /assets/images/Diner/Resized1001000011.jpg !default;
+$background-color: url(/assets/images/Diner/Resized1001000011.jpg) !default;
 $text-color: #eaeaea !default;
 $primary-color: #00adb5 !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
