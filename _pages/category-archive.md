@@ -1,5 +1,5 @@
 ---
-title: "Abandoned places within NY State"
+title: "Abandoned location catalogue"
 excerpt: "From Fort Tilden to Tatem's house, we got it all"
 layout: categories
 permalink: /categories/
