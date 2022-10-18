@@ -20,6 +20,7 @@ excerpt: "A look behind one the most widely known abandoned building in New York
 categories:
   - Long Island
 search: false
+published: false
 hidden: true
 visible: 1
 ---
