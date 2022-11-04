@@ -43,9 +43,9 @@ main:
 #      - title: "Utility Classes"
 #        url: /docs/utility-classes/
 
-#  - title: The Bronx
+#  - title: Beyond the boroughs
 #    children:
-#      - title: "Stylesheets"
-#        url: /docs/stylesheets/
-#      - title: "JavaScript"
-#        url: /docs/javascript/
+#      - title: "Kings Park Psychiatric Center Building 93"
+#        url: https://www.obscuredny.com/Kings-Park-Psychiatric-Center-Building-93/
+#      - title: "Tatham Estate"
+#        url: https://www.obscuredny.com/Tatham-Estate/
