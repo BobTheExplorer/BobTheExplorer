@@ -31,6 +31,19 @@ onClick="document.getElementById('audio_play').play(); return false;" /
     <source src="/assets/images/MoozE - Stalker - 25 - Wasteland II.mp3" type="audio/ogg" />
 </audio>
 
+<script type="text/javascript">
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
+}
+</script>
+
 <figure>
   
   <a href="https://live.staticflickr.com/65535/52052025700_cd622924d4_k.jpg" class="image-popup" loading="lazy" width="2048" height="1365" alt="View Full Image">
