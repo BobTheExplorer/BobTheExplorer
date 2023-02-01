@@ -24,9 +24,6 @@ published: true
 
 
 <!--
-The audio plays as the entirety of the source audio regardless of clicking off the image or not
-onClick="document.getElementById('audio_play').play(); return false;" /
-!-->
 <audio id="mySound">
     <source src="/assets/images/MoozE - Stalker - 25 - Wasteland II.mp3" type="audio/ogg" />
 </audio>
@@ -44,9 +41,13 @@ function StopSound(soundobj) {
 }
 </script>
 
+ onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')"
+!-->
+
+
 <figure>
   
-  <a href="https://live.staticflickr.com/65535/52052025700_cd622924d4_k.jpg" class="image-popup" loading="lazy" width="2048" height="1365" alt="View Full Image" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+  <a href="https://live.staticflickr.com/65535/52052025700_cd622924d4_k.jpg" class="image-popup" loading="lazy" width="2048" height="1365" alt="View Full Image">
        <img src="https://live.staticflickr.com/65535/52052025700_cd622924d4_k.jpg" loading="lazy" width="2048" height="1365">
     </a>
    
