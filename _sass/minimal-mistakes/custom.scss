@@ -19,6 +19,7 @@ div.polaroid {
 
 img {
   border-radius: 8px;
+  cursor: zoom-in;
   width: 100%
 }
 
@@ -27,6 +28,3 @@ div.container {
   padding: 10px 20px;
 }
 
-div.a.image-popup {
-    cursor:zoom-in;
-}
