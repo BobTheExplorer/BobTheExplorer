@@ -165,7 +165,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   }
 }
 .mfp-zoom {
-  cursor: pointer;
+  cursor: zoom-in;
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;
   cursor: zoom-in;
@@ -530,7 +530,7 @@ button {
   .mfp-gallery {
     .mfp-image-holder {
       .mfp-figure {
-        cursor: pointer;
+        cursor: zoom-in;
       }
     }
   }
