@@ -115,7 +115,6 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  cursor: zoom-in;
 }
 
 // Vertical centerer helper
@@ -143,7 +142,6 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
-  cursor: zoom-in;
   text-align: left;
   z-index: $mfp-z-index-base + 5;
 }
@@ -174,7 +172,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
 }
 .mfp-auto-cursor {
   .mfp-content {
-    cursor: zoom-in;
+    cursor: auto;
   }
 }
 
@@ -256,7 +254,7 @@ button {
   &.mfp-close,
   &.mfp-arrow {
     overflow: visible;
-    cursor: zoom-in;
+    cursor: pointer;
     background: transparent;
     border: 0;
     -webkit-appearance: none;
@@ -463,7 +461,6 @@ button {
   /* Main image in popup */
   img {
     &.mfp-img {
-      cursor: zoom-in;
       width: auto;
       max-width: 100%;
       height: auto;
@@ -533,7 +530,7 @@ button {
   .mfp-gallery {
     .mfp-image-holder {
       .mfp-figure {
-        cursor: pointer;
+        cursor: zoom-in;
       }
     }
   }
