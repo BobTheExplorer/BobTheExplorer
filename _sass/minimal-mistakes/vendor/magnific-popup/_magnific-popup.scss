@@ -115,6 +115,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  cursor: zoom-in;
 }
 
 // Vertical centerer helper
@@ -142,6 +143,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
+  cursor: zoom-in;
   text-align: left;
   z-index: $mfp-z-index-base + 5;
 }
