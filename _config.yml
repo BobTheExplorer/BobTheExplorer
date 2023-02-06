@@ -284,7 +284,3 @@ defaults:
       share: true
       related: false
       classes: wide
-  # _pages
-  - scope:
-      path: ""
-      type: pages
