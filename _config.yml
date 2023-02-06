@@ -275,7 +275,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "https://www.obscuredny.com/posts/"
+      path: "
       type: posts
     values:
       layout: single
