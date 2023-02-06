@@ -209,8 +209,6 @@ sass:
 
 # Outputting
 paginate: 8 # amount of posts to show
-permalink: "/posts/:num/"
-title: "Posts"
 paginate_path: "/_pages/page:num/" #https://jekyllrb.com/docs/pagination/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
