@@ -291,5 +291,3 @@ defaults:
       type: pages
     values:
       layout: home
-      title: posts
-      permalink: /posts/
