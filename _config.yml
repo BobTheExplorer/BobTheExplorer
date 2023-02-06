@@ -208,7 +208,7 @@ sass:
 
 
 # Outputting
-paginate: 6 # amount of posts to show
+paginate: 3 # amount of posts to show
 permalink: /posts/page:num/
 paginate_path: /_pages/page:num/ #https://jekyllrb.com/docs/pagination/
 
