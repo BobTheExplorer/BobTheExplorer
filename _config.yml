@@ -209,7 +209,7 @@ sass:
 
 # Outputting
 paginate: 4 # amount of posts to show
-permalink: /posts/:num/
+permalink: /posts:num/
 paginate_path: /_pages/page:num/ #https://jekyllrb.com/docs/pagination/
 
 
@@ -290,6 +290,5 @@ defaults:
       path: ""
       type: pages
     values:
-      permalink: /posts/:num/
       layout: home
       author_profile: 
