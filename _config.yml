@@ -291,4 +291,3 @@ defaults:
       type: pages
     values:
       layout: home
-      permalink: /:title/
