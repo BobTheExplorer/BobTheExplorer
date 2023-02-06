@@ -287,7 +287,7 @@ defaults:
       classes: wide
   # _pages
   - scope:
-      path: "https://www.obscuredny.com/posts/"
+      path: "/_pages/2/posts2.html"
       type: pages
     values:
       layout: single
