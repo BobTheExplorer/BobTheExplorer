@@ -208,8 +208,8 @@ sass:
 
 
 # Outputting
-paginate: 3 # amount of posts to show
-permalink: /:title/:num/
+paginate: 8 # amount of posts to show
+permalink: /posts/:num/
 paginate_path: /_pages/page:num/ #https://jekyllrb.com/docs/pagination/
 
 
