@@ -208,8 +208,8 @@ sass:
 
 
 # Outputting
-paginate: 4 # amount of posts to show
-paginate_path: /posts/page:num/ #https://jekyllrb.com/docs/pagination/
+paginate: 6 # amount of posts to show
+paginate_path: /_pages/page:num/ #https://jekyllrb.com/docs/pagination/
 
 
 # Plugins (previously gems:)
@@ -284,7 +284,7 @@ defaults:
       share: true
       related: false
       classes: wide
-  # posts
+  # _pages
   - scope:
       path: ""
       type: pages
