@@ -209,7 +209,7 @@ sass:
 
 # Outputting
 paginate: 4 # amount of posts to show
-paginate_path: /BobTheExplorer/_pages/page:num/ #https://jekyllrb.com/docs/pagination/
+paginate_path: /_pages/page:num/ #https://jekyllrb.com/docs/pagination/
 
 
 # Plugins (previously gems:)
@@ -288,7 +288,3 @@ defaults:
   - scope:
       path: ""
       type: pages
-    values:
-      layout: single
-      author_profile: true
-
