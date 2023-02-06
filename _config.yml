@@ -211,7 +211,6 @@ sass:
 # Outputting
 paginate: 4 # amount of posts to show
 permalink: "/page/:num/"
-  title_suffix: " - page :num"
 paginate_path: /_pages/page:num/ #https://jekyllrb.com/docs/pagination/
 
 
