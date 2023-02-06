@@ -209,7 +209,7 @@ sass:
 
 # Outputting
 paginate: 4 # amount of posts to show
-paginate_path: "www.obscuredny.com/_pages/page:num/" #https://jekyllrb.com/docs/pagination/
+paginate_path: "obscuredny.com/_pages/page:num/" #https://jekyllrb.com/docs/pagination/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
