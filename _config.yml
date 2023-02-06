@@ -209,8 +209,7 @@ sass:
 
 # Outputting
 paginate: 3 # amount of posts to show
-paginator.next_page: posts/page:num/
-paginator.previous_page: posts/page:num/
+permalink: /:title/:num/
 paginate_path: /_pages/page:num/ #https://jekyllrb.com/docs/pagination/
 
 
