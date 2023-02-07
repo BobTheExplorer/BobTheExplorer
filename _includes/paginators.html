@@ -1,4 +1,8 @@
 <style>
+.pagination {
+  display: inline-block;
+}
+  
 .pagination a {
   color: black;
   float: left;
@@ -16,14 +20,13 @@
 .pagination a:hover:not(.active) {background-color: #ddd;}
 </style>
 
-  <ul>
-    
-      <li><a href="https://www.obscuredny.com/posts/" class="disabled"><span aria-hidden="true">Previous</span></a></li>
-    
-      <li><a href="https://www.obscuredny.com/posts/" class="disabled current">1</a></li>
-    
-      <li><a href="https://www.obscuredny.com/posts/page/2/">2</a></li>
-    
-      <li><a href="https://www.obscuredny.com/posts/page/2/">Next</a></li>
-    
-  </ul>
+ <div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a class="active" href="https://www.obscuredny.com/posts/page2/">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div> 
