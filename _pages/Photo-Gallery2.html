@@ -7,6 +7,19 @@ description: "Photos that look good to gaze at: the sequel"
 permalink: /gallery/page2/
 published: true
 ---
+{%- assign seo_title = page.title -%}
+
+{%- if site.url -%}
+  {%- assign seo_url = site.url | append: site.baseurl -%}
+{%- endif -%}
+{%- assign seo_url = seo_url | default: site.github.url -%}
+
+{% assign title_separator = site.title_separator | default: '-' | replace: '|', '&#124;' %}
+
+{%- if page.title -%}
+  {%- assign seo_title = page.title -%}
+{%- endif -%}
+
 <script>
 document.title = document.title + "Page 2";
 </script>
