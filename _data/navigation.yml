@@ -1,8 +1,8 @@
 main:
-  - title: "Posts"
-    url: /
   - title: "Photo Gallery"
     url: /gallery/page1/
+  - title: "Posts"
+    url: /
   - title: "Home"
     url: /home/
 
