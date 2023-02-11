@@ -3,6 +3,8 @@ main:
     url: /gallery/page1/
   - title: "Posts"
     url: /
+  - title: "Home"
+    url: /home/
 
 
 # foo:
