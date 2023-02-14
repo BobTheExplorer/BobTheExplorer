@@ -7,19 +7,19 @@ main:
     url: /home/
 
 
-# foo:
-#  - title: "Queens"
-#    url: /categories/#queens
-#    children:
-#      - title: "Fort Tilden"
-#        url: /Fort-Tilden/
-#      - title: "The Blue Sky Diner"
-#        url: /The-Blue-Sky-Diner/
-#      - title: "The Parkway Hospital"
-#        url: /The-Parkway-Hospital/
-#      - title: "Upgrading"
-#        url: /docs/upgrading/
-
+ foo:
+  - title: "Queens"
+    url: /categories/#queens
+    children:
+      - title: "Fort Tilden"
+        url: /Fort-Tilden/
+      - title: "The Blue Sky Diner"
+        url: /The-Blue-Sky-Diner/
+      - title: "The Parkway Hospital"
+        url: /The-Parkway-Hospital/
+      - title: "Flushing-Hospital-North-Division"
+        url: /Flushing-Hospital-North-Division/
+##
 #  - title: Brookyln
 #    children:
 #      - title: "The East LIRR Station"
@@ -46,9 +46,9 @@ main:
 #      - title: "Utility Classes"
 #        url: /docs/utility-classes/
 
-#  - title: Beyond the boroughs
-#    children:
-#      - title: "Kings Park Psychiatric Center Building 93"
-#        url: https://www.obscuredny.com/Kings-Park-Psychiatric-Center-Building-93/
-#      - title: "Tatham Estate"
-#        url: https://www.obscuredny.com/Tatham-Estate/
+  - title: Long Island
+    children:
+      - title: "Kings Park Psychiatric Center Building 93"
+        url: https://www.obscuredny.com/Kings-Park-Psychiatric-Center-Building-93/
+      - title: "Tatham Estate"
+        url: https://www.obscuredny.com/Tatham-Estate/
