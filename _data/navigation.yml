@@ -6,26 +6,26 @@ main:
   - title: "Home"
     url: /home/
     
-foo:
-  - title: "Queens"
-    url: /categories/#queens
-    children:
-      - title: "Fort Tilden"
-        url: /queens/Fort-Tilden/
-      - title: "The Parkway Hospital"
-        url: /The-Parkway-Hospital/
-      - title: "Flushing-Hospital-North-Division"
-        url: Flushing-Hospital-North-Division
-      - title: "The Blue Sky Diner"
-        url: /The-Blue-Sky-Diner/
+#foo:
+#  - title: "Queens"
+#    url: /categories/#queens
+#    children:
+#      - title: "Fort Tilden"
+#        url: /queens/Fort-Tilden/
+#      - title: "The Parkway Hospital"
+#        url: /The-Parkway-Hospital/
+#      - title: "Flushing-Hospital-North-Division"
+#        url: Flushing-Hospital-North-Division
+#      - title: "The Blue Sky Diner"
+#        url: /The-Blue-Sky-Diner/
 
-  - title: "Long Island"
-    url: /categories/#long-island
-    children:
-      - title: "Kings Park Psychiatric Center Building 93"
-        url: /Kings-Park-Psychiatric-Center-Building-93/
-      - title: "Tatham-Estate"
-        url: /Tatham-Estate/
+#  - title: "Long Island"
+#    url: /categories/#long-island
+#    children:
+#      - title: "Kings Park Psychiatric Center Building 93"
+#        url: /Kings-Park-Psychiatric-Center-Building-93/
+#      - title: "Tatham-Estate"
+#        url: /Tatham-Estate/
 
 
 ##
