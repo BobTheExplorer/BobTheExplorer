@@ -12,7 +12,6 @@ $(function() {
   var $nav = $("nav.greedy-nav");
   var $logo = $('nav.greedy-nav .site-logo');
   var $logoImg = $('nav.greedy-nav .site-logo img');
-  var $title = $("nav.greedy-nav .site-title");
   var $search = $('nav.greedy-nav button.search__toggle');
 
   var numOfItems, totalSpace, closingTime, breakWidths;
