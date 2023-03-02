@@ -21,18 +21,110 @@ categories:
   - Long Island
 published: true
 ---
+<head>
+  <style>
+  * {box-sizing: border-box}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+    
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  </style>
+</head>
 
 <p style="margin-bottom: 38px;"> <b>A colored version of this post can be viewed </b> <a href="https://www.obscuredny.com/Kings-Park-Psychiatric-Center-Building-93-(Colored)/">here</a>.</p>
   
 <p>When the thought of abandoned or, dare I say, haunted psychiatric centers comes to mind, most think of the former Kings Park Psychiatric Center (KPPC). Even those who do not consider themselves all that adventurous can be seen on the grounds, along with the elderly and young. It is not uncommon to run into another person while exploring any of the buildings on the 368-acre-long campus. Exploring the grounds allows you to unravel the history of this overflow facility.</p> 
 
-<figure>
-  <a href="/assets/images/exterior.jpg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
-       <img srcset="/assets/images/KPPC93/exterior2.jpg 2x" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
-    </a>
+ <div class="slideshow-container">
+    
+  <div class="mySlides fade">
+  <figure>
+    <a href="/assets/images/exterior.jpg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
+         <img srcset="/assets/images/exterior.jpg 2x" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
+      </a>
   <figcaption>The neoclassical structure is strikingly similar to the long-forgotten main building of <a href="http://edgewoodhospital.com/history.asp" target="_blank" rel="noopener noreferrer">Edgewood State Hospital</a>.</figcaption>
-</figure>
-
+  </figure>
+  </div>
+  
+  <div class="mySlides fade">
+  <figure>
+    <a href="/assets/images/clip2.PNG" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
+         <img srcset="/assets/images/clip2.PNG" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
+      </a>
+  </figure>
+  </div>
+  
+  <div class="mySlides fade">
+  <figure>
+    <a href="/assets/images/clip1.PNG" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
+         <img srcset="/assets/images/clip1.PNG" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
+      </a>
+  </figure>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
 
 <p>On August 25, 1988, the state-run Office of Mental Health declared an overcrowding crisis within hospitals and psychiatric centers alike. Patients are laid on beds that are hardly even inches from one another; to them, it is degrading and to the staff a logistical nightmare. Due to the overwhelming number of patients being received, many are carted off to other state-run facilities for treatment.</p>
 <br>
