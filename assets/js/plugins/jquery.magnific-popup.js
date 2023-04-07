@@ -1137,7 +1137,6 @@
                 '<div class="mfp-bottom-bar">'+
                   '<div class="mfp-title"></div>'+
                   '<div class="mfp-counter"></div>'+
-                  '<div class="mfp-high-res"><button title="Close (Esc)" type="button" class="mfp-close">×</button></div>'+
                 '</div>'+
               '</figcaption>'+
             '</figure>'+
