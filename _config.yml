@@ -285,7 +285,6 @@ defaults:
       share: true
       related: false
       classes: wide
-      related: true
   # _pages
   - scope:
       path: ""
