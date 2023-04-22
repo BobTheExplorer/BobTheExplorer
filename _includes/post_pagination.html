@@ -1,9 +1,9 @@
 {% if page.previous or page.next %}
   <nav class="pagination">
     {% if page.previous %}
-      <a href="{{ page.previous.url | relative_url }}" style="text-align: right;border-left-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+      <a href="{{ page.previous.url | relative_url }}" style="text-align: left;border-left-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
     {% else %}
-      <a href="#" style="text-align: right;border-left-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+      <a href="#" style="text-align: left;border-left-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
     {% endif %}
     {% if page.next %}
       <a href="{{ page.next.url | relative_url }}" style="text-align: right;border-left-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
