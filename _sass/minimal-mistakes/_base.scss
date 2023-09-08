@@ -246,6 +246,9 @@ figure {
   }
   
   &.fourth {
+    padding-left: 22px;
+    padding-right: 22px;
+    
     > a,
     > img {
       @include breakpoint($large) {
