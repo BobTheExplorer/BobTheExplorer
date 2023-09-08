@@ -249,9 +249,9 @@ figure {
   &.fourth {
     > a,
     > element {
-      margin-left: 22px;  
-      margin-right: 22px; 
-    }
+    margin-left: 22px;  
+    margin-right: 22px; 
+  }
     > img {
       @include breakpoint($large) {
         width: 164px;
