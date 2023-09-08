@@ -249,8 +249,8 @@ figure {
   &.fourth {
     > a,
     > img {
-        @include breakpoint($large) {
-         width: calc(22.2222% - 0.8em);
+        width: 164px;
+        height: 132px;
           /* width: 145px 
              height: 123px
           For five row pictures
