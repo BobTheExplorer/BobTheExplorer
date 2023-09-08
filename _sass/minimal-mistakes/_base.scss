@@ -247,7 +247,11 @@ figure {
   }
   
   &.fourth {
-    > a,
+    > a {
+      margin-left: 22px;
+      margin-right: 22px;
+    }
+    
     > img {
       @include breakpoint($large) {
         width: 164px;
@@ -258,12 +262,6 @@ figure {
           */
             }
     }
-    
-    figure {
-      margin-left: 22px;
-      margin-right: 22px;
-    }
-    
     figcaption {
       width: 100%;
     }
