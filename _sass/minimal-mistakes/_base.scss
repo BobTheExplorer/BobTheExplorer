@@ -251,17 +251,15 @@ figure {
     > img {
         @include breakpoint($large) {
          width: calc(22.2222% - 0.8em);
+          /* width: 145px 
+             height: 123px
+          For five row pictures
+          */
             }
     }
 
     figcaption {
       width: 100%;
-    }
-    
-    figure {
-      margin-left: 40px;
-      margin-bottom: 0.2em;
-      margin-right: 40px;
     }
   }
 
