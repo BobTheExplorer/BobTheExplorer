@@ -248,12 +248,12 @@ figure {
   
   &.fourth {
     > a,
-    
+    /*
     > figure {
       margin-left: 22px;
       margin-right: 22px;
     }
-    
+    */
     > img {
       @include breakpoint($large) {
         width: 164px;
