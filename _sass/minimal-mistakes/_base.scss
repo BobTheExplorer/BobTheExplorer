@@ -214,8 +214,6 @@ figure {
   align-items: flex-start;
   flex-wrap: wrap;
   margin: 2em 0;
-  padding-left: 22px;
-  padding-right: 22px;
 
   img,
   iframe,
@@ -276,6 +274,53 @@ figure {
       width: 100%;
      }
     }
+}
+
+figure2 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2em 0;
+  padding-left: 22px;
+  padding-right: 22px;
+
+  img,
+  iframe,
+  .fluid-width-video-wrapper {
+    margin-bottom: 1em;
+  }
+
+  img {
+    width: 100%;
+    border-radius: $border-radius;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+  }
+
+  > a {
+    display: block;
+  }
+  
+   &.fourth {
+    > a,
+    > img {
+      @include breakpoint($large) {
+        width: 164px;
+        height: 132px;
+          /* width: 145px 
+             height: 123px
+          For five row pictures
+          */
+            }
+    }
+    figcaption {
+      width: 100%;
+    }
+  }
 }
 
 
