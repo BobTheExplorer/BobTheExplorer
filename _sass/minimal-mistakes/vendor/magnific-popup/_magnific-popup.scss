@@ -323,6 +323,57 @@ button {
   }
 }
 
+
+// Close icon
+.mfp-close {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+  text-align: center;
+  opacity: $mfp-controls-opacity;
+  @if $mfp-IE7support {
+    filter: unquote("alpha(opacity=#{$mfp-controls-opacity*100})");
+  }
+  padding: 0 0 18px 10px;
+  color: $mfp-controls-color;
+
+  font-style: normal;
+  font-size: 28px;
+  font-family: $serif;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+    @if $mfp-IE7support {
+      filter: unquote("alpha(opacity=#{1*100})");
+    }
+  }
+
+  &:active {
+    top: 1px;
+  }
+}
+.mfp-close-btn-in {
+  .mfp-close {
+    color: $mfp-inner-close-icon-color;
+  }
+}
+.mfp-image-holder,
+.mfp-iframe-holder {
+  .mfp-close {
+    color: $mfp-controls-color;
+    right: -6px;
+    text-align: right;
+    padding-right: 22px;
+    width: 100%;
+  }
+}
+
 // "1 of X" counter
 .mfp-counter {
   position: absolute;
