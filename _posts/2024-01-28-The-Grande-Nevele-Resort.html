@@ -1,7 +1,7 @@
 ---
 header:
-  og_image: "/assets/images/Nevele/Nevele5"
-  teaser: "/assets/images/Nevele/Nevele5"
+  og_image: "/assets/images/Nevele/Nevele5.jpg"
+  teaser: "/assets/images/Nevele/Nevele5.jpg"
 permalink: /The-Grande-Nevele-Resort/
 layout: single
 author_profile: true
@@ -19,7 +19,7 @@ author:
 excerpt: ""
 categories:
   - Catskills
-published: false
+published: true
 ---
 <head>
   <style>
@@ -93,6 +93,35 @@ published: false
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
   </div>
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
 
 <p>Around the late 1970s to early 1980s, most of these resorts and the towns they resided in started to stagnate, with the majority of them closing indefinitely. The main reason: a loss of their original predominately Jewish customer base.</p> 
 <br>
