@@ -20,7 +20,7 @@ excerpt: ""
 categories:
   - Catskills
 hidden: true
-published: false
+published: true
 ---
 <head>
   <style>
@@ -157,7 +157,7 @@ function showSlides(n) {
       </a>
 </figure2>
 
-<p>By 2006, the guest rooms and other faculties were starting to show their age. An overwhelming smell of mold along with mildew was present throughout the premises. Even before its eventual closure, it was already severely dilapidated.</p>
+<p>By 2006, the guest rooms and other faculties were starting to show their age. An overwhelming smell of mold along with mildew was present throughout the premises. Any issues that guests could have had with the roaches or cigarette burns in their room were subjected to poor customer service.</p>
 <figure>
   <a href="/assets/images/Nevele/Nevele14.jpg" class="image-popup" loading="lazy" width="2048" height="1365" alt="View Full Image" style="cursor: zoom-in;">
        <img src="/assets/images/Nevele/Nevele14.jpg" loading="lazy" width="2048" height="1365">
@@ -165,7 +165,7 @@ function showSlides(n) {
 <figcaption>The conditions inside were so deplorable that a now-defunct website was dedicated to the testaments of former guests. At one point in time, they even had a merchandise store selling “I Survived the Nevele” t-shirts.</figcaption>
 </figure>
 
-<p>As the effects of the 2008 economic recession began to be felt across America, the resort was in deep financial straits. In the sweltering heat of summer, it owed more than $700,000 in taxes to Ulster County. In March, a balance of $35,277 was to be paid out after an employee was injured on the clock. It all reached a boiling point in July, after 108 years Nevele permanently closed</p> 
+<p>As the effects of the 2008 economic recession began to be felt across America, the resort was in deep financial straits. In the sweltering heat of summer, it owed more than $700,000 in taxes to Ulster County. In March, a balance of $35,277 was to be paid out after an employee was injured on the clock. It all culminated after the 4th of July weekend; following 108 years of service, The Grand Resort Nevele was ultimately shuttered for good.</p> 
 
 <figure>
   <a href="/assets/images/Nevele/Nevele2.jpg" class="image-popup" loading="lazy" width="2048" height="1365" alt="View Full Image" style="cursor: zoom-in;">
@@ -174,9 +174,9 @@ function showSlides(n) {
 <figcaption>Pictured above is the presidential suite, where President Lyndon B. Johnson enjoyed his time here in 1966.</figcaption>  
 </figure>
 
-<p>Post-closure, the pressure continued to build. An unpaid debt of $293,826 was owed in water, gas, and electric fees alone. Evidently, it proved to be too much, so it was once again put up for sale. Surprisingly enough, the sale almost happened until a walk-through of the property was performed.</p>
+<p>Post-closure, the pressure continued to build. An unpaid debt of $293,826 was owed in water, gas, and electric fees alone. Evidently, it proved to be too much, so it was once again put up for sale. Talks between the owner and a potential new buyer were initiated that October. A day before the sale was to be finalized, a brief walkthrough of the hotel and its urine-stained halls caused the sale to fall through.</p>
 <br>
-<p>A renewed interest in the hotel occurred sometime in 2014. For a time, it was considered to be the site of a new casino. If this proposal came about, it could have revitalized the former Borscht-Belt-era resorts. An estimated amount of 1,200 jobs something something jobs </p> 
+<p>A renewed interest in the property occurred sometime in 2014. For a time, it was considered to be the site of a new casino. If this proposal came about, it could have revitalized the former Borscht-Belt-era resorts. An estimated amount of 1,200 jobs could have replaced the 100.  </p> 
   
 <figure>
   <a href="/assets/images/Nevele/Nevele6.jpg" class="image-popup" loading="lazy" width="2048" height="1365" alt="View Full Image" style="cursor: zoom-in;">
@@ -185,5 +185,61 @@ function showSlides(n) {
 </figure>
   
 <p>Just a couple of months ago, there was yet another change in ownership. 1100 Arrow LLC, the new owners, bought it for an estimated $5 million last October. Part of the sale also included a plan to demolish the majority of the former resort for condominiums.</p> 
+<div class="slideshow-container">
+  
+<div class="mySlides fade">
+<figure>
+  <a href="/assets/images/Nevele/Nevele12.jpg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
+       <img srcset="/assets/images/Nevele/Nevele12.jpg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
+    </a>
+</figure>
+</div>
 
+<div class="mySlides fade">
+<figure>
+  <a href="/assets/images/Nevele/Tower1.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
+       <img srcset="/assets/images/Nevele/Tower1.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
+    </a>
+</figure>
+</div>
+
+<div class="mySlides fade">
+<figure>
+  <a href="/assets/images/Nevele/Tower2.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
+       <img srcset="/assets/images/Nevele/Tower2.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
+    </a>
+</figure>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 <p>The future for Nevele remains an uncertain one</p>
