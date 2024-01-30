@@ -20,7 +20,7 @@ excerpt: ""
 categories:
   - Catskills
 hidden: true
-published: false
+published: true
 ---
 <head>
   <style>
@@ -96,7 +96,7 @@ published: false
 </div>
 
 <script>
-let slideIndex = 1;
+let slideIndex = [1,1];
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -109,7 +109,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
+  let slides = document.getElementsByClassName(["mySlides1", "mySlides2");
   let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
@@ -186,5 +186,32 @@ function showSlides(n) {
 
 <!-- Fatten this section up too!--> 
 <p>Just a couple of months ago, there was yet another change in ownership. 1100 Arrow LLC, the new owners, bought it for an estimated $5 million last October. Part of the sale also included a plan to demolish the majority of the former resort for condominiums.</p> 
+<div class="slideshow-container">
+  
+<div class="mySlides2 fade">
+<figure>
+  <a href="/assets/images/Nevele/Nevele12.jpg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
+       <img srcset="/assets/images/Nevele/Nevele12.jpg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
+    </a>
+</figure>
+</div>
 
+<div class="mySlides2 fade">
+<figure>
+  <a href="/assets/images/Nevele/Tower1.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
+       <img srcset="/assets/images/Nevele/Tower1.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
+    </a>
+</figure>
+</div>
+
+<div class="mySlides2 fade">
+<figure>
+  <a href="/assets/images/Nevele/Tower2.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
+       <img srcset="/assets/images/Nevele/Tower2.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
+    </a>
+</figure>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
 <p>The future for Nevele remains an uncertain one</p>
