@@ -20,7 +20,7 @@ excerpt: ""
 categories:
   - Catskills
 hidden: true
-published: true
+published: false
 ---
 <head>
   <style>
@@ -134,7 +134,7 @@ function showSlides(n) {
     </a>
 <figcaption>The Textile Distributors Association held a convention here in 1991.</figcaption>
 </figure>
-
+<!-- Fatten this section up !-->
 <p>Perhaps through a premonition or just common sense, the Slutskies pawned off the resort in 1997. Fred Kassner, co-founder of Liberty Travel, acquired the 800-acre resort and country club for $10 million.</p> 
 <br>
 <p>The passing of ownership was albeit short, considering that the new owner passed away in 1998. Afterwards, the property fell into the hands of Stratford Business Corp. for $415 million in 2000. Over the span of the next 3 years, $11 million would be spent on modernizing it.</p>
@@ -183,63 +183,8 @@ function showSlides(n) {
        <img src="/assets/images/Nevele/Nevele6.jpg" loading="lazy" width="2048" height="1365">
     </a>
 </figure>
-  
+
+<!-- Fatten this section up too!--> 
 <p>Just a couple of months ago, there was yet another change in ownership. 1100 Arrow LLC, the new owners, bought it for an estimated $5 million last October. Part of the sale also included a plan to demolish the majority of the former resort for condominiums.</p> 
-<div class="slideshow-container">
-  
-<div class="mySlides fade">
-<figure>
-  <a href="/assets/images/Nevele/Nevele12.jpg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
-       <img srcset="/assets/images/Nevele/Nevele12.jpg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
-    </a>
-</figure>
-</div>
 
-<div class="mySlides fade">
-<figure>
-  <a href="/assets/images/Nevele/Tower1.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
-       <img srcset="/assets/images/Nevele/Tower1.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
-    </a>
-</figure>
-</div>
-
-<div class="mySlides fade">
-<figure>
-  <a href="/assets/images/Nevele/Tower2.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
-       <img srcset="/assets/images/Nevele/Tower2.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
-    </a>
-</figure>
-</div>
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-</div>
-
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
 <p>The future for Nevele remains an uncertain one</p>
