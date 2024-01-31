@@ -254,7 +254,7 @@ function showSlides(n) {
 </div>
 
 <script>
-let slideIndex = 1;
+let slideIndex = 2;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -269,16 +269,16 @@ function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName(["mySlides2");
   let dots = document.getElementsByClassName("dot2");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) {slideIndex = 2}    
+  if (n < 2) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  slides[slideIndex-2].style.display = "block";  
+  dots[slideIndex-2].className += " active";
 }
 </script>
 <p>There is an air of uncertainty over this potential project. </p>
