@@ -95,28 +95,28 @@ published: true
   <a class="next" onclick="plusSlides(1)">❯</a>
   </div>
   
-  <script>
-  let slideIndex = [1,1];
-  /* Class the members of each slideshow group with different CSS classes */
-  let slideId = ["mySlides1", "mySlides2"]
-  showSlides(1, 0);
-  showSlides(1, 1);
+<script>
+let slideIndex = [1,1];
+/* Class the members of each slideshow group with different CSS classes */
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
 
-  function plusSlides(n, no) {
-    showSlides(slideIndex[no] += n, no);
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
-
-  function showSlides(n, no) {
-    let i;
-    let x = document.getElementsByClassName(slideId[no]);
-    if (n > x.length) {slideIndex[no] = 1}
-    if (n < 1) {slideIndex[no] = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    x[slideIndex[no]-1].style.display = "block";
-  } 
-  </script>
+  x[slideIndex[no]-1].style.display = "block";
+}
+</script>
 
 <p>Around the late 1970s to early 1980s, most of these resorts and the towns they resided in started to stagnate, with the majority of them closing indefinitely. The main reason: a loss of their original predominately Jewish customer base.</p> 
 <br>
