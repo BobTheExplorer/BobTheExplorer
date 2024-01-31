@@ -74,7 +74,7 @@ published: true
   }
     
   /* Next & previous buttons */
-  .prev, .next {
+  .prev2, .next2 {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -90,14 +90,14 @@ published: true
   }
   
   /* Position the "next button" to the right */
-  .next {
+  .next2 {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+    .prev2, .next2,.text {font-size: 11px}
   }
   </style>
 </head>
@@ -249,8 +249,8 @@ function showSlides(n) {
     </a>
 </figure>
 </div>
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
+<a class="prev2" onclick="plusSlides(-1)">❮</a>
+<a class="next2" onclick="plusSlides(1)">❯</a>
 </div>
 
 <script>
@@ -268,7 +268,7 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName(["mySlides2");
-  let dots = document.getElementsByClassName("dot");
+  let dots = document.getElementsByClassName("dot2");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
