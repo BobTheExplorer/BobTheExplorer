@@ -61,44 +61,6 @@ published: true
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }
-    
-  * {box-sizing: border-box}
-  .mySlides2 {display: none}
-  img {vertical-align: middle;}
-  
-  /* Slideshow container */
-  .slideshow-container2 {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-    
-  /* Next & previous buttons */
-  .prev2, .next2 {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next2 {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev2, .next2,.text {font-size: 11px}
-  }
   </style>
 </head>
 
@@ -150,11 +112,11 @@ published: true
     let dots = document.getElementsByClassName("dot");
     if (n > slides.length) {slideIndex = 2}    
     if (n < 2) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
+    for (i = 0; i < slides.length; i+++) {
       slides[i].style.display = "none";  
     }
     for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace("active");
     }
     slides[slideIndex-2].style.display = "block";  
     dots[slideIndex-2].className += " active";
