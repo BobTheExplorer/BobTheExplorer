@@ -110,13 +110,17 @@ let slideIndex = 2;
   function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
     if (n > slides.length) {slideIndex = 2}    
     if (n < 2) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
     }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block"; 
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
 </script>
 
 <p>Around the late 1970s to early 1980s, most of these resorts and the towns they resided in started to stagnate, with the majority of them closing indefinitely. The main reason: a loss of their original predominately Jewish customer base.</p> 
