@@ -65,63 +65,12 @@ published: true
 </head>
 
 <p>Much like many other resorts within the Borsch Belt, the Nevele started off as a small family-run hotel. Opened in 1901, initially as a country club, it would quickly grow into a resort by the 1950s and 1960s.</p>
- <div class="slideshow-container">
-    
-  <div class="mySlides fade">
-  <figure>
-    <a href="/assets/images/Nevele/Tower1.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
-         <img srcset="/assets/images/Nevele/Tower1.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  </figure>
-  </div>
 
-  <div class="mySlides fade">
-  <figure>
+<figure>
     <a href="/assets/images/Nevele/Nevele12.jpg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
          <img srcset="/assets/images/Nevele/Nevele12.jpg 2x" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
       </a>
   </figure>
-  </div>
-   
-  <div class="mySlides fade">
-  <figure>
-    <a href="/assets/images/Nevele/Tower2.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
-         <img srcset="/assets/images/Nevele/Tower2.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  </figure>
-  </div>
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-  </div>
-  
-<script>
-  let slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-  }
-  </script>
 
 <p>Around the late 1970s to early 1980s, most of these resorts and the towns they resided in started to stagnate, with the majority of them closing indefinitely. The main reason: a loss of their original predominately Jewish customer base.</p> 
 <br>
@@ -185,26 +134,17 @@ published: true
 
 <!-- Fatten this section up too!--> 
 <p>Just last year, there was yet another change in ownership. 1100 Arrow LLC, the new owners, bought it for an estimated $5 million last October. Part of the sale also included a plan to demolish the majority of the former resort. Two medium-scale hotels and residential housing are to be constructed in lieu of the already existing structures on the property. Any signs of construction are noticably absent from the future worksite.</p> 
-<!-- <div class="slideshow-container2">
+<div class="slideshow-container">
     
-  <div class="mySlides2 fade">
-  <figure>
-    <a href="/assets/images/Nevele/Nevele12.jpg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
-         <img srcset="/assets/images/Nevele/Nevele12.jpg 2x" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  <figcaption>The neoclassical structure is strikingly similar to the long-forgotten main building of <a href="http://edgewoodhospital.com/history.asp" target="_blank" rel="noopener noreferrer">Edgewood State Hospital</a>.</figcaption>
-  </figure>
-  </div>
-  
-  <div class="mySlides2 fade">
+  <div class="mySlides fade">
   <figure>
     <a href="/assets/images/Nevele/Tower1.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
          <img srcset="/assets/images/Nevele/Tower1.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
       </a>
   </figure>
   </div>
-  
-  <div class="mySlides2 fade">
+   
+  <div class="mySlides fade">
   <figure>
     <a href="/assets/images/Nevele/Tower2.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
          <img srcset="/assets/images/Nevele/Tower2.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
@@ -214,5 +154,34 @@ published: true
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
   </div>
-!-->
+  
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+</script>
+
 <p>There is an air of uncertainty over this potential project. </p>
