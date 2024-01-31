@@ -20,7 +20,7 @@ excerpt: ""
 categories:
   - Catskills
 hidden: true
-published: true
+published: false
 ---
 <head>
   <style>
@@ -96,26 +96,32 @@ published: true
 </div>
 
 <script>
-let slideIndex = [1,1];
-/* Class the members of each slideshow group with different CSS classes */
-let slideId = ["mySlides1", "mySlides2"]
-showSlides(1, 0);
-showSlides(1, 1);
+let slideIndex = 1;
+showSlides(slideIndex);
 
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-function showSlides(n, no) {
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
   let i;
-  let x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  let slides = document.getElementsByClassName(["mySlides1");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
   }
-  x[slideIndex[no]-1].style.display = "block";
-} 
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
 </script>
 
 <p>Around the late 1970s to early 1980s, most of these resorts and the towns they resided in started to stagnate, with the majority of them closing indefinitely. The main reason: a loss of their original predominately Jewish customer base.</p> 
@@ -128,7 +134,7 @@ function showSlides(n, no) {
     </a>
 <figcaption>The Textile Distributors Association held a convention here in 1991.</figcaption>
 </figure>
-<!-- Fatten this section up !-->
+<!-- Fatten this section up, but how bro? !-->
 <p>Perhaps through a premonition or just common sense, the Slutskies pawned off the resort in 1997. Fred Kassner, co-founder of Liberty Travel, acquired the 800-acre resort and country club for $10 million.</p> 
 <br>
 <p>The passing of ownership was albeit short, considering that the new owner passed away in 1998. Afterwards, the property fell into the hands of Stratford Business Corp. for $415 million in 2000. Over the span of the next 3 years, $11 million would be spent on modernizing it.</p>
@@ -180,32 +186,5 @@ function showSlides(n, no) {
 
 <!-- Fatten this section up too!--> 
 <p>Just last year, there was yet another change in ownership. 1100 Arrow LLC, the new owners, bought it for an estimated $5 million last October. Part of the sale also included a plan to demolish the majority of the former resort. Two medium-scale hotels and residential housing are to be constructed in lieu of the already existing structures on the property.</p> 
-<div class="slideshow-container">
-  
-<div class="mySlides2 fade">
-<figure>
-  <a href="/assets/images/Nevele/Nevele12.jpg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
-       <img srcset="/assets/images/Nevele/Nevele12.jpg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
-    </a>
-</figure>
-</div>
 
-<div class="mySlides2 fade">
-<figure>
-  <a href="/assets/images/Nevele/Tower1.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
-       <img srcset="/assets/images/Nevele/Tower1.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
-    </a>
-</figure>
-</div>
-
-<div class="mySlides2 fade">
-<figure>
-  <a href="/assets/images/Nevele/Tower2.jpeg" width="2048" height="1365" class="image-popup" loading="lazy" style="cursor: zoom-in;">
-       <img srcset="/assets/images/Nevele/Tower2.jpeg" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
-    </a>
-</figure>
-</div>
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-</div>
 <p>The future for Nevele remains an uncertain one</p>
