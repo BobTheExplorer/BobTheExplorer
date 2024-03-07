@@ -213,7 +213,8 @@ figure {
   -webkit-box-align: start;
   align-items: flex-start;
   flex-wrap: wrap;
-  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0) scale(0.999999);/*
+  image-rendering: -webkit-optimize-contrast; /* https://stackoverflow.com/questions/37906602/blurry-downscaled-images-in-chrome */
   margin: 2em 0;
 
   img,
@@ -227,7 +228,8 @@ figure {
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
-    image-rendering: -webkit-optimize-contrast;
+    transform: translateZ(0) scale(0.999999);
+    /* image-rendering: -webkit-optimize-contrast; */
     cursor: zoom-in;  
   }
 
