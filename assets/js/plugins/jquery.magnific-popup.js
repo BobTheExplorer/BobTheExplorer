@@ -1137,6 +1137,9 @@
                 '<div class="mfp-bottom-bar">'+
                   '<div class="mfp-title"></div>'+
                   '<div class="mfp-counter"></div>'+
+                  '<div class="svg-test">
+                  <img src="equilateral.svg" height="87" width="100" />
+                  </div>'+
                 '</div>'+
               '</figcaption>'+
             '</figure>'+
