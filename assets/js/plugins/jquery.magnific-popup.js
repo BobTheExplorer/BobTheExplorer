@@ -1136,7 +1136,7 @@
               '<figcaption>'+
                 '<div class="mfp-bottom-bar">'+
                   '<div class="mfp-title"></div>'+
-                  '<div class="mfp-counter"></div>'+
+                  '<div class="mfp-counter" <svg height="200" width="300" xmlns="http://www.w3.org/2000/svg"><image height="200" width="300" href="assets/external-link.svg"/></svg></div>'+
                   '<div class="svg-test"></div>'+
                 '</div>'+
               '</figcaption>'+
