@@ -333,6 +333,12 @@ button {
   line-height: 18px;
 }
 
+.svg-test {
+  width: 44px;
+  height: 44px;
+  line-height: 12px;
+  position: absolute;
+}
 // Navigation arrows
 @if $mfp-include-arrows {
   .mfp-arrow {
