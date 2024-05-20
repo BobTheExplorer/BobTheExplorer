@@ -6,15 +6,8 @@ description: "Photos that look good to gaze at: the sequel"
 permalink: /gallery/page2/
 published: true
 ---
-<script type="module" src="main.js">
-import PhotoSwipeLightbox from '/dist/photoswipe-lightbox.esm.js';
-const lightbox = new PhotoSwipeLightbox({
-  gallery: '#my-gallery',
-  children: 'a',
-  pswpModule: () => import('/dist/photoswipe.esm.js')
-});
-lightbox.init();
-import PhotoSwipeLightbox from '//photoswipe-lightbox.esm.js';
+<script type="module">
+import PhotoSwipeLightbox from 'dist/photoswipe-lightbox.esm.js';
 
 const lightbox = new PhotoSwipeLightbox({
   // may select multiple "galleries"
@@ -24,11 +17,9 @@ const lightbox = new PhotoSwipeLightbox({
   children: 'a',
 
   // setup PhotoSwipe Core dynamic import
-  pswpModule: () => import('/photoswipe.esm.js')
+  pswpModule: () => import('dist/photoswipe.esm.js')
 });
-lightbox.init();
-
-<link rel="stylesheet" href="/dist/photoswipe.css">
+lightbox.init();  
 </script>
 <!--
 https://photoswipe.com/
