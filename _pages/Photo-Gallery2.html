@@ -6,61 +6,33 @@ description: "Photos that look good to gaze at: the sequel"
 permalink: /gallery/page2/
 published: true
 ---
-<script type="module">
-import PhotoSwipeLightbox from 'dist/photoswipe-lightbox.esm.js';
 
-const lightbox = new PhotoSwipeLightbox({
-  // may select multiple "galleries"
-  gallery: '#gallery--getting-started',
+    <script src="./photoswipe.umd.min.js"></script>
+    <script src="./photoswipe-lightbox.umd.min.js"></script>
+    
+    <link rel="stylesheet" href="../photoswipe.css">
 
-  // Elements within gallery (slides)
-  children: 'a',
-
-  // setup PhotoSwipe Core dynamic import
-  pswpModule: () => import('dist/photoswipe.esm.js')
-});
-lightbox.init();  
-</script>
-<!--
-https://photoswipe.com/
-https://github.com/mmistakes/minimal-mistakes/discussions/2603
-!-->
-
-<div class="pswp-gallery" id="gallery--getting-started">
-  <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-pswp-width="1669" data-pswp-height="2500">
-    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt="" />
-  </a>
-  <!-- cropped thumbnail: -->
-  <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg" 
-    data-pswp-width="1875" 
-    data-pswp-height="2500" 
-    data-cropped="true">
-    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt="" />
-    Cropped
-  </a>
-  <!-- data-pswp-src with custom URL in href -->
-  <a href="https://unsplash.com" 
-    data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"
-    data-pswp-width="2500" 
-    data-pswp-height="1666">
-    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" />
-  </a>
-  <!-- Without thumbnail: -->
-  <a href="http://example.com" 
-    data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg"
-    data-pswp-width="2500" 
-    data-pswp-height="1668">
-    No thumbnail
-  </a>
-  <!-- wrapped with any element: -->
-  <div>
-    <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg"
-      data-pswp-width="2500" 
-      data-pswp-height="1667">
-      <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt="" />
-    </a>
-  </div>
-</div>
+    <div class="test-gallery">
+      <a href="https://dummyimage.com/1200x600/000/fff" data-pswp-width="1200" data-pswp-height="600">
+        <img src="https://dummyimage.com/120x60/000/fff" alt="" />
+      </a>
+      <a href="https://dummyimage.com/1200x1200/000/fff" data-pswp-width="1200" data-pswp-height="1200">
+        <img src="https://dummyimage.com/60x60/000/fff" alt="" />
+      </a>
+      <a href="https://dummyimage.com/600x1200/000/fff" data-pswp-width="600" data-pswp-height="1200">
+        <img src="https://dummyimage.com/30x60/000/fff" alt="" />
+      </a>
+    </div>
+    
+    <script type="text/javascript">
+      var lightbox = new PhotoSwipeLightbox({
+        gallery: '.test-gallery',
+        children: 'a',
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe 
+      });
+      lightbox.init();
+    </script>
 <!-- 
 <figure class="fourth">
   
