@@ -6,8 +6,14 @@ description: "Photos that look good to gaze at: the sequel"
 permalink: /gallery/page2/
 published: true
 ---
-<script>
-  // Include Lightbox 
+<script type="module" src="main.js">
+import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '#my-gallery',
+  children: 'a',
+  pswpModule: () => import('photoswipe/dist/photoswipe.esm.js')
+});
+lightbox.init();
 import PhotoSwipeLightbox from '/photoswipe/photoswipe-lightbox.esm.js';
 
 const lightbox = new PhotoSwipeLightbox({
@@ -21,6 +27,8 @@ const lightbox = new PhotoSwipeLightbox({
   pswpModule: () => import('/photoswipe/photoswipe.esm.js')
 });
 lightbox.init();
+
+<link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
 </script>
 <!--
 https://photoswipe.com/
