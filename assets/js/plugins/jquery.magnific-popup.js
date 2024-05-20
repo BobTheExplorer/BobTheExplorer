@@ -24,7 +24,7 @@
   /**
    * Private static constants
    */
-/*!
+
   var CLOSE_EVENT = 'Close',
     BEFORE_CLOSE_EVENT = 'BeforeClose',
     AFTER_CLOSE_EVENT = 'AfterClose',
@@ -43,7 +43,7 @@
    * Private vars
    */
   /*jshint -W079 */
-/*!
+
   var mfp, // As we have only one instance of MagnificPopup object, we define it locally to not to use 'this'
     MagnificPopup = function(){},
     _isJQ = !!(window.jQuery),
@@ -58,7 +58,7 @@
   /**
    * Private functions
    */
-/*!
+
   var _mfpOn = function(name, f) {
       mfp.ev.on(NS + name + EVENT_NS, f);
     },
@@ -99,8 +99,8 @@
     // Initialize Magnific Popup only when called at least once
     _checkInstance = function() {
       if(!$.magnificPopup.instance) {
-        /*jshint -W020 */
-       /*! mfp = new MagnificPopup();
+        jshint -W020 */
+       ! mfp = new MagnificPopup();
         mfp.init();
         $.magnificPopup.instance = mfp;
       }
@@ -125,10 +125,10 @@
 
 
 
-  /**
+  
    * Public functions
    */
- /*! MagnificPopup.prototype = {
+  MagnificPopup.prototype = {
 
     constructor: MagnificPopup,
 
@@ -136,7 +136,7 @@
      * Initializes Magnific Popup plugin.
      * This function is triggered only once when $.fn.magnificPopup or $.magnificPopup is executed
      */
-   /*! init: function() {
+      ! init: function() {
       var appVersion = navigator.appVersion;
       mfp.isLowIE = mfp.isIE8 = document.all && !document.addEventListener;
       mfp.isAndroid = (/android/gi).test(appVersion);
@@ -151,11 +151,11 @@
       mfp.popupsCache = {};
     },
 
-    /**
+    *
      * Opens popup
      * @param  data [description]
      */
-  /*!  open: function(data) {
+  !  open: function(data) {
 
       var i;
 
@@ -386,7 +386,7 @@
     /**
      * Closes the popup
      */
- /*!   close: function() {
+  !   close: function() {
       if(!mfp.isOpen) return;
       _mfpTrigger(BEFORE_CLOSE_EVENT);
 
@@ -405,7 +405,7 @@
     /**
      * Helper for close() function
      */
-/*!    _close: function() {
+ !    _close: function() {
       _mfpTrigger(CLOSE_EVENT);
 
       var classesToRemove = REMOVING_CLASS + ' ' + READY_CLASS + ' ';
@@ -480,7 +480,7 @@
     /**
      * Set content of popup based on current index
      */
-  /*!  updateItemHTML: function() {
+   !  updateItemHTML: function() {
       var item = mfp.items[mfp.index];
 
       // Detach and perform modifications
@@ -537,7 +537,7 @@
     /**
      * Set HTML content of popup
      */
-/*!
+!
     appendContent: function(newContent, type) {
       mfp.content = newContent;
 
@@ -566,7 +566,7 @@
      * Creates Magnific Popup data object based on given data
      * @param  {int} index Index of item to parse
      */
-   /*! parseEl: function(index) {
+    ! parseEl: function(index) {
       var item = mfp.items[index],
         type;
 
@@ -607,7 +607,7 @@
     /**
      * Initializes single popup or a group of popups
      */
-  /*!  addGroup: function(el, options) {
+  !  addGroup: function(el, options) {
       var eHandler = function(e) {
         e.mfpEl = this;
         mfp._openClick(e, el, options);
@@ -675,7 +675,7 @@
     /**
      * Updates text on preloader
      */
-/*!    updateStatus: function(status, text) {
+ !    updateStatus: function(status, text) {
 
       if(mfp.preloader) {
         if(_prevStatus !== status) {
@@ -713,7 +713,7 @@
      */
     // Check to close popup or not
     // "target" is an element that was clicked
-/*!    _checkIfClose: function(target) {
+!    _checkIfClose: function(target) {
 
       if($(target).hasClass(PREVENT_CLOSE_CLASS)) {
         return;
@@ -824,7 +824,7 @@
   /**
    * Public static functions
    */
-/*!  $.magnificPopup = {
+    $.magnificPopup = {
     instance: null,
     proto: MagnificPopup.prototype,
     modules: [],
@@ -946,7 +946,7 @@
        * and it works only in normal browsers
        * we assign "options" object directly to the DOM element. FTW!
        */
- /*!     if(_isJQ) {
+  !     if(_isJQ) {
         jqEl.data('magnificPopup', options);
       } else {
         jqEl[0].magnificPopup = options;
@@ -962,7 +962,7 @@
 
   /*>>inline*/
 
-/*!  var INLINE_NS = 'inline',
+  !  var INLINE_NS = 'inline',
     _hiddenClass,
     _inlinePlaceholder,
     _lastInlineElement,
@@ -1031,7 +1031,7 @@
   /*>>inline*/
 
   /*>>ajax*/
-/*!  var AJAX_NS = 'ajax',
+  !  var AJAX_NS = 'ajax',
     _ajaxCur,
     _removeAjaxCursor = function() {
       if(_ajaxCur) {
@@ -1112,7 +1112,7 @@
   /*>>ajax*/
 
   /*>>image*/
-/*!  var _imgInterval,
+  !  var _imgInterval,
     _getTitle = function(item) {
       if(item.data && item.data.title !== undefined)
         return item.data.title;
@@ -1215,7 +1215,7 @@
       /**
        * Function that loops until the image has size to display elements that rely on it asap
        */
- /*!     findImageSize: function(item) {
+ !     findImageSize: function(item) {
 
         var counter = 0,
           img = item.img[0],
@@ -1361,7 +1361,7 @@
   /*>>image*/
 
   /*>>zoom*/
-/*!  var hasMozTransform,
+!  var hasMozTransform,
     getHasMozTransform = function() {
       if(hasMozTransform === undefined) {
         hasMozTransform = document.createElement('p').style.MozTransform !== undefined;
@@ -1525,7 +1525,7 @@
         Animating left + top + width/height looks glitchy in Firefox, but perfect in Chrome. And vice-versa.
 
          */
-/*!        var obj = {
+*!        var obj = {
           width: el.width(),
           // fix Zepto height+padding issue
           height: (_isJQ ? el.innerHeight() : el[0].offsetHeight) - paddingBottom - paddingTop
@@ -1550,7 +1550,7 @@
 
   /*>>iframe*/
 
-/*!  var IFRAME_NS = 'iframe',
+    var IFRAME_NS = 'iframe',
     _emptyPage = '//about:blank',
 
     _fixIframeBugs = function(isShowing) {
@@ -1659,7 +1659,7 @@
   /**
    * Get looped index depending on number of slides
    */
-/*!  var _getLoopedId = function(index) {
+      var _getLoopedId = function(index) {
       var numSlides = mfp.items.length;
       if(index > numSlides - 1) {
         return index - numSlides;
@@ -1824,7 +1824,7 @@
   /*>>gallery*/
 
   /*>>retina*/
-/*!
+
   var RETINA_NS = 'retina';
 
   $.magnificPopup.registerModule(RETINA_NS, {
