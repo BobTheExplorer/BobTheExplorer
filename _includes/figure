@@ -6,4 +6,9 @@
       {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
     </figcaption>
   {%- endif -%}
+$('img').mousedown(function (e) {
+  if(e.button == 2) { // right click
+    return false; // do nothing!
+  }
+});
 </figure>
