@@ -7,100 +7,58 @@ permalink: /gallery/page2/
 published: true
 ---
 
-<figure class="fourth">
-  
-      <a href="/assets/images/Proper-Way/4004000044.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/Proper-Way/4004000044.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  
-      <a href="/assets/images/Proper-Way/150150001515.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/Proper-Way/150150001515.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  
-      <a href="/assets/images/Proper-Way/9009000099.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/Proper-Way/9009000099.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  
-      <a href="/assets/images/frontpage/9009000099_1.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/frontpage/9009000099_1.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  
-      <a href="/assets/images/frontpage/8008000088.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/frontpage/8008000088.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  
-      <a href="/assets/images/frontpage/FireControl2.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/frontpage/FireControl2.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  
-      <a href="/assets/images/frontpage/Exterior.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/frontpage/Exterior.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-      
-      <a href="/assets/images/gallery/Dust Factory1.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/gallery/Dust Factory1.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  
-      <a href="/assets/images/gallery/Dust Factory2.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/gallery/Dust Factory2.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  
-      <a href="/assets/images/gallery/Dust Factory3.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/gallery/Dust Factory3.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  
-      <a href="/assets/images/gallery/Dust Factory4.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/gallery/Dust Factory4.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-  
-      <a href="/assets/images/gallery/Dust Factory5.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-          <img src="/assets/images/gallery/Dust Factory5.jpg" width="2048" height="1365" style="cursor: zoom-in;">
-      </a>
-</figure> 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <center> <a href="https://www.obscuredny.com/gallery/page1/" class="btn--inverse">1</a> <a href="https://www.obscuredny.com/gallery/page2/" class="btn--inverse">2</a> <center>
-   
-<title>Gallery of assorted photos</title>
-
-<meta name="description" content="Gallery of assorted photos">
-!-->
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe.css">
+   </head>
+   <body>
+      <div id="app">
+         <div class="pswp-gallery" id="my-gallery">
+            <a
+               href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"
+               data-pswp-width="1875"
+               data-pswp-height="2500"
+               target="_blank"
+               >
+            <img
+               src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"
+               alt=""
+               />
+            </a>
+            <a
+               href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
+               data-pswp-width="1669"
+               data-pswp-height="2500"
+               target="_blank"
+               >
+            <img
+               src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"
+               alt=""
+               />
+            </a>
+            <a
+               href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"
+               data-pswp-width="2500"
+               data-pswp-height="1666"
+               target="_blank"
+               >
+            <img
+               src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"
+               alt=""
+               />
+            </a>
+         </div>
+      </div>
+      <script type='module'>
+         import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe-lightbox.esm.js';
+         const lightbox = new PhotoSwipeLightbox({
+           gallery: '#my-gallery',
+           children: 'a',
+           pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe.esm.js')
+         });
+         lightbox.init();
+      </script>
+   </body>
+</html>
