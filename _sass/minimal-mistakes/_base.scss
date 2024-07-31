@@ -205,7 +205,7 @@ li ol {
 
 
 /* Figures and images */
-/*
+
 figure {
   display: -webkit-box;
   display: flex;
@@ -214,7 +214,7 @@ figure {
   -webkit-box-align: start;
   align-items: flex-start;
   flex-wrap: wrap;
-  image-rendering: -webkit-optimize-contrast; /* https://stackoverflow.com/questions/37906602/blurry-downscaled-images-in-chrome  Does not work in Safari
+  image-rendering: -webkit-optimize-contrast; /* https://stackoverflow.com/questions/37906602/blurry-downscaled-images-in-chrome  Does not work in Safari*/
   margin: 2em 0;
 
   img,
@@ -257,7 +257,7 @@ figure {
         height: 132px;
           /* width: 145px 
              height: 123px
-          For five row pictures
+          For five row pictures*/
           
             }
     }
