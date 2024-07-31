@@ -25,12 +25,32 @@ published: true
 <script type='module'>
          import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe-lightbox.esm.js';
          const lightbox = new PhotoSwipeLightbox({
-           gallery: '#coverfoto', '#foto2', '#my-gallery',
+           gallery: '#coverfoto',
            children: 'a',
            pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe.esm.js')
          });
          lightbox.init();
-</script>  
+</script>
+
+<script type='module'>
+         import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe-lightbox.esm.js';
+         const lightbox = new PhotoSwipeLightbox({
+           gallery: '#foto2',
+           children: 'a',
+           pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe.esm.js')
+         });
+         lightbox.init();
+</script> 
+
+<script type='module'>
+         import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe-lightbox.esm.js';
+         const lightbox = new PhotoSwipeLightbox({
+           gallery: '#my-gallery',
+           children: 'a',
+           pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe.esm.js')
+         });
+         lightbox.init();
+</script> 
 
 <p> A twenty minute walk from Jacob Riis Park lies the former naval base and current National Park, Fort Tilden. The missiles and naval artillery were traded in for athletic fields, hiking trails for the adventurous, and a center for arts. Despite the old military weaponry being done away with, the historic buildings of the naval base remain to this very day.</p>
 
