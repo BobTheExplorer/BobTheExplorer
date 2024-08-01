@@ -109,8 +109,8 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   text-align: center;
   position: absolute;
   width: 100%;
-  height: 700px;
-  max-height: 700px;
+  height: 900px;
+  max-height: 900px;
   left: 0;
   top: 0;
   padding: 0 $mfp-popup-padding-left;
@@ -124,8 +124,8 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   &:before {
     content: '';
     display: inline-block;
-    height: 700px;
-    max-height: 700px;
+    height: 900px;
+    max-height: 900px;
     vertical-align: middle;
   }
 }
