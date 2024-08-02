@@ -44,6 +44,12 @@ transform: scale(1.1);
 }
 
 .page {
+  border-left-width: 1px;
+  border-left-style: groove;  
+  border-right-width: 1px;  
+  border-right-style: groove;  
+  border-color: #4f596f; 
+  
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
