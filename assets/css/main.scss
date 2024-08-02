@@ -6,8 +6,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@import "_sass/minimal-mistakes/custom";
-
 html {
   font-size: 14px; // change to whatever
 
