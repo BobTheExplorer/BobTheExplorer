@@ -8,9 +8,9 @@
 
 @media (min-width: 80em) {
   .archive {
-  /*! width:644px; */margin-left:300px;
+  margin-right:300px;
   background-color: #2c323e;
-  width: 658px;
+  width: calc(100% - 300px});
   padding-top: 1em;
   padding-left: 7px;
   padding-right: 7px;
