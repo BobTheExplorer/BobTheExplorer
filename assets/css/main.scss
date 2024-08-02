@@ -17,6 +17,13 @@
   padding-bottom: 2em;
   float:right;
  }
+  .page {
+  border-left-width: 1px;
+  border-left-style: groove;  
+  border-right-width: 1px;  
+  border-right-style: groove;  
+  border-color: #4f596f;
+  }
 }
 
 html {
