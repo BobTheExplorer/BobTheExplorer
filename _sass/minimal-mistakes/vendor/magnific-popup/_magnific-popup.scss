@@ -123,6 +123,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
     content: '';
     display: inline-block;
     height: 100%;
+    vertical-align: middle;
   }
 }
 
@@ -139,9 +140,10 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
 .mfp-content {
   position: relative;
   display: inline-block;
+  vertical-align: middle;
   margin: 0 auto;
   text-align: left;
-  z-index: $mfp-z-index-base + 5; 
+  z-index: $mfp-z-index-base + 5;
 }
 .mfp-inline-holder,
 .mfp-ajax-holder {
