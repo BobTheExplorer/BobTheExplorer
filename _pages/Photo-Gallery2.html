@@ -34,6 +34,11 @@ published: true
 	border-radius: 4px;
 	background-color: #2c323e;
 }
+.btn-gallery disabled {
+	color: rgba(238,238,238,0.5);
+	pointer-events: none;
+	cursor: not-allowed;
+}
 </style>
 </head>
 <body>
@@ -115,11 +120,11 @@ published: true
 </center>  
 </div>
  <!--<center> <a href="https://www.obscuredny.com/gallery/page1/"><p> < < < Previous </p></a> <a href="https://www.obscuredny.com/gallery/page2/" class="btn--inverse">2</a> <center> !-->
-<div>
+ <div class="btn-group" role="group"> 
 <a href="/https://www.obscuredny.com/gallery/page1//" style="text-align: left;border-left-width: 0px;border-top-width: 0px;border-bottom-width: 0px;margin-right: 870px;padding-right: 18px;padding-left: 18px;padding-bottom: 0px;padding-top: 018px;" class="btn-gallery" title="Previous page""><p> &lt; &lt; &lt; Previous </p></a>
     
     
-<a href="#" style="text-align: right;border-left-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;" class="pagination--pager disabled"><p> Next &gt; &gt; &gt; </p></a> 
+<a href="#" style="text-align: right;border-left-width: 0px;border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;" class="btn-gallery disabled"><p> Next &gt; &gt; &gt; </p></a> 
 </div>
 </body>
 
