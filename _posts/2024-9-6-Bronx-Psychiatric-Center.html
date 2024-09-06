@@ -1,7 +1,7 @@
 ---
 header:
-  og_image: "/assets/images/BXPSYC/BXPSYC5.jpg"
-  teaser: "/assets/images/BXPSYC/BXPSYC5.jpg"
+  og_image: "/assets/images/BXPSYC/BXPSYC2.jpg"
+  teaser: "/assets/images/BXPSYC/BXPSYC2.jpg"
 permalink: /2024/09/06/Bronx-Psychiatric-Center/
 layout: single
 author_profile: true
@@ -19,9 +19,78 @@ author:
 excerpt: 
 categories:
   - Bronx
-published: false
+hidden: true
+published: true
 ---
-
+<head>
+<style>
+  * {box-sizing: border-box}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+    
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  </style>
+<script>
+let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }  
+</script>
+</head>
 <p>Part of Morris Park is littered with various hospitals and medical centers; their surgical white skyscraper-like buildings occupy the skyline. Among them is the prominent 13-story building belonging to the Bronx Psychiatric Center.</p>
 </p>
 <figure>
@@ -60,7 +129,7 @@ published: false
 </figure>
 
 <p>The ever-present issue of overcrowding had an adverse impact on the Bronx Psychiatric Center and others like it across the state. An overwhelming flood of inpatients put a severe strain on the staff, so much so that quality care for each patient was next to impossible. Drawing the attention of several medical organizations, such as the Joint Commission on Accreditation of Hospitals, which stripped the center of its accreditation in 1984. Overcrowding was only one of many violations cited; the rest include unsanitary and unsafe conditions.</p>
-
+<br>
 <p>On October 2, 1991, one of the patients, 32-year-old Ghana Frazier, escapes for the second time and goes on to murder his father hours later. Neither was he was not the first to escape, as two others managed to do so in 1988. Another patient, 27-year-old Roscoe Pauley, was held here after being suspected of stabbing his father to death in 1975. He was discharged in a year, where he would go on to fatally stab his younger brother in 1979.</p>
 
 <figure2 class="fourth">
@@ -83,7 +152,7 @@ published: false
 </figure2>
 
 <p>An announcement by the New York State Division of the Budget in 2003 revealed that the Bronx Psyche was anticipated to close by 2005. Officials claim its closure is a more economically viable alternative to hefty renovation work. Unsurprisingly, many impoverished members of the East Bronx community were in an uproar. The driving factor behind their anger was the inaccessibility of mental health services within the area. </p>
-
+<br>
 <p>Had it closed as initially expected, then all of the mainly working-class patients would have been transferred to other far-off facilities. The Creedmoor psychiatric campus in Queens was considered, as well Pilgrim State Psychiatric Center in Suffolk County. Both locations are two hours or even five hours away by means of public transportation, which could have caused daily visits to become monthly visits.</p>
 
 <figure>
@@ -91,14 +160,9 @@ published: false
       <img srcset="/assets/images/BXPSYC/BXPSYC7.jpg 2x" loading="lazy" width="2048" height="1365" style="cursor: zoom-in;">
     </a>
 </figure>
-<figcaption></figcaption>
 
 <p>A much-needed update to the premises was in the works, construction was well underway in 2008. Four new, supposedly <a href="https://www.flickr.com/photos/nysomh/sets/72157662927936510/">state-of-the-art buildings</a> that surpass the older ones both in quality and composition. Construction finished in 2015, signaling the gradual process of withdrawing patients over to the newer part of the campus. With its last patients gone and the opening of the new campus in 2016, quietly closed that same year.</p>
-<!-- (2008 construction began and finished in 2015, patients were moved over to the new campus in 2016 markings its closure.)
-      https://www.dasny.org/index.php/news/2017/new-york-state-announces-opening-350-million-bronx-behavioral-health-campus 
-      https://stackoverflow.com/questions/21110130/protect-image-download onContextMenu="return false;"
-      --> 
-
+<br>
 <p>Graffiti has started to claw its way deeper into the complex, a sure-fire sign that it's becoming a playground for vandals. Similarly, scrappers have already set up shop inside the children's ward. 
 Just last month, a suspected gunman was spotted inside the main building, prompting a rapid response from the NYPD and its Emergency Service Unit. 
 </p>
@@ -107,7 +171,7 @@ Just last month, a suspected gunman was spotted inside the main building, prompt
 
 <div class="slideshow-container">
     
-<div class="mySlides fade" style="display: block;">
+<div class="mySlides fade">
   <figure>
     <a href="/assets/images/BXPSYC/BXPSYC13.jpg" loading="lazy" width="2048" height="1365" title="" style="cursor: zoom-in;">
       <img src="/assets/images/BXPSYC/BXPSYC13.jpg" loading="lazy" width="2048" height="1365" title="" style="cursor: zoom-in;">
@@ -116,7 +180,7 @@ Just last month, a suspected gunman was spotted inside the main building, prompt
 <figcaption>Inside one of the dayrooms.</figcaption>
 </div>
 
-<div class="mySlides fade" style="display: none;">
+<div class="mySlides fade">
   <figure>
     <a href="/assets/images/BXPSYC/BXPSYC14.jpg" loading="lazy" width="2048" height="1365" title="" style="cursor: zoom-in;">
       <img src="/assets/images/BXPSYC/BXPSYC14.jpg" loading="lazy" width="2048" height="1365" title="" style="cursor: zoom-in;">
@@ -124,7 +188,7 @@ Just last month, a suspected gunman was spotted inside the main building, prompt
   </figure>
 </div>
 
-<div class="mySlides fade" style="display: none;">
+<div class="mySlides fade">
   <figure>
     <a href="/assets/images/BXPSYC/BXPSYC12.jpg" loading="lazy" width="2048" height="1365" title="" style="cursor: zoom-in;">
       <img src="/assets/images/BXPSYC/BXPSYC12.jpg" loading="lazy" width="2048" height="1365" title="" style="cursor: zoom-in;">
