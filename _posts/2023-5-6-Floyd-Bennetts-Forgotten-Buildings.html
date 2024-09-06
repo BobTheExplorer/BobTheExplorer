@@ -67,8 +67,8 @@ published: true
 <p>Ask any New Yorker to list all the airports in the city, and they'll tell you two: JFK and LaGuardia. Unaware of the city's lesser-known airports that remain out of the public eye. Inside Flushing, there used to be an <a href="https://forgotten-ny.com/1999/07/flushing-airport-part-1/" target="_blank" rel="noopener noreferrer">abandoned airport</a>; empty hangars and a rusted firetruck were all that was left of its previous life as one. Due to its location, everything previously listed has sunk into the marshy land. The only other airport that still stands is Floyd Bennett Field.</p>
 
 <figure>
-<a href="/assets/images/Floyd-Bennett/FloydBennettMisc1.jpg" loading="lazy" width="2048" height="1365" title="" style="cursor: zoom-in;" class="image-popup" onContextMenu="return false;">
-          <img src="/assets/images/Floyd-Bennett/FloydBennettMisc1.jpg" loading="lazy" title="" style="cursor: zoom-in;" width="2048" height="1365" onContextMenu="return false;">
+<a href="/assets/images/Floyd-Bennett/FloydBennettMisc1.jpg" loading="lazy" width="2048" height="1365" title="" style="cursor: zoom-in;" class="image-popup">
+          <img src="/assets/images/Floyd-Bennett/FloydBennettMisc1.jpg" loading="lazy" title="" style="cursor: zoom-in;" width="2048" height="1365">
       </a>
   <figcaption>The backside of one of the barracks and its breezeway.</figcaption>
 </figure>  
@@ -135,6 +135,13 @@ published: true
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
   }
+
+  let allImages = document.querySelectorAll("img");
+  allImages.forEach((value)=>{
+    value.oncontextmenu = (e)=>{
+        e.preventDefault();
+    }
+  })
   </script>
 
 <p>By 1971, the Navy withdrew its operations and decommissioned the Naval Air Station present within the airfield. A chunk of the buildings were boarded up and forgotten about, except for the few used to stage training exercises by the Coast Guard and the NYPD. While everything stood still, talks between the city and federal agencies fired up about the future of this site. As soon as the signatures dried, the grounds were transferred over to the National Park Service administration.</p>
