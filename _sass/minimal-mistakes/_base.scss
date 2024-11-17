@@ -312,8 +312,8 @@ figure2 {
   }
   
    &.fourth {
-    > span,
     > a,
+    > span,
     > img {
       @include breakpoint($large) {
         width: 164px;
