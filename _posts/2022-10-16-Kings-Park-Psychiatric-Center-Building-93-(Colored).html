@@ -125,6 +125,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+  
+$('img').bind('contextmenu', function(e){
+    return false;
+}); 
 </script>
 
 <p>On August 25, 1988, the state-run Office of Mental Health declared an overcrowding crisis within hospitals and psychiatric centers alike. Patients are laid on beds that are hardly even inches from one another; to them, it is degrading and to the staff a logistical nightmare. Due to the overwhelming number of patients being received, many are carted off to other state-run facilities for treatment.</p>
@@ -172,8 +176,4 @@ function showSlides(n) {
 </figure>
 
 <p>All is not lost, even if it seems that the buildings are in peril of getting trashed even further. There are still <a href="/assets/images/KPPC93/Food Service Policy & Procedure_compressed.pdf" target="_blank" rel="noopener noreferrer">artifacts</a> and other remnants that show what life must have been like for patients and staff at this facility. Patient beds line the basement floor of building No. 93 (pictured above), and <a href="/assets/images/KPPC93/DietaryProfile.pdf" target="_blank" rel="noopener noreferrer">dietary-related documents</a> are strewn about the kitchen of building No. 138. But we can only hope that it stays that way. </p>
-<script>
-  $('#nearestStaticContainer').on('contextmenu', 'img', function(e){ 
-  return false; 
-});
-</script>
+
