@@ -306,7 +306,8 @@ figure2 {
     transition: $global-transition;
   }
 
-  > a {
+  > a
+  > span {
     display: block;
   }
   
