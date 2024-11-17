@@ -311,6 +311,7 @@ figure2 {
   }
   
    &.fourth {
+    > span,
     > a,
     > img {
       @include breakpoint($large) {
