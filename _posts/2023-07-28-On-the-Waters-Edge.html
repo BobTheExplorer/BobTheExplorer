@@ -21,35 +21,17 @@ categories:
   - Queens
 published: true
 ---
-<script type="text/javascript">
-    var message="Function Disabled!";
-    
-    function clickIE4(){
-        if (event.button==2){
-            alert(message);
-            return false;
-        }
-    }
 
-    function clickNS4(e){
-        if (img.layers||img.getElementById&&!img.all){
-            if (e.which==2||e.which==3){
-                alert(message);
-                return false;
-            }
-        }
-    }
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
 
-    if (img.layers){
-        img.captureEvents(Event.MOUSEDOWN);
-        img.onmousedown=clickNS4;
-    }
-    else if (img.all&&!img.getElementById){
-        img.onmousedown=clickIE4;
-    }
-
-    img.oncontextmenu=new Function("alert(message);return false")
+<script>
+  $('#nearestStaticContainer').on('contextmenu', 'img', function(e){ 
+  return false; 
+});
 </script>
+
 <p>Down an inconspicuous street surrounded by water are the shuttered ruins of an upscale restaurant. Judging from its exterior you could say that it has been closed no longer than let's say about three years or so. Treading inside transports you to what used to be considered a high-class dining spot for the upper middle class.</p>
 <figure>
 
