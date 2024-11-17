@@ -29,12 +29,26 @@ pointer-events: none;
 
 image-popup {
 pointer-events: none;
-}  
+}
+  
+a[href], a[data-href] {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
 </style>
+<script>
+  $("body").on("click", "a[data-href]", function() {
+    var href = $(this).data("href");
+    if (href) {
+        location.href = href;
+    }
+});
+</script>
 </head>
 
 <figure>
-  <a href="/assets/images/Flushing-Hospital-North-Division/Parsons3.jpg" class="image-popup" loading="lazy" width="2048" height="1365" alt="One of the lower rooms inside the complex">
+  <a data-href="/assets/images/Flushing-Hospital-North-Division/Parsons3.jpg" class="image-popup" loading="lazy" width="2048" height="1365" alt="One of the lower rooms inside the complex">
        <img src="/assets/images/Flushing-Hospital-North-Division/Parsons3.jpg" loading="lazy" width="2048" height="1365">
     </a>
 </figure>
