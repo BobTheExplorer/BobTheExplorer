@@ -320,27 +320,13 @@ figure2 {
           /* width: 145px 
              height: 123px
           For five row pictures*/
-          
             }
     }
     figcaption {
       width: 100%;
     }
-  }  
+}  
   
-    &.fifth {
-    > a,
-    > span,
-    > img {
-      @include breakpoint($large) {
-        width: 145px;
-        height: 123px;
-        }
-    }
-    figcaption {
-      width: 100%;
-    }
-}
 
 /* Figure captions */
 
