@@ -21,48 +21,10 @@ categories:
   - Brooklyn
 published: true
 ---
-
-<head>
-  <style>
-  * {box-sizing: border-box}
-  .mySlides {display: none}
-  img {vertical-align: middle;}
-  
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-    
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
-  </style>
+<head> 
+  <link rel="stylesheet" href="/assets/css/slideshow.css" /> 
 </head>
+
 
 <p>Ask any New Yorker to list all the airports in the city, and they'll tell you two: JFK and LaGuardia. Unaware of the city's lesser-known airports that remain out of the public eye. Inside Flushing, there used to be an <a href="https://forgotten-ny.com/1999/07/flushing-airport-part-1/" target="_blank" rel="noopener noreferrer">abandoned airport</a>; empty hangars and a rusted firetruck were all that was left of its previous life as one. Due to its location, everything previously listed has sunk into the marshy land. The only other airport that still stands is Floyd Bennett Field.</p>
 
@@ -108,41 +70,7 @@ published: true
   <a class="next" onclick="plusSlides(1)">❯</a>
   </div>
   
-  <script>
-  let slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-  }
-
-  let allImages = document.querySelectorAll("img");
-  allImages.forEach((value)=>{
-    value.oncontextmenu = (e)=>{
-        e.preventDefault();
-    }
-  })
-  </script>
+<script src="/assets/js/slideshow js.js"></script>
 
 <p>By 1971, the Navy withdrew its operations and decommissioned the Naval Air Station present within the airfield. A chunk of the buildings were boarded up and forgotten about, except for the few used to stage training exercises by the Coast Guard and the NYPD. While everything stood still, talks between the city and federal agencies fired up about the future of this site. As soon as the signatures dried, the grounds were transferred over to the National Park Service administration.</p>
 <br>
