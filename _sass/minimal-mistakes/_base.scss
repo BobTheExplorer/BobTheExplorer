@@ -323,6 +323,19 @@ figure2 {
           For five row pictures
           */
             }
+      
+    &.fifth {
+    > a,
+    > span,
+    > img {
+      @include breakpoint($large) {
+        width: 145px;
+        height: 123px;
+          /* width: 145px 
+             height: 123px
+          For five row pictures
+          */
+            }
     }
     figcaption {
       width: 100%;
