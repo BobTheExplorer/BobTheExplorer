@@ -328,8 +328,25 @@ figure2 {
       width: 100%;
     }
   }
-}
 
+
+  &.fifth {
+    > a,
+    > img {
+      @include breakpoint($large) {
+        width: 145px;
+        height: 123px;
+          /* width: 145px 
+             height: 123px
+          For five row pictures*/
+          
+            }
+    }
+    figcaption {
+      width: 100%;
+    }
+  }
+}
 /* Figure captions */
 
 figcaption {
