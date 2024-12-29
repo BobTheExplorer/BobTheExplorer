@@ -213,6 +213,7 @@ paginate: 7 #amount of posts to show
 paginate_path: /page:num/ #https://jekyllrb.com/docs/pagination/ #https://github.com/mmistakes/minimal-mistakes/discussions/3168
 
 
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
