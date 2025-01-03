@@ -43,7 +43,7 @@
           {% comment %} Distance must be a positive value {% endcomment %}
           {% assign dist = 0 | minus: dist %}
         {% endif %}
-        <li><a href="{{ site.paginate_path | replace: ':num', index | relative_url }}">{{ index }}</a></li>
+        <li><a href="{{ site.paginate_path | replace: ':num', index | relative_url }}"></a></li>
       {% endif %}
     {% endfor %}
 
