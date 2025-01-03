@@ -35,6 +35,7 @@
 
     {% for index in (page_start..page_end) %}
       {% if index == paginator.page %}
+        <li><a href="{{ site.paginate_path | replace: ':num', index | replace: '//', '/' | relative_url }}" class="disabled current"></a></li>
       {% else %}
         {% comment %} Distance from current page and this link {% endcomment %}
         {% assign dist = paginator.page | minus: index %}
@@ -42,7 +43,7 @@
           {% comment %} Distance must be a positive value {% endcomment %}
           {% assign dist = 0 | minus: dist %}
         {% endif %}
-        <li><a href="{{ site.paginate_path | replace: ':num', index | relative_url }}">{{ index }}</a></li>
+        <li><a href="{{ site.paginate_path | replace: ':num', index | relative_url }}"></a></li>
       {% endif %}
     {% endfor %}
 
@@ -65,5 +66,7 @@
     {% endif %}
   </ul>
 </nav>
+{% endif %}
+
 {% endif %}
 
