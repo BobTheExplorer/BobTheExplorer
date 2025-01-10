@@ -6,7 +6,7 @@ main:
   - title: "About"
     url: /about/
     
-cods:
+docs:
   - title: Queens
     children:
       - title: "Fort Totten Park"
