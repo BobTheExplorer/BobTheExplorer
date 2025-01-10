@@ -9,7 +9,7 @@ main:
 docs:
   - title: Queens
     children:
-      - title: "Quick-Start Guide"
+      - title: "Flushing Hospital North Division"
         url: /Flushing-Hospital-North-Division/
       - title: "Structure"
         url: /docs/structure/
