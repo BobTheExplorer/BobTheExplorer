@@ -5,12 +5,4 @@ main:
     url: /gallery/page1/
   - title: "About"
     url: /about/
-    
-- title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+
