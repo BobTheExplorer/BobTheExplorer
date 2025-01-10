@@ -9,8 +9,6 @@ main:
 docs:
   - title: Queens
     children:
-      - title: "Fort Totten Park"
-        url: /2024/12/28/Fort-Totten-Park/
       - title: "Fort Tilden"
         url: /queens/Fort-Tilden/
       - title: "On the Waters Edge"
