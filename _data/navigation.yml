@@ -21,26 +21,3 @@ docs:
         url: /Flushing-Hospital-North-Division/
       - title: "The Parkway Hospital"
         url: /The-Parkway-Hospital/
-
-  - title: Long Island
-    children:
-      - title: "/Kings Park Psychiatric Center Building 93"
-        url: /Kings-Park-Psychiatric-Center-Building-93/
-
-  - title: Brooklyn
-    children:
-      - title: "Floyd Bennetts Forgotten Buildings"
-        url: /Floyd-Bennetts-Forgotten-Buildings/
-
-  - title: Bronx
-    children:
-      - title: "Bronx Psychiatric Center"
-        url: /2024/09/06/Bronx-Psychiatric-Center/
-        
-  - title: Beyond the Boroughs
-    children:
-      - title: "Nevele Grande Resort"
-        url: /Nevele-Grande-Resort/
-      - title: "Tatham Estate"
-        url: /Tatham-Estate/
-
