@@ -6,7 +6,7 @@ main:
   - title: "About"
     url: /about/
     
-- title: Bob
+- title: Getting Started
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
