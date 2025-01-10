@@ -6,13 +6,13 @@ main:
   - title: "About"
     url: /about/
     
-- title: Getting Started
+- title: Bob
     children:
-      - title: "Fort Tilden"
-        url: /queens/Fort-Tilden/
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
       - title: "Structure"
-        url: /docs/structure/
+        url: /The-Parkway-Hospital/
       - title: "Installation"
         url: /docs/installation/
-      - title: "The Parkway Hospital"
-        url: /The-Parkway-Hospital/
+      - title: "Upgrading"
+        url: /docs/upgrading/
