@@ -10,37 +10,37 @@ menu:
   - title: Queens
     children:
       - title: "Fort Totten Park"
-        url: /2024/12/28/Fort-Totten-Park/
+        url: "https://www.obscuredny.com/2024/12/28/Fort-Totten-Park/"
       - title: "Fort Tilden"
-        url: /queens/Fort-Tilden/
+        url: "https://www.obscuredny.com/queens/Fort-Tilden/"
       - title: "On the Waters Edge"
-        url: /On-the-Waters-Edge/      
+        url: "https://www.obscuredny.com/On-the-Waters-Edge/"
        -title: "The Blue Sky Diner"
-        url: /The-Blue-Sky-Diner/
+        url: "https://www.obscuredny.com/The-Blue-Sky-Diner/"
       - title: "Flushing Hospital North Division"
-        url: /Flushing-Hospital-North-Division/
+        url: "https://www.obscuredny.com/Flushing-Hospital-North-Division/"
       - title: "The Parkway Hospital"
-        url: /The-Parkway-Hospital/
+        url: "https://www.obscuredny.com/The-Parkway-Hospital/"
 
   - title: Long Island
     children:
       - title: "/Kings Park Psychiatric Center Building 93"
-        url: /Kings-Park-Psychiatric-Center-Building-93/
+        url: "https://www.obscuredny.com/Kings-Park-Psychiatric-Center-Building-93/"
 
   - title: Brooklyn
     children:
       - title: "Floyd Bennetts Forgotten Buildings"
-        url: /Floyd-Bennetts-Forgotten-Buildings/
+        url: "https://www.obscuredny.com/Floyd-Bennetts-Forgotten-Buildings/"
 
   - title: Bronx
     children:
       - title: "Bronx Psychiatric Center"
-        url: /2024/09/06/Bronx-Psychiatric-Center/
+        url: "https://www.obscuredny.com/2024/09/06/Bronx-Psychiatric-Center/"
         
   - title: Beyond the Boroughs
     children:
       - title: "Nevele Grande Resort"
-        url: /Nevele-Grande-Resort/
+        url: "https://www.obscuredny.com/Nevele-Grande-Resort/"
         
       - title: "Tatham Estate"
-        url: /Tatham-Estate/        
+        url: "https://www.obscuredny.com/Tatham-Estate/"
