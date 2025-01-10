@@ -6,16 +6,41 @@ main:
   - title: "About"
     url: /about/
     
-docs:
-  - title: Getting Started
+cods:
+  - title: Queens
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
       - title: "Fort Totten Park"
-        url: /Fort-Totten-Park/
+        url: /2024/12/28/Fort-Totten-Park/
       - title: "Fort Tilden"
         url: /queens/Fort-Tilden/
+      - title: "On the Waters Edge"
+        url: /On-the-Waters-Edge/
+       -title: "The Blue Sky Diner"
+        url: /The-Blue-Sky-Diner/
+      - title: "Flushing Hospital North Division"
+        url: /Flushing-Hospital-North-Division/
+      - title: "The Parkway Hospital"
+        url: /The-Parkway-Hospital/
+
+  - title: Long Island
+    children:
+      - title: "/Kings Park Psychiatric Center Building 93"
+        url: /Kings-Park-Psychiatric-Center-Building-93/
+
+  - title: Brooklyn
+    children:
+      - title: "Floyd Bennetts Forgotten Buildings"
+        url: /Floyd-Bennetts-Forgotten-Buildings/
+
+  - title: Bronx
+    children:
+      - title: "Bronx Psychiatric Center"
+        url: /2024/09/06/Bronx-Psychiatric-Center/
+        
+  - title: Beyond the Boroughs
+    children:
+      - title: "Nevele Grande Resort"
+        url: /Nevele-Grande-Resort/
+      - title: "Tatham Estate"
+        url: /Tatham-Estate/
+
