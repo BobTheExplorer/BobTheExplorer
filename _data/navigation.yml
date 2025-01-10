@@ -7,8 +7,14 @@ main:
     url: /about/
     
 docs:
-  - title: Queens
+  - title: Getting Started
     children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
       - title: "Fort Totten Park"
         url: "https://www.obscuredny.com/2024/12/28/Fort-Totten-Park/"
       - title: "Fort Tilden"
