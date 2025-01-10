@@ -21,7 +21,7 @@ menu:
       - title: "On the Waters Edge"
         url: /https://www.obscuredny.com/On-the-Waters-Edge//
       - title: "Fort Totten Park"
-        url: /https://www.obscuredny.com/2024/12/28/Fort-Totten-Park//
+        url: /Fort-Totten-Park/
 
   - title: "Long Island"
     url: /categories/long-island
@@ -39,12 +39,12 @@ menu:
   - title: Bronx
     children:
       - title: "Bronx Psychiatric Center"
-        url: /https://www.obscuredny.com/2024/09/06/Bronx-Psychiatric-Center/
+        url: /Bronx-Psychiatric-Center/
 
   - title: "Beyond the Boroughs"
     children:
      - title: "Tatham-Estate"
         url: /Tatham-Estate/
       - title: "Nevele Grande Resort"
-        url: /https://www.obscuredny.com/Nevele-Grande-Resort/
+        url: /Nevele-Grande-Resort/
 
