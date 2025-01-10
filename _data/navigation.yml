@@ -6,48 +6,47 @@ main:
   - title: "About"
     url: /about/
     
-menu:
-  - title: "Queens"
-    url: /categories/queens
+docs:
+  - title: Getting Started
     children:
-      - title: "Fort Tilden"
-        url: /queens/Fort-Tilden/
-      - title: "The Parkway Hospital"
-        url: /The-Parkway-Hospital/
-      - title: "Flushing-Hospital-North-Division"
-        url: Flushing-Hospital-North-Division
-      - title: "The Blue Sky Diner"
-        url: /The-Blue-Sky-Diner/
-      - title: "On the Waters Edge"
-        url: /https://www.obscuredny.com/On-the-Waters-Edge//
-      - title: "Fort Totten Park"
-        url: /Fort-Totten-Park/
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
 
-  - title: "Long Island"
-    url: /categories/long-island
+  - title: Customization
     children:
-      - title: "Kings Park Psychiatric Center Building 93"
-        url: /Kings-Park-Psychiatric-Center-Building-93/
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "UI Text"
+        url: /docs/ui-text/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
 
-
-
-  - title: Brookyln
-    url: /categories/queens
+  - title: Content
     children:
-      - title: "Floyd Bennett Airfield"
-        url: /Floyd-Bennetts-Forgotten-Buildings/
+      - title: "Working with Posts"
+        url: /docs/posts/
+      - title: "Working with Pages"
+        url: /docs/pages/
+      - title: "Working with Collections"
+        url: /docs/collections/
+      - title: "Helpers"
+        url: /docs/helpers/
+      - title: "Utility Classes"
+        url: /docs/utility-classes/
 
-  - title: Bronx
-    url: /categories/queens
+  - title: Extras
     children:
-      - title: "Bronx Psychiatric Center"
-        url: /Bronx-Psychiatric-Center/
-
-  - title: "Beyond the Boroughs"
-    url: /categories/queens
-    children:
-     - title: "Tatham-Estate"
-        url: /Tatham-Estate/
-      - title: "Nevele Grande Resort"
-        url: /Nevele-Grande-Resort/
-
+      - title: "Stylesheets"
+        url: /docs/stylesheets/
+      - title: "JavaScript"
+        url: /docs/javascript/
