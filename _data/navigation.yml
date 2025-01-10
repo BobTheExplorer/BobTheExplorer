@@ -21,7 +21,12 @@ docs:
         url: /The-Blue-Sky-Diner/
       - title: "On The Waters Edge"
         url: /On-The-Waters-Edge/
-
+        
+  - title: Long Island
+    children:
+      - title: "Kings Park Psychiatric Center Building 93"
+        url: /Kings-Park-Psychiatric-Center-Building-93/
+        
   - title: Brooklyn
     children:
       - title: "Floyd Bennetts Forgotten Buildings"
