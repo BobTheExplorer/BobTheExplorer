@@ -6,16 +6,13 @@ main:
   - title: "About"
     url: /about/
     
-docs:
-  - title: Queens
+- title: Getting Started
     children:
       - title: "Fort Tilden"
         url: /queens/Fort-Tilden/
-      - title: "On the Waters Edge"
-        url: /On-the-Waters-Edge/
-       -title: "The Blue Sky Diner"
-        url: /The-Blue-Sky-Diner/
-      - title: "Flushing Hospital North Division"
-        url: /Flushing-Hospital-North-Division/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
       - title: "The Parkway Hospital"
         url: /The-Parkway-Hospital/
