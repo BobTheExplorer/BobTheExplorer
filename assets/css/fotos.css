@@ -28,4 +28,6 @@
 }
 .img {
   cursor: zoom-in;
+  pointer-events: none;
 }
+
