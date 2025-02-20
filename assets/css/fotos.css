@@ -16,12 +16,6 @@
     padding-right: 12px; 
     margin-top: 2em; 
 }
-.btn--inverse {
-    padding-top: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
-}
 .pagechange {
     position: absolute;
     bottom: 0;
