@@ -1,0 +1,20 @@
+.limitare {
+    height: inherit;
+    widtht: inherit;
+    display: block;
+    background-color: #2c323e;
+  }
+.figure {
+    position: relative;
+
+}
+.btn--inverse {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+}
+.pagechange {
+    position: absolute;
+    bottom: 0;
+}
