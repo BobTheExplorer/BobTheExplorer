@@ -37,3 +37,9 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+{% if paginator %} - Page {{ paginator.page }}{% endif %}
+
+<title>
+{% if page.title %}{{ page.title }}{% else %} {%if paginator %} - Page {{ paginator.page }}{% endif %}{{ site.title }}{% endif %}
+</title>
