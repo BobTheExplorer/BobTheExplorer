@@ -1,8 +1,6 @@
 ---
 title: "Posts"
 permalink: 
-sidebar:
-  nav: "docs"
 description: "Articles about various abandoned places and the history that occurred there."
 excerpt: "Articles about various abandoned places and the history that occurred there."
 published: true
@@ -16,11 +14,86 @@ h1 {
 p {
   margin-top: 1em;
 }
-</style>
+.container {
+    position: fixed;
+    transform: translateX(-50%);
+    overflow-y: scroll;
+}
+  
+.loading-container {
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, 
+        Times, "Times New Roman", serif;
+    font-size: 30px;
+    text-align: center;
+}
 
+.search-data {
+    margin-top: 10px;
+    height: 30px;
+    font-family: Verdana, Geneva, 
+        Tahoma, sans-serif;
+}
+</style>
+<script>
+ let pageNum = 1;
+let isLoading = false;
+const container = document.querySelector(".container");
+const loadingContainer =
+    document.querySelector(".loading-container");
+const resultContainer =
+    document.querySelector(".result-container");
+
+function fetchData() {
+    if (isLoading) return;
+    isLoading = true;
+    loadingContainer.innerHTML = "Loading ...";
+    fetch(`https://api.../issues?page=${pageNum}`)
+        .then((res) => {
+            res.json().then((finalRes) => {
+                finalRes.forEach((item) => {
+                    const resultDiv = document.createElement("div");
+                    resultDiv.textContent = item.title;
+                    resultDiv.classList.add("search-data");
+                    resultContainer.appendChild(resultDiv);
+                });
+                isLoading = false;
+                loadingContainer.innerHTML = "";
+            })
+                .catch((e) => {
+                    isLoading = false;
+                    loadingContainer.innerHTML = "";
+                });
+        })
+        .catch((err) => {
+            isLoading = false;
+            loadingContainer.innerHTML = "";
+        });
+}
+
+container.onscroll = () => {
+    if (isLoading) return;
+
+    if (
+        Math.ceil(container.clientHeight 
+            + container.scrollTop) >=
+            container.scrollHeight
+    ) {
+        pageNum++;
+        fetchData();
+    }
+};
+
+fetchData(); 
+</script>
 
 <meta name="description" content="Informative articles about various abandoned places along with a rundown of the history that occurred there.">
 </head>
 
 <h3 class="archive__subtitle" style="margin-top: -0.2em;">{{ site.data.ui-text[site.locale].Posts | default: "" }}</h3>
 
+<div class="container">
+        <h1>GeeksforGeeks Infinite Scrolling</h1>
+        <div class="result-container"></div>
+        <div class="loading-container"></div>
+</div>
