@@ -38,11 +38,19 @@ p {
 <p class="pagination">
   <a class="pagination__next" href="page2.html">Next page</a>
 </p>  
+  
 <script><
-$('.article-feed').infiniteScroll({
+let elem = document.querySelector('.container');
+let infScroll = new InfiniteScroll( elem, {
+  // options
   path: '.pagination__next',
-  append: '.article',
-  status: '.scroller-status',
-  hideNav: '.pagination',
+  append: '.post',
+  history: false,
+});
+
+// element argument can be a selector string
+//   for an individual element
+let infScroll = new InfiniteScroll( '.container', {
+  // options
 });
 /script>
