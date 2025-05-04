@@ -14,85 +14,10 @@ h1 {
 p {
   margin-top: 1em;
 }
-.entries-list {
-    position: fixed;
-    transform: translateX(-50%);
-    overflow-y: scroll;
-}
-  
-.loadingentries-list {
-    margin-top: 10px;
-    font-family: Cambria, Cochin, Georgia, 
-        Times, "Times New Roman", serif;
-    font-size: 30px;
-    text-align: center;
-}
-
-.search-data {
-    margin-top: 10px;
-    height: 30px;
-    font-family: Verdana, Geneva, 
-        Tahoma, sans-serif;
-}
 </style>
-<script>
- let pageNum = 1;
-let isLoading = false;
-const entries-list = document.querySelector(".entries-list");
-const loadingentries-list =
-    document.querySelector(".loading-entries-list");
-const resultentries-list =
-    document.querySelector(".result-entries-list");
-
-function fetchData() {
-    if (isLoading) return;
-    isLoading = true;
-    loadingentries-list.innerHTML = "Loading ...";
-    fetch(`https://api.../issues?page=${pageNum}`)
-        .then((res) => {
-            res.json().then((finalRes) => {
-                finalRes.forEach((item) => {
-                    const resultDiv = document.createElement("div");
-                    resultDiv.textContent = item.title;
-                    resultDiv.classList.add("search-data");
-                    resultentries-list.appendChild(resultDiv);
-                });
-                isLoading = false;
-                loadingentries-list.innerHTML = "";
-            })
-                .catch((e) => {
-                    isLoading = false;
-                    loadingentries-list.innerHTML = "";
-                });
-        })
-        .catch((err) => {
-            isLoading = false;
-            loadingentries-list.innerHTML = "";
-        });
-}
-
-entries-list.onscroll = () => {
-    if (isLoading) return;
-
-    if (
-        Math.ceil(entries-list.clientHeight 
-            + entries-list.scrollTop) >=
-            entries-list.scrollHeight
-    ) {
-        pageNum++;
-        fetchData();
-    }
-};
-
-fetchData(); 
-</script>
 
 <meta name="description" content="Informative articles about various abandoned places along with a rundown of the history that occurred there.">
 </head>
 
 <h3 class="entries-list__subtitle" style="margin-top: -0.2em;">{{ site.data.ui-text[site.locale].Posts | default: "" }}</h3>
 
-<div class="entries-list">
-        <div class="result-entries-list"></div>
-        <div class="loadingentries-list"></div>
-</div>
