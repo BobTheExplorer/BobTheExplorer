@@ -14,13 +14,13 @@ h1 {
 p {
   margin-top: 1em;
 }
-.container {
+.archive {
     position: fixed;
     transform: translateX(-50%);
     overflow-y: scroll;
 }
   
-.loading-container {
+.loading-archive {
     margin-top: 10px;
     font-family: Cambria, Cochin, Georgia, 
         Times, "Times New Roman", serif;
@@ -38,16 +38,16 @@ p {
 <script>
  let pageNum = 1;
 let isLoading = false;
-const container = document.querySelector(".container");
-const loadingContainer =
-    document.querySelector(".loading-container");
-const resultContainer =
-    document.querySelector(".result-container");
+const archive = document.querySelector(".archive");
+const loadingarchive =
+    document.querySelector(".loading-archive");
+const resultarchive =
+    document.querySelector(".result-archive");
 
 function fetchData() {
     if (isLoading) return;
     isLoading = true;
-    loadingContainer.innerHTML = "Loading ...";
+    loadingarchive.innerHTML = "Loading ...";
     fetch(`https://api.../issues?page=${pageNum}`)
         .then((res) => {
             res.json().then((finalRes) => {
@@ -55,29 +55,29 @@ function fetchData() {
                     const resultDiv = document.createElement("div");
                     resultDiv.textContent = item.title;
                     resultDiv.classList.add("search-data");
-                    resultContainer.appendChild(resultDiv);
+                    resultarchive.appendChild(resultDiv);
                 });
                 isLoading = false;
-                loadingContainer.innerHTML = "";
+                loadingarchive.innerHTML = "";
             })
                 .catch((e) => {
                     isLoading = false;
-                    loadingContainer.innerHTML = "";
+                    loadingarchive.innerHTML = "";
                 });
         })
         .catch((err) => {
             isLoading = false;
-            loadingContainer.innerHTML = "";
+            loadingarchive.innerHTML = "";
         });
 }
 
-container.onscroll = () => {
+archive.onscroll = () => {
     if (isLoading) return;
 
     if (
-        Math.ceil(container.clientHeight 
-            + container.scrollTop) >=
-            container.scrollHeight
+        Math.ceil(archive.clientHeight 
+            + archive.scrollTop) >=
+            archive.scrollHeight
     ) {
         pageNum++;
         fetchData();
@@ -92,7 +92,7 @@ fetchData();
 
 <h3 class="archive__subtitle" style="margin-top: -0.2em;">{{ site.data.ui-text[site.locale].Posts | default: "" }}</h3>
 
-<div class="container">
-        <div class="result-container"></div>
-        <div class="loading-container"></div>
+<div class="archive">
+        <div class="result-archive"></div>
+        <div class="loading-archive"></div>
 </div>
