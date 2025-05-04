@@ -25,7 +25,20 @@ p {
 
 <div class="archive"
   data-infinite-scroll='{ "path": ".pagination__next", "append": ".post", "history": false }'>
- 
+  
+ <!-- status elements -->
+<div class="scroller-status">
+  <div class="infinite-scroll-request loader-ellips">
+    ...
+  </div>
+  <p class="infinite-scroll-last">End of content</p>
+  <p class="infinite-scroll-error">No more pages to load</p>
+</div>
+
+<!-- pagination has path -->
+<p class="pagination">
+  <a class="pagination__next" href="page2.html">Next page</a>
+</p>
 <script><
 let elem = document.querySelector('.archive');
 let infScroll = new InfiniteScroll( elem, {
