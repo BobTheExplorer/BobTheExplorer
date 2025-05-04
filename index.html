@@ -25,7 +25,7 @@ p {
 
 <div class="archive"
   data-infinite-scroll='{ "path": ".pagination__next", "append": ".post", "history": false }'>
-<!--   
+ 
 <script><
 let elem = document.querySelector('.archive');
 let infScroll = new InfiniteScroll( elem, {
@@ -41,7 +41,7 @@ let infScroll = new InfiniteScroll( '.archive', {
   // options
 });
   
-$('.archive').infiniteScroll({
+$('entries-list').infiniteScroll({
   path: '.pagination__next',
   append: '.article',
   status: '.scroller-status',
