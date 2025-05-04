@@ -22,17 +22,6 @@ p {
 <h3 class="entries-list__subtitle" style="margin-top: -0.2em;">{{ site.data.ui-text[site.locale].Posts | default: "" }}</h3>
 
 
-<div class="content">
-  {% for post in paginator.posts %}
-    <article>
-      <header>
-        <h2><a href="{{ site.siteurl }}{{ post.url }}">{{ post.title }}</a></h2>
-        <h5>{{ post.date | date: "%d %b %Y" }}</h5>
-        <p>{{ post.content | truncatewords:50 | strip_html }}</p>
-      </header>
-    </article>
-  {% endfor %}
-
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
