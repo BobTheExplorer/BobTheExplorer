@@ -14,13 +14,13 @@ h1 {
 p {
   margin-top: 1em;
 }
-.archive {
+.entries-list {
     position: fixed;
     transform: translateX(-50%);
     overflow-y: scroll;
 }
   
-.loadingarchive {
+.loadingentries-list {
     margin-top: 10px;
     font-family: Cambria, Cochin, Georgia, 
         Times, "Times New Roman", serif;
@@ -38,16 +38,16 @@ p {
 <script>
  let pageNum = 1;
 let isLoading = false;
-const archive = document.querySelector(".archive");
-const loadingarchive =
-    document.querySelector(".loading-archive");
-const resultarchive =
-    document.querySelector(".result-archive");
+const entries-list = document.querySelector(".entries-list");
+const loadingentries-list =
+    document.querySelector(".loading-entries-list");
+const resultentries-list =
+    document.querySelector(".result-entries-list");
 
 function fetchData() {
     if (isLoading) return;
     isLoading = true;
-    loadingarchive.innerHTML = "Loading ...";
+    loadingentries-list.innerHTML = "Loading ...";
     fetch(`https://api.../issues?page=${pageNum}`)
         .then((res) => {
             res.json().then((finalRes) => {
@@ -55,29 +55,29 @@ function fetchData() {
                     const resultDiv = document.createElement("div");
                     resultDiv.textContent = item.title;
                     resultDiv.classList.add("search-data");
-                    resultarchive.appendChild(resultDiv);
+                    resultentries-list.appendChild(resultDiv);
                 });
                 isLoading = false;
-                loadingarchive.innerHTML = "";
+                loadingentries-list.innerHTML = "";
             })
                 .catch((e) => {
                     isLoading = false;
-                    loadingarchive.innerHTML = "";
+                    loadingentries-list.innerHTML = "";
                 });
         })
         .catch((err) => {
             isLoading = false;
-            loadingarchive.innerHTML = "";
+            loadingentries-list.innerHTML = "";
         });
 }
 
-archive.onscroll = () => {
+entries-list.onscroll = () => {
     if (isLoading) return;
 
     if (
-        Math.ceil(archive.clientHeight 
-            + archive.scrollTop) >=
-            archive.scrollHeight
+        Math.ceil(entries-list.clientHeight 
+            + entries-list.scrollTop) >=
+            entries-list.scrollHeight
     ) {
         pageNum++;
         fetchData();
@@ -90,9 +90,9 @@ fetchData();
 <meta name="description" content="Informative articles about various abandoned places along with a rundown of the history that occurred there.">
 </head>
 
-<h3 class="archive__subtitle" style="margin-top: -0.2em;">{{ site.data.ui-text[site.locale].Posts | default: "" }}</h3>
+<h3 class="entries-list__subtitle" style="margin-top: -0.2em;">{{ site.data.ui-text[site.locale].Posts | default: "" }}</h3>
 
-<div class="archive">
-        <div class="result-archive"></div>
-        <div class="loadingarchive"></div>
+<div class="entries-list">
+        <div class="result-entries-list"></div>
+        <div class="loadingentries-list"></div>
 </div>
