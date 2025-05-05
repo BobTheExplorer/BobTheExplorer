@@ -1,3 +1,25 @@
+<head>
+<stye>
+.load-more-container {
+    text-align: center; /* Center the button horizontally */
+    margin: 20px 0; /* Add some vertical spacing */
+}
+
+.load-more-button {
+    padding: 10px 20px; /* Adjust padding for the button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.load-more-button.disabled {
+    background-color: #ccc; /* Disabled button color */
+    cursor: not-allowed; /* Change cursor for disabled button */
+}
+</stye>
+</head>
 {% if paginator.total_pages > 1 %}
 <nav class="pagination">
   <ul>
