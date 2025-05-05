@@ -5,13 +5,13 @@
     {% if paginator.page < paginator.total_pages %}
       <li>
         <button id="load-more" data-next-page="{{ paginator.next_page }}" class="load-more-button">
-          {{ site.data.ui-text[site.locale].pagination_load_more | default: "Load More" }}
+          {{ site.data.ui-text[site.locale].pagination_load_more | default: "Load More Articles" }}
         </button>
       </li>
     {% else %}
       <li>
         <button class="load-more-button disabled" aria-disabled="true">
-          {{ site.data.ui-text[site.locale].pagination_no_more | default: "No More Items" }}
+          {{ site.data.ui-text[site.locale].pagination_no_more | default: "End of the Line" }}
         </button>
       </li>
     {% endif %}
