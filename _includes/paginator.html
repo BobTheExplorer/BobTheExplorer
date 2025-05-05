@@ -45,7 +45,7 @@
           if (newNextPage > {{ paginator.total_pages }}) {
             this.classList.add('disabled');
             this.setAttribute('aria-disabled', 'true');
-            this.innerText = '{{ site.data.ui-text[site.locale].pagination_no_more | default: "No More Items" }}';
+            this.innerText = '{{ site.data.ui-text[site.locale].pagination_no_more | default: "End of the Line" }}';
           }
         })
         .catch(error => {
