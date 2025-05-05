@@ -22,12 +22,19 @@
     var nextPage = this.getAttribute('data-next-page');
     if (nextPage) {
       // Construct the URL for the next page
-      var nextPageUrl = '/page' + nextPage + '/'; // Change here to use /page2/ format
+      var nextPageUrl = '/page' + nextPage + '/';
       fetch(nextPageUrl)
         .then(response => response.text())
         .then(data => {
-          // Append the new content to the entries-list container
-          document.querySelector('.entries-list').insertAdjacentHTML('beforeend', data);
+          // Create a temporary DOM element to parse the fetched HTML
+          var tempDiv = document.createElement('div');
+          tempDiv.innerHTML = data;
+
+          // Select only the list__item elements from the fetched content
+          var items = tempDiv.querySelectorAll('.list__item');
+          items.forEach(function(item) {
+            document.querySelector('.entries-list').appendChild(item);
+          });
           
           // Update the next page number
           var newNextPage = parseInt(nextPage) + 1;
