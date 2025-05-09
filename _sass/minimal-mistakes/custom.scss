@@ -24,6 +24,11 @@ div.container {
 .mfp-title {
   font-size: 16px;
 }
+@media (min-width: 80em) {
+ p {
+  font-size:17px
+ }
+}
 
 @media (min-width: 85em) {
  p {
