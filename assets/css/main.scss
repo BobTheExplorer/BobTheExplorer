@@ -30,23 +30,6 @@
  }
 }
 
-@media (min-width: 80em) {
- html {
-  font-size:15px
- }
-}
-
-@media (min-width: 85em) {
- html {
-  font-size:16px
- }
-}
-
-@media (min-width: 90em) {
- html {
-  font-size:18px
- }
-}
 
 html {
   font-size: 14px; // change to whatever
@@ -64,7 +47,15 @@ html {
   }
 
   @include breakpoint($x-large) {
-    font-size: 18px; // change to whatever
+    font-size: 17px; // change to whatever
   }
 }
 
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
